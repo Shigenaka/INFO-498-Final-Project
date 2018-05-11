@@ -35,12 +35,15 @@ What should your audience learn from your resource? Please list out at least 3 s
 ## Technical Description
 What will be the format of your final product (Shiny app, HTML page or slideshow compiled with KnitR, etc.)?
 * Our final product will be a Shiny app.
+
 Do you anticipate any specific data collection / data management challenges?
 * Since we are using multiple data sources to make comparisons, we will need to clean and modify the data sets so that we can join the datasets easily.
 * Based on our initial data collection, we have found a few surveys. To use them will require us to study the codebooks and understand the questions asked, and how we must code them to explore our domain and attempt to answer our questions
+
 What new technical skills will need to learn in order to complete your project?
 * Some of us have never built a Shiny app, and others did so in INFO 201 awhile back. We will need to learn or re-learn the syntax of Shiny, which will be an interesting challenge for this project.
 * We hope to use a few regression and statistical techniques to examine significance and relationships. Some of us have experience using these tools while others do not, so it will be a great opportunity for those unfamiliar to learn how R can be used for data modeling and relationship analysis.
+
 What major challenges do you anticipate?
 * A concern for any research project is the data. Getting our datasets into a clean, readable format will be difficult, but data cleaning and manipulation is a significant part of data analysis, so it will require a lot of work to get the data into a format we can use for statistical analysis and visualization. In addition, some questions may require information from multiple datasets in order to formulate an answer. This poses a challenge to identify and use the right data and combining it with that of other datasets to display an intriguing visualization.
 * Another challenge is being able to create our Shiny application. Learning a new language is common in Informatics classes, but it is something that we must anticipate and prepare for. We will need to review Shiny on our own and learn fast, as we only have around three to four weeks to complete this project. Adding interactivity to data visualizations is a difficult process as well, so we must be willing to invest the time to learn how to create them in Shiny, and debug problems that we inevitably run into.
