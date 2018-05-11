@@ -25,11 +25,11 @@ Who is your target audience?  Depending on the domain of your data, there may be
 
 What should your audience learn from your resource? Please list out at least 3 specific questions that your project will answer for your audience.
 1. Is there a correlation between alcohol tax rates and alcohol consumption?
- * Is there a correlation between alcohol taxation policy and other substance abuse rates (taking into account the legal status of said substances as well)?
+  * Is there a correlation between alcohol taxation policy and other substance abuse rates (taking into account the legal status of said substances as well)?
 2. How common is underage drinking and what are its effects? 
- * Is there a relationship between tax rates and underage drinking?
+  * Is there a relationship between tax rates and underage drinking?
 3. How has the population who suffer from alcohol abuse changed over the past few decades? 
- * What kinds of diseases do they suffer from? Do different demographics experience different health burdens?
+  * What kinds of diseases do they suffer from? Do different demographics experience different health burdens?
  
 
 ## Technical Description
