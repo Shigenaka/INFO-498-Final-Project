@@ -20,5 +20,29 @@ What is the dataset you'll be working with?  Please include background on who co
 * http://ghdx.healthdata.org/gbd-2016/data-input-sources?locations=102&components=6&risks=101
   * The Global Health Data Exchange (GHDx) is a data catalogue created by the Institute for Health Metrics and Evaluation with a mission to improve the health of human populations around the world by providing datasets on population health. This data source was introduced to us through this class, which contains data that is easily obtainable in a format that is very simple to clean and manipulate. The Global Burden of Disease Study 2016 dataset will act as a great dataset to examine the outcomes of alcohol abuse by demographic features like age and gender.
 
+Who is your target audience?  Depending on the domain of your data, there may be a variety of audiences interested in using the dataset. You should hone in on one of these audiences.
+* The main audience of our project will be policymakers who are looking to combat alcohol abuse, as well as abuse of other substances. The intent of this project is to shine a light on these relationships, which will hopefully lead to smarter policies targeting the issues as a whole rather than labeling the individual as the problem who has isolated, self-inflicted issues.
+
+What should your audience learn from your resource? Please list out at least 3 specific questions that your project will answer for your audience.
+1. Is there a correlation between alcohol tax rates and alcohol consumption?
+ * Is there a correlation between alcohol taxation policy and other substance abuse rates (taking into account the legal status of said substances as well)?
+2. How common is underage drinking and what are its effects? 
+ * Is there a relationship between tax rates and underage drinking?
+3. How has the population who suffer from alcohol abuse changed over the past few decades? 
+ * What kinds of diseases do they suffer from? Do different demographics experience different health burdens?
+ 
 
 ## Technical Description
+What will be the format of your final product (Shiny app, HTML page or slideshow compiled with KnitR, etc.)?
+* Our final product will be a Shiny app.
+Do you anticipate any specific data collection / data management challenges?
+* Since we are using multiple data sources to make comparisons, we will need to clean and modify the data sets so that we can join the datasets easily.
+* Based on our initial data collection, we have found a few surveys. To use them will require us to study the codebooks and understand the questions asked, and how we must code them to explore our domain and attempt to answer our questions
+What new technical skills will need to learn in order to complete your project?
+* Some of us have never built a Shiny app, and others did so in INFO 201 awhile back. We will need to learn or re-learn the syntax of Shiny, which will be an interesting challenge for this project.
+* We hope to use a few regression and statistical techniques to examine significance and relationships. Some of us have experience using these tools while others do not, so it will be a great opportunity for those unfamiliar to learn how R can be used for data modeling and relationship analysis.
+What major challenges do you anticipate?
+* A concern for any research project is the data. Getting our datasets into a clean, readable format will be difficult, but data cleaning and manipulation is a significant part of data analysis, so it will require a lot of work to get the data into a format we can use for statistical analysis and visualization. In addition, some questions may require information from multiple datasets in order to formulate an answer. This poses a challenge to identify and use the right data and combining it with that of other datasets to display an intriguing visualization.
+* Another challenge is being able to create our Shiny application. Learning a new language is common in Informatics classes, but it is something that we must anticipate and prepare for. We will need to review Shiny on our own and learn fast, as we only have around three to four weeks to complete this project. Adding interactivity to data visualizations is a difficult process as well, so we must be willing to invest the time to learn how to create them in Shiny, and debug problems that we inevitably run into.
+* It is important to ensure that our research is original. If there has already been extensive research into answering a certain question, we must figure out what new analysis we can bring to the table or how can we either confirm or provide an alternative explanation for any trends found.
+
