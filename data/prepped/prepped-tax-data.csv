@@ -1,261 +1,781 @@
-"","state","liquor","wine","beer","year"
-"1","Alabama",0,1.7,0.53,"2013"
-"2","Alaska",12.8,2.5,1.07,"2013"
-"3","Arizona",3,0.84,0.16,"2013"
-"4","Arkansas",2.5,0.75,0.23,"2013"
-"5","California",3.3,0.2,0.2,"2013"
-"6","Colorado",2.28,0.28,0.08,"2013"
-"7","Connecticut",5.4,0.72,0.24,"2013"
-"8","Delaware",3.75,0.97,0.16,"2013"
-"9","Florida",6.5,2.25,0.48,"2013"
-"10","Georgia",3.79,1.51,0.32,"2013"
-"11","Hawaii",5.98,1.38,0.93,"2013"
-"12","Idaho",0,0.45,0.15,"2013"
-"13","Illinois",8.55,1.39,0.231,"2013"
-"14","Indiana",2.68,0.47,0.115,"2013"
-"15","Iowa",0,1.75,0.19,"2013"
-"16","Kansas",2.5,0.3,0.18,"2013"
-"17","Kentucky",1.92,0.5,0.08,"2013"
-"18","Louisiana",2.5,0.11,0.32,"2013"
-"19","Maine",0,0.6,0.35,"2013"
-"20","Maryland",1.5,0.4,0.09,"2013"
-"21","Massachusetts",4.05,0.55,0.11,"2013"
-"22","Michigan",0,0.51,0.2,"2013"
-"23","Minnesota",5.03,0.3,0.15,"2013"
-"24","Mississippi",0,0.35,0.4268,"2013"
-"25","Missouri",2,0.42,0.06,"2013"
-"26","Montana",0,1.06,0.14,"2013"
-"27","Nebraska",3.75,0.95,0.31,"2013"
-"28","Nevada",3.6,0.7,0.16,"2013"
-"29","New Hampshire",0,0,0.3,"2013"
-"30","New Jersey",5.5,0.875,0.12,"2013"
-"31","New Mexico",6.06,1.7,0.41,"2013"
-"32","New York",6.44,0.3,0.14,"2013"
-"33","North Carolina",0,1,0.6171,"2013"
-"34","North Dakota",2.5,0.5,0.16,"2013"
-"35","Ohio",0,0.3,0.18,"2013"
-"36","Oklahoma",5.56,0.72,0.4,"2013"
-"37","Oregon",0,0.67,0.08,"2013"
-"38","Pennsylvania",0,0,0.08,"2013"
-"39","Rhode Island",3.75,0.6,0.1,"2013"
-"40","South Carolina",2.72,0.9,0.77,"2013"
-"41","South Dakota",3.93,0.93,0.27,"2013"
-"42","Tennessee",4.4,1.21,0.14,"2013"
-"43","Texas",2.4,0.204,0.2,"2013"
-"44","Utah",0,0,0.41,"2013"
-"45","Vermont",0,0.55,0.265,"2013"
-"46","Virginia",0,1.51,0.26,"2013"
-"47","Washington",0,0.87,0,"2013"
-"48","West Virginia",0,1,0.18,"2013"
-"49","Wisconsin",3.25,0.25,0.06,"2013"
-"50","Wyoming",0,0,0.02,"2013"
-"51","Dist. of Columbia",1.5,0.3,0.09,"2013"
-"52","U.S. Median",3.75,0.67,0.19,"2013"
-"53","Alabama",0,1.7,0.53,"2014"
-"54","Alaska",12.8,2.5,1.07,"2014"
-"55","Arizona",3,0.84,0.16,"2014"
-"56","Arkansas",2.5,0.75,0.23,"2014"
-"57","California",3.3,0.2,0.2,"2014"
-"58","Colorado",2.28,0.28,0.08,"2014"
-"59","Connecticut",5.4,0.72,0.24,"2014"
-"60","Delaware",3.75,0.97,0.16,"2014"
-"61","Florida",6.5,2.25,0.48,"2014"
-"62","Georgia",3.79,1.51,0.32,"2014"
-"63","Hawaii",5.98,1.38,0.93,"2014"
-"64","Idaho",0,0.45,0.15,"2014"
-"65","Illinois",8.55,1.39,0.231,"2014"
-"66","Indiana",2.68,0.47,0.115,"2014"
-"67","Iowa",0,1.75,0.19,"2014"
-"68","Kansas",2.5,0.3,0.18,"2014"
-"69","Kentucky",1.92,0.5,0.08,"2014"
-"70","Louisiana",2.5,0.11,0.32,"2014"
-"71","Maine",0,0.6,0.35,"2014"
-"72","Maryland",1.5,0.4,0.09,"2014"
-"73","Massachusetts",4.05,0.55,0.11,"2014"
-"74","Michigan",0,0.51,0.2,"2014"
-"75","Minnesota",5.03,0.3,0.15,"2014"
-"76","Mississippi",0,0.35,0.4268,"2014"
-"77","Missouri",2,0.42,0.06,"2014"
-"78","Montana",0,1.06,0.14,"2014"
-"79","Nebraska",3.75,0.95,0.31,"2014"
-"80","Nevada",3.6,0.7,0.16,"2014"
-"81","New Hampshire",0,0,0.3,"2014"
-"82","New Jersey",5.5,0.875,0.12,"2014"
-"83","New Mexico",6.06,1.7,0.41,"2014"
-"84","New York",6.44,0.3,0.14,"2014"
-"85","North Carolina",0,1,0.6171,"2014"
-"86","North Dakota",2.5,0.5,0.16,"2014"
-"87","Ohio",0,0.32,0.18,"2014"
-"88","Oklahoma",5.56,0.72,0.4,"2014"
-"89","Oregon",0,0.67,0.08,"2014"
-"90","Pennsylvania",0,0,0.08,"2014"
-"91","Rhode Island",5.4,1.4,0.11,"2014"
-"92","South Carolina",2.72,0.9,0.77,"2014"
-"93","South Dakota",3.93,0.93,0.27,"2014"
-"94","Tennessee",4.4,1.21,1.15,"2014"
-"95","Texas",2.4,0.204,0.2,"2014"
-"96","Utah",0,0,0.41,"2014"
-"97","Vermont",0,0.55,0.265,"2014"
-"98","Virginia",0,1.51,0.26,"2014"
-"99","Washington",14.27,0.87,0.26,"2014"
-"100","West Virginia",0,1,0.18,"2014"
-"101","Wisconsin",3.25,0.25,0.06,"2014"
-"102","Wyoming",0,0,0.02,"2014"
-"103","Dist. of Columbia",1.5,0.3,0.09,"2014"
-"104","U.S. Median",3.75,0.72,0.2,"2014"
-"105","Alabama",0,1.7,0.53,"2015"
-"106","Alaska",12.8,2.5,1.07,"2015"
-"107","Arizona",3,0.84,0.16,"2015"
-"108","Arkansas",2.5,0.75,0.23,"2015"
-"109","California",3.3,0.2,0.2,"2015"
-"110","Colorado",2.28,0.28,0.08,"2015"
-"111","Connecticut",5.4,0.72,0.24,"2015"
-"112","Delaware",3.75,0.97,0.16,"2015"
-"113","Florida",6.5,2.25,0.48,"2015"
-"114","Georgia",3.79,1.51,0.32,"2015"
-"115","Hawaii",5.98,1.38,0.93,"2015"
-"116","Idaho",0,0.45,0.15,"2015"
-"117","Illinois",8.55,1.39,0.231,"2015"
-"118","Indiana",2.68,0.47,0.115,"2015"
-"119","Iowa",0,1.75,0.19,"2015"
-"120","Kansas",2.5,0.3,0.18,"2015"
-"121","Kentucky",1.92,0.5,0.08,"2015"
-"122","Louisiana",2.5,0.11,0.32,"2015"
-"123","Maine",0,0.6,0.35,"2015"
-"124","Maryland",1.5,0.4,0.09,"2015"
-"125","Massachusetts",4.05,0.55,0.11,"2015"
-"126","Michigan",0,0.51,0.2,"2015"
-"127","Minnesota",5.03,0.3,0.15,"2015"
-"128","Mississippi",0,0.35,0.4268,"2015"
-"129","Missouri",2,0.42,0.06,"2015"
-"130","Montana",0,1.06,0.14,"2015"
-"131","Nebraska",3.75,0.95,0.31,"2015"
-"132","Nevada",3.6,0.7,0.16,"2015"
-"133","New Hampshire",0,0,0.3,"2015"
-"134","New Jersey",5.5,0.875,0.12,"2015"
-"135","New Mexico",6.06,1.7,0.41,"2015"
-"136","New York",6.44,0.3,0.14,"2015"
-"137","North Carolina",0,1,0.6171,"2015"
-"138","North Dakota",2.5,0.5,0.16,"2015"
-"139","Ohio",0,0.32,0.18,"2015"
-"140","Oklahoma",5.56,0.72,0.4,"2015"
-"141","Oregon",0,0.67,0.08,"2015"
-"142","Pennsylvania",0,0,0.08,"2015"
-"143","Rhode Island [3]",5.4,1.4,0.11,"2015"
-"144","South Carolina",2.72,0.9,0.77,"2015"
-"145","South Dakota",3.93,0.93,0.27,"2015"
-"146","Tennessee",4.4,1.21,1.15,"2015"
-"147","Texas",2.4,0.204,0.2,"2015"
-"148","Utah",0,0,0.41,"2015"
-"149","Vermont",0,0.55,0.265,"2015"
-"150","Virginia",0,1.51,0.26,"2015"
-"151","Washington",14.27,0.87,0.26,"2015"
-"152","West Virginia",0,1,0.18,"2015"
-"153","Wisconsin",3.25,0.25,0.06,"2015"
-"154","Wyoming",0,0,0.02,"2015"
-"155","Dist. of Columbia",1.5,0.3,0.09,"2015"
-"156","U.S. Median",3.75,0.72,0.2,"2015"
-"157","Alabama",0,1.7,0.533333,"2016"
-"158","Alaska",12.8,2.5,1.07,"2016"
-"159","Arizona",3,0.84,0.16,"2016"
-"160","Arkansas",2.5,0.75,0.234375,"2016"
-"161","California",3.3,0.2,0.2,"2016"
-"162","Colorado",2.28109,0.277471,0.08,"2016"
-"163","Connecticut",5.4,0.72,0.24,"2016"
-"164","Delaware",3.75,0.97,0.156452,"2016"
-"165","Florida",6.5,2.25,0.48,"2016"
-"166","Georgia",3.78541,1.51417,0.322581,"2016"
-"167","Hawaii",5.98,1.38,0.93,"2016"
-"168","Idaho",0,0.45,0.15,"2016"
-"169","Illinois",8.55,1.39,0.231,"2016"
-"170","Indiana",2.68,0.47,0.115,"2016"
-"171","Iowa",0,1.75,0.19,"2016"
-"172","Kansas",2.5,0.3,0.18,"2016"
-"173","Kentucky",1.92,0.5,0.0806452,"2016"
-"174","Louisiana",2.49837,0.113562,0.322581,"2016"
-"175","Maine",0,0.6,0.35,"2016"
-"176","Maryland",1.5,0.4,0.09,"2016"
-"177","Massachusetts",4.05,0.55,0.106452,"2016"
-"178","Michigan",0,0.511031,0.203226,"2016"
-"179","Minnesota",5.0346,0.3,0.148387,"2016"
-"180","Mississippi",0,0.35,0.4268,"2016"
-"181","Missouri",2,0.42,0.06,"2016"
-"182","Montana",0,1.05992,0.13871,"2016"
-"183","Nebraska",3.75,0.95,0.31,"2016"
-"184","Nevada",3.6,0.7,0.16,"2016"
-"185","New Hampshire",0,0,0.3,"2016"
-"186","New Jersey",5.5,0.875,0.12,"2016"
-"187","New Mexico",6.05666,1.70344,0.41,"2016"
-"188","New York",6.4352,0.3,0.14,"2016"
-"189","North Carolina",0,0.997078,0.6171,"2016"
-"190","North Dakota",2.5,0.5,0.16,"2016"
-"191","Ohio",0,0.32,0.18,"2016"
-"192","Oklahoma",5.56456,0.719228,0.403226,"2016"
-"193","Oregon",0,0.67,0.083871,"2016"
-"194","Pennsylvania",0,0,0.08,"2016"
-"195","Rhode Island",5.4,1.4,0.0967742,"2016"
-"196","South Carolina",2.72,0.9,0.768,"2016"
-"197","South Dakota",3.93,0.93,0.274194,"2016"
-"198","Tennessee",4.4,1.21,1.28677,"2016"
-"199","Texas",2.4,0.204,0.2,"2016"
-"200","Utah",0,0,0.412903,"2016"
-"201","Vermont",0,0.55,0.265,"2016"
-"202","Virginia",0,1.51417,0.256452,"2016"
-"203","Washington",14.274,0.867617,0.260645,"2016"
-"204","West Virginia",0,0.999576,0.177419,"2016"
-"205","Wisconsin",3.25016,0.250026,0.0645161,"2016"
-"206","Wyoming",0,0,0.0189271,"2016"
-"207","Dist. of Columbia",1.5,0.3,0.09,"2016"
-"208","U.S. Median",3.75,0.685,0.2,"2016"
-"209","Alabama",0,1.7,0.533333,"2017"
-"210","Alaska",12.8,2.5,1.07,"2017"
-"211","Arizona",3,0.84,0.16,"2017"
-"212","Arkansas",2.5,0.75,0.234375,"2017"
-"213","California",3.3,0.2,0.2,"2017"
-"214","Colorado",2.28109,0.277471,0.08,"2017"
-"215","Connecticut",5.4,0.72,0.24,"2017"
-"216","Delaware",3.75,0.97,0.156452,"2017"
-"217","Florida",6.5,2.25,0.48,"2017"
-"218","Georgia",3.78541,1.51417,0.322581,"2017"
-"219","Hawaii",5.98,1.38,0.93,"2017"
-"220","Idaho",0,0.45,0.15,"2017"
-"221","Illinois",8.55,1.39,0.231,"2017"
-"222","Indiana",2.68,0.47,0.115,"2017"
-"223","Iowa",0,1.75,0.19,"2017"
-"224","Kansas",2.5,0.3,0.18,"2017"
-"225","Kentucky",1.92,0.5,0.0806452,"2017"
-"226","Louisiana",3.02833,0.757083,0.403226,"2017"
-"227","Maine",0,0.6,0.35,"2017"
-"228","Maryland",1.5,0.4,0.09,"2017"
-"229","Massachusetts",4.05,0.55,0.106452,"2017"
-"230","Michigan",0,0.511031,0.203226,"2017"
-"231","Minnesota",5.0346,0.3,0.148387,"2017"
-"232","Mississippi",0,0.35,0.4268,"2017"
-"233","Missouri",2,0.42,0.06,"2017"
-"234","Montana",0,1.02206,0.13871,"2017"
-"235","Nebraska",3.75,0.95,0.31,"2017"
-"236","Nevada",3.6,0.7,0.16,"2017"
-"237","New Hampshire",0,0.3,0.3,"2017"
-"238","New Jersey",5.5,0.875,0.12,"2017"
-"239","New Mexico",6.05666,1.70344,0.41,"2017"
-"240","New York",6.4352,0.3,0.14,"2017"
-"241","North Carolina",0,0.997078,0.6171,"2017"
-"242","North Dakota",2.5,0.5,0.16,"2017"
-"243","Ohio",0,0.32,0.18,"2017"
-"244","Oklahoma",5.56456,0.719228,0.403226,"2017"
-"245","Oregon",0,0.67,0.083871,"2017"
-"246","Pennsylvania",0,0,0.08,"2017"
-"247","Rhode Island",5.4,1.4,0.106452,"2017"
-"248","South Carolina",2.72,0.9,0.768,"2017"
-"249","South Dakota",3.93,0.93,0.274194,"2017"
-"250","Tennessee",4.4,1.21,1.28677,"2017"
-"251","Texas",2.4,0.204,0.2,"2017"
-"252","Utah",0,0,0.412903,"2017"
-"253","Vermont",0,0.55,0.265,"2017"
-"254","Virginia",0,1.51417,0.256452,"2017"
-"255","Washington",14.274,0.867617,0.260645,"2017"
-"256","West Virginia",0,0.999576,0.177419,"2017"
-"257","Wisconsin",3.25016,0.250026,0.0645161,"2017"
-"258","Wyoming",0,0,0.0189271,"2017"
-"259","Dist. of Columbia",1.5,0.3,0.09,"2017"
-"260","U.S. Median",3.75,0.72,0.2,"2017"
+"state","year","type","tax_rate"
+"Alabama","2013","liquor",0
+"Alaska","2013","liquor",12.8
+"Arizona","2013","liquor",3
+"Arkansas","2013","liquor",2.5
+"California","2013","liquor",3.3
+"Colorado","2013","liquor",2.28
+"Connecticut","2013","liquor",5.4
+"Delaware","2013","liquor",3.75
+"Florida","2013","liquor",6.5
+"Georgia","2013","liquor",3.79
+"Hawaii","2013","liquor",5.98
+"Idaho","2013","liquor",0
+"Illinois","2013","liquor",8.55
+"Indiana","2013","liquor",2.68
+"Iowa","2013","liquor",0
+"Kansas","2013","liquor",2.5
+"Kentucky","2013","liquor",1.92
+"Louisiana","2013","liquor",2.5
+"Maine","2013","liquor",0
+"Maryland","2013","liquor",1.5
+"Massachusetts","2013","liquor",4.05
+"Michigan","2013","liquor",0
+"Minnesota","2013","liquor",5.03
+"Mississippi","2013","liquor",0
+"Missouri","2013","liquor",2
+"Montana","2013","liquor",0
+"Nebraska","2013","liquor",3.75
+"Nevada","2013","liquor",3.6
+"New Hampshire","2013","liquor",0
+"New Jersey","2013","liquor",5.5
+"New Mexico","2013","liquor",6.06
+"New York","2013","liquor",6.44
+"North Carolina","2013","liquor",0
+"North Dakota","2013","liquor",2.5
+"Ohio","2013","liquor",0
+"Oklahoma","2013","liquor",5.56
+"Oregon","2013","liquor",0
+"Pennsylvania","2013","liquor",0
+"Rhode Island","2013","liquor",3.75
+"South Carolina","2013","liquor",2.72
+"South Dakota","2013","liquor",3.93
+"Tennessee","2013","liquor",4.4
+"Texas","2013","liquor",2.4
+"Utah","2013","liquor",0
+"Vermont","2013","liquor",0
+"Virginia","2013","liquor",0
+"Washington","2013","liquor",0
+"West Virginia","2013","liquor",0
+"Wisconsin","2013","liquor",3.25
+"Wyoming","2013","liquor",0
+"Dist. of Columbia","2013","liquor",1.5
+"U.S. Median","2013","liquor",3.75
+"Alabama","2014","liquor",0
+"Alaska","2014","liquor",12.8
+"Arizona","2014","liquor",3
+"Arkansas","2014","liquor",2.5
+"California","2014","liquor",3.3
+"Colorado","2014","liquor",2.28
+"Connecticut","2014","liquor",5.4
+"Delaware","2014","liquor",3.75
+"Florida","2014","liquor",6.5
+"Georgia","2014","liquor",3.79
+"Hawaii","2014","liquor",5.98
+"Idaho","2014","liquor",0
+"Illinois","2014","liquor",8.55
+"Indiana","2014","liquor",2.68
+"Iowa","2014","liquor",0
+"Kansas","2014","liquor",2.5
+"Kentucky","2014","liquor",1.92
+"Louisiana","2014","liquor",2.5
+"Maine","2014","liquor",0
+"Maryland","2014","liquor",1.5
+"Massachusetts","2014","liquor",4.05
+"Michigan","2014","liquor",0
+"Minnesota","2014","liquor",5.03
+"Mississippi","2014","liquor",0
+"Missouri","2014","liquor",2
+"Montana","2014","liquor",0
+"Nebraska","2014","liquor",3.75
+"Nevada","2014","liquor",3.6
+"New Hampshire","2014","liquor",0
+"New Jersey","2014","liquor",5.5
+"New Mexico","2014","liquor",6.06
+"New York","2014","liquor",6.44
+"North Carolina","2014","liquor",0
+"North Dakota","2014","liquor",2.5
+"Ohio","2014","liquor",0
+"Oklahoma","2014","liquor",5.56
+"Oregon","2014","liquor",0
+"Pennsylvania","2014","liquor",0
+"Rhode Island","2014","liquor",5.4
+"South Carolina","2014","liquor",2.72
+"South Dakota","2014","liquor",3.93
+"Tennessee","2014","liquor",4.4
+"Texas","2014","liquor",2.4
+"Utah","2014","liquor",0
+"Vermont","2014","liquor",0
+"Virginia","2014","liquor",0
+"Washington","2014","liquor",14.27
+"West Virginia","2014","liquor",0
+"Wisconsin","2014","liquor",3.25
+"Wyoming","2014","liquor",0
+"Dist. of Columbia","2014","liquor",1.5
+"U.S. Median","2014","liquor",3.75
+"Alabama","2015","liquor",0
+"Alaska","2015","liquor",12.8
+"Arizona","2015","liquor",3
+"Arkansas","2015","liquor",2.5
+"California","2015","liquor",3.3
+"Colorado","2015","liquor",2.28
+"Connecticut","2015","liquor",5.4
+"Delaware","2015","liquor",3.75
+"Florida","2015","liquor",6.5
+"Georgia","2015","liquor",3.79
+"Hawaii","2015","liquor",5.98
+"Idaho","2015","liquor",0
+"Illinois","2015","liquor",8.55
+"Indiana","2015","liquor",2.68
+"Iowa","2015","liquor",0
+"Kansas","2015","liquor",2.5
+"Kentucky","2015","liquor",1.92
+"Louisiana","2015","liquor",2.5
+"Maine","2015","liquor",0
+"Maryland","2015","liquor",1.5
+"Massachusetts","2015","liquor",4.05
+"Michigan","2015","liquor",0
+"Minnesota","2015","liquor",5.03
+"Mississippi","2015","liquor",0
+"Missouri","2015","liquor",2
+"Montana","2015","liquor",0
+"Nebraska","2015","liquor",3.75
+"Nevada","2015","liquor",3.6
+"New Hampshire","2015","liquor",0
+"New Jersey","2015","liquor",5.5
+"New Mexico","2015","liquor",6.06
+"New York","2015","liquor",6.44
+"North Carolina","2015","liquor",0
+"North Dakota","2015","liquor",2.5
+"Ohio","2015","liquor",0
+"Oklahoma","2015","liquor",5.56
+"Oregon","2015","liquor",0
+"Pennsylvania","2015","liquor",0
+"Rhode Island [3]","2015","liquor",5.4
+"South Carolina","2015","liquor",2.72
+"South Dakota","2015","liquor",3.93
+"Tennessee","2015","liquor",4.4
+"Texas","2015","liquor",2.4
+"Utah","2015","liquor",0
+"Vermont","2015","liquor",0
+"Virginia","2015","liquor",0
+"Washington","2015","liquor",14.27
+"West Virginia","2015","liquor",0
+"Wisconsin","2015","liquor",3.25
+"Wyoming","2015","liquor",0
+"Dist. of Columbia","2015","liquor",1.5
+"U.S. Median","2015","liquor",3.75
+"Alabama","2016","liquor",0
+"Alaska","2016","liquor",12.8
+"Arizona","2016","liquor",3
+"Arkansas","2016","liquor",2.5
+"California","2016","liquor",3.3
+"Colorado","2016","liquor",2.28109
+"Connecticut","2016","liquor",5.4
+"Delaware","2016","liquor",3.75
+"Florida","2016","liquor",6.5
+"Georgia","2016","liquor",3.78541
+"Hawaii","2016","liquor",5.98
+"Idaho","2016","liquor",0
+"Illinois","2016","liquor",8.55
+"Indiana","2016","liquor",2.68
+"Iowa","2016","liquor",0
+"Kansas","2016","liquor",2.5
+"Kentucky","2016","liquor",1.92
+"Louisiana","2016","liquor",2.49837
+"Maine","2016","liquor",0
+"Maryland","2016","liquor",1.5
+"Massachusetts","2016","liquor",4.05
+"Michigan","2016","liquor",0
+"Minnesota","2016","liquor",5.0346
+"Mississippi","2016","liquor",0
+"Missouri","2016","liquor",2
+"Montana","2016","liquor",0
+"Nebraska","2016","liquor",3.75
+"Nevada","2016","liquor",3.6
+"New Hampshire","2016","liquor",0
+"New Jersey","2016","liquor",5.5
+"New Mexico","2016","liquor",6.05666
+"New York","2016","liquor",6.4352
+"North Carolina","2016","liquor",0
+"North Dakota","2016","liquor",2.5
+"Ohio","2016","liquor",0
+"Oklahoma","2016","liquor",5.56456
+"Oregon","2016","liquor",0
+"Pennsylvania","2016","liquor",0
+"Rhode Island","2016","liquor",5.4
+"South Carolina","2016","liquor",2.72
+"South Dakota","2016","liquor",3.93
+"Tennessee","2016","liquor",4.4
+"Texas","2016","liquor",2.4
+"Utah","2016","liquor",0
+"Vermont","2016","liquor",0
+"Virginia","2016","liquor",0
+"Washington","2016","liquor",14.274
+"West Virginia","2016","liquor",0
+"Wisconsin","2016","liquor",3.25016
+"Wyoming","2016","liquor",0
+"Dist. of Columbia","2016","liquor",1.5
+"U.S. Median","2016","liquor",3.75
+"Alabama","2017","liquor",0
+"Alaska","2017","liquor",12.8
+"Arizona","2017","liquor",3
+"Arkansas","2017","liquor",2.5
+"California","2017","liquor",3.3
+"Colorado","2017","liquor",2.28109
+"Connecticut","2017","liquor",5.4
+"Delaware","2017","liquor",3.75
+"Florida","2017","liquor",6.5
+"Georgia","2017","liquor",3.78541
+"Hawaii","2017","liquor",5.98
+"Idaho","2017","liquor",0
+"Illinois","2017","liquor",8.55
+"Indiana","2017","liquor",2.68
+"Iowa","2017","liquor",0
+"Kansas","2017","liquor",2.5
+"Kentucky","2017","liquor",1.92
+"Louisiana","2017","liquor",3.02833
+"Maine","2017","liquor",0
+"Maryland","2017","liquor",1.5
+"Massachusetts","2017","liquor",4.05
+"Michigan","2017","liquor",0
+"Minnesota","2017","liquor",5.0346
+"Mississippi","2017","liquor",0
+"Missouri","2017","liquor",2
+"Montana","2017","liquor",0
+"Nebraska","2017","liquor",3.75
+"Nevada","2017","liquor",3.6
+"New Hampshire","2017","liquor",0
+"New Jersey","2017","liquor",5.5
+"New Mexico","2017","liquor",6.05666
+"New York","2017","liquor",6.4352
+"North Carolina","2017","liquor",0
+"North Dakota","2017","liquor",2.5
+"Ohio","2017","liquor",0
+"Oklahoma","2017","liquor",5.56456
+"Oregon","2017","liquor",0
+"Pennsylvania","2017","liquor",0
+"Rhode Island","2017","liquor",5.4
+"South Carolina","2017","liquor",2.72
+"South Dakota","2017","liquor",3.93
+"Tennessee","2017","liquor",4.4
+"Texas","2017","liquor",2.4
+"Utah","2017","liquor",0
+"Vermont","2017","liquor",0
+"Virginia","2017","liquor",0
+"Washington","2017","liquor",14.274
+"West Virginia","2017","liquor",0
+"Wisconsin","2017","liquor",3.25016
+"Wyoming","2017","liquor",0
+"Dist. of Columbia","2017","liquor",1.5
+"U.S. Median","2017","liquor",3.75
+"Alabama","2013","wine",1.7
+"Alaska","2013","wine",2.5
+"Arizona","2013","wine",0.84
+"Arkansas","2013","wine",0.75
+"California","2013","wine",0.2
+"Colorado","2013","wine",0.28
+"Connecticut","2013","wine",0.72
+"Delaware","2013","wine",0.97
+"Florida","2013","wine",2.25
+"Georgia","2013","wine",1.51
+"Hawaii","2013","wine",1.38
+"Idaho","2013","wine",0.45
+"Illinois","2013","wine",1.39
+"Indiana","2013","wine",0.47
+"Iowa","2013","wine",1.75
+"Kansas","2013","wine",0.3
+"Kentucky","2013","wine",0.5
+"Louisiana","2013","wine",0.11
+"Maine","2013","wine",0.6
+"Maryland","2013","wine",0.4
+"Massachusetts","2013","wine",0.55
+"Michigan","2013","wine",0.51
+"Minnesota","2013","wine",0.3
+"Mississippi","2013","wine",0.35
+"Missouri","2013","wine",0.42
+"Montana","2013","wine",1.06
+"Nebraska","2013","wine",0.95
+"Nevada","2013","wine",0.7
+"New Hampshire","2013","wine",0
+"New Jersey","2013","wine",0.875
+"New Mexico","2013","wine",1.7
+"New York","2013","wine",0.3
+"North Carolina","2013","wine",1
+"North Dakota","2013","wine",0.5
+"Ohio","2013","wine",0.3
+"Oklahoma","2013","wine",0.72
+"Oregon","2013","wine",0.67
+"Pennsylvania","2013","wine",0
+"Rhode Island","2013","wine",0.6
+"South Carolina","2013","wine",0.9
+"South Dakota","2013","wine",0.93
+"Tennessee","2013","wine",1.21
+"Texas","2013","wine",0.204
+"Utah","2013","wine",0
+"Vermont","2013","wine",0.55
+"Virginia","2013","wine",1.51
+"Washington","2013","wine",0.87
+"West Virginia","2013","wine",1
+"Wisconsin","2013","wine",0.25
+"Wyoming","2013","wine",0
+"Dist. of Columbia","2013","wine",0.3
+"U.S. Median","2013","wine",0.67
+"Alabama","2014","wine",1.7
+"Alaska","2014","wine",2.5
+"Arizona","2014","wine",0.84
+"Arkansas","2014","wine",0.75
+"California","2014","wine",0.2
+"Colorado","2014","wine",0.28
+"Connecticut","2014","wine",0.72
+"Delaware","2014","wine",0.97
+"Florida","2014","wine",2.25
+"Georgia","2014","wine",1.51
+"Hawaii","2014","wine",1.38
+"Idaho","2014","wine",0.45
+"Illinois","2014","wine",1.39
+"Indiana","2014","wine",0.47
+"Iowa","2014","wine",1.75
+"Kansas","2014","wine",0.3
+"Kentucky","2014","wine",0.5
+"Louisiana","2014","wine",0.11
+"Maine","2014","wine",0.6
+"Maryland","2014","wine",0.4
+"Massachusetts","2014","wine",0.55
+"Michigan","2014","wine",0.51
+"Minnesota","2014","wine",0.3
+"Mississippi","2014","wine",0.35
+"Missouri","2014","wine",0.42
+"Montana","2014","wine",1.06
+"Nebraska","2014","wine",0.95
+"Nevada","2014","wine",0.7
+"New Hampshire","2014","wine",0
+"New Jersey","2014","wine",0.875
+"New Mexico","2014","wine",1.7
+"New York","2014","wine",0.3
+"North Carolina","2014","wine",1
+"North Dakota","2014","wine",0.5
+"Ohio","2014","wine",0.32
+"Oklahoma","2014","wine",0.72
+"Oregon","2014","wine",0.67
+"Pennsylvania","2014","wine",0
+"Rhode Island","2014","wine",1.4
+"South Carolina","2014","wine",0.9
+"South Dakota","2014","wine",0.93
+"Tennessee","2014","wine",1.21
+"Texas","2014","wine",0.204
+"Utah","2014","wine",0
+"Vermont","2014","wine",0.55
+"Virginia","2014","wine",1.51
+"Washington","2014","wine",0.87
+"West Virginia","2014","wine",1
+"Wisconsin","2014","wine",0.25
+"Wyoming","2014","wine",0
+"Dist. of Columbia","2014","wine",0.3
+"U.S. Median","2014","wine",0.72
+"Alabama","2015","wine",1.7
+"Alaska","2015","wine",2.5
+"Arizona","2015","wine",0.84
+"Arkansas","2015","wine",0.75
+"California","2015","wine",0.2
+"Colorado","2015","wine",0.28
+"Connecticut","2015","wine",0.72
+"Delaware","2015","wine",0.97
+"Florida","2015","wine",2.25
+"Georgia","2015","wine",1.51
+"Hawaii","2015","wine",1.38
+"Idaho","2015","wine",0.45
+"Illinois","2015","wine",1.39
+"Indiana","2015","wine",0.47
+"Iowa","2015","wine",1.75
+"Kansas","2015","wine",0.3
+"Kentucky","2015","wine",0.5
+"Louisiana","2015","wine",0.11
+"Maine","2015","wine",0.6
+"Maryland","2015","wine",0.4
+"Massachusetts","2015","wine",0.55
+"Michigan","2015","wine",0.51
+"Minnesota","2015","wine",0.3
+"Mississippi","2015","wine",0.35
+"Missouri","2015","wine",0.42
+"Montana","2015","wine",1.06
+"Nebraska","2015","wine",0.95
+"Nevada","2015","wine",0.7
+"New Hampshire","2015","wine",0
+"New Jersey","2015","wine",0.875
+"New Mexico","2015","wine",1.7
+"New York","2015","wine",0.3
+"North Carolina","2015","wine",1
+"North Dakota","2015","wine",0.5
+"Ohio","2015","wine",0.32
+"Oklahoma","2015","wine",0.72
+"Oregon","2015","wine",0.67
+"Pennsylvania","2015","wine",0
+"Rhode Island [3]","2015","wine",1.4
+"South Carolina","2015","wine",0.9
+"South Dakota","2015","wine",0.93
+"Tennessee","2015","wine",1.21
+"Texas","2015","wine",0.204
+"Utah","2015","wine",0
+"Vermont","2015","wine",0.55
+"Virginia","2015","wine",1.51
+"Washington","2015","wine",0.87
+"West Virginia","2015","wine",1
+"Wisconsin","2015","wine",0.25
+"Wyoming","2015","wine",0
+"Dist. of Columbia","2015","wine",0.3
+"U.S. Median","2015","wine",0.72
+"Alabama","2016","wine",1.7
+"Alaska","2016","wine",2.5
+"Arizona","2016","wine",0.84
+"Arkansas","2016","wine",0.75
+"California","2016","wine",0.2
+"Colorado","2016","wine",0.277471
+"Connecticut","2016","wine",0.72
+"Delaware","2016","wine",0.97
+"Florida","2016","wine",2.25
+"Georgia","2016","wine",1.51417
+"Hawaii","2016","wine",1.38
+"Idaho","2016","wine",0.45
+"Illinois","2016","wine",1.39
+"Indiana","2016","wine",0.47
+"Iowa","2016","wine",1.75
+"Kansas","2016","wine",0.3
+"Kentucky","2016","wine",0.5
+"Louisiana","2016","wine",0.113562
+"Maine","2016","wine",0.6
+"Maryland","2016","wine",0.4
+"Massachusetts","2016","wine",0.55
+"Michigan","2016","wine",0.511031
+"Minnesota","2016","wine",0.3
+"Mississippi","2016","wine",0.35
+"Missouri","2016","wine",0.42
+"Montana","2016","wine",1.05992
+"Nebraska","2016","wine",0.95
+"Nevada","2016","wine",0.7
+"New Hampshire","2016","wine",0
+"New Jersey","2016","wine",0.875
+"New Mexico","2016","wine",1.70344
+"New York","2016","wine",0.3
+"North Carolina","2016","wine",0.997078
+"North Dakota","2016","wine",0.5
+"Ohio","2016","wine",0.32
+"Oklahoma","2016","wine",0.719228
+"Oregon","2016","wine",0.67
+"Pennsylvania","2016","wine",0
+"Rhode Island","2016","wine",1.4
+"South Carolina","2016","wine",0.9
+"South Dakota","2016","wine",0.93
+"Tennessee","2016","wine",1.21
+"Texas","2016","wine",0.204
+"Utah","2016","wine",0
+"Vermont","2016","wine",0.55
+"Virginia","2016","wine",1.51417
+"Washington","2016","wine",0.867617
+"West Virginia","2016","wine",0.999576
+"Wisconsin","2016","wine",0.250026
+"Wyoming","2016","wine",0
+"Dist. of Columbia","2016","wine",0.3
+"U.S. Median","2016","wine",0.685
+"Alabama","2017","wine",1.7
+"Alaska","2017","wine",2.5
+"Arizona","2017","wine",0.84
+"Arkansas","2017","wine",0.75
+"California","2017","wine",0.2
+"Colorado","2017","wine",0.277471
+"Connecticut","2017","wine",0.72
+"Delaware","2017","wine",0.97
+"Florida","2017","wine",2.25
+"Georgia","2017","wine",1.51417
+"Hawaii","2017","wine",1.38
+"Idaho","2017","wine",0.45
+"Illinois","2017","wine",1.39
+"Indiana","2017","wine",0.47
+"Iowa","2017","wine",1.75
+"Kansas","2017","wine",0.3
+"Kentucky","2017","wine",0.5
+"Louisiana","2017","wine",0.757083
+"Maine","2017","wine",0.6
+"Maryland","2017","wine",0.4
+"Massachusetts","2017","wine",0.55
+"Michigan","2017","wine",0.511031
+"Minnesota","2017","wine",0.3
+"Mississippi","2017","wine",0.35
+"Missouri","2017","wine",0.42
+"Montana","2017","wine",1.02206
+"Nebraska","2017","wine",0.95
+"Nevada","2017","wine",0.7
+"New Hampshire","2017","wine",0.3
+"New Jersey","2017","wine",0.875
+"New Mexico","2017","wine",1.70344
+"New York","2017","wine",0.3
+"North Carolina","2017","wine",0.997078
+"North Dakota","2017","wine",0.5
+"Ohio","2017","wine",0.32
+"Oklahoma","2017","wine",0.719228
+"Oregon","2017","wine",0.67
+"Pennsylvania","2017","wine",0
+"Rhode Island","2017","wine",1.4
+"South Carolina","2017","wine",0.9
+"South Dakota","2017","wine",0.93
+"Tennessee","2017","wine",1.21
+"Texas","2017","wine",0.204
+"Utah","2017","wine",0
+"Vermont","2017","wine",0.55
+"Virginia","2017","wine",1.51417
+"Washington","2017","wine",0.867617
+"West Virginia","2017","wine",0.999576
+"Wisconsin","2017","wine",0.250026
+"Wyoming","2017","wine",0
+"Dist. of Columbia","2017","wine",0.3
+"U.S. Median","2017","wine",0.72
+"Alabama","2013","beer",0.53
+"Alaska","2013","beer",1.07
+"Arizona","2013","beer",0.16
+"Arkansas","2013","beer",0.23
+"California","2013","beer",0.2
+"Colorado","2013","beer",0.08
+"Connecticut","2013","beer",0.24
+"Delaware","2013","beer",0.16
+"Florida","2013","beer",0.48
+"Georgia","2013","beer",0.32
+"Hawaii","2013","beer",0.93
+"Idaho","2013","beer",0.15
+"Illinois","2013","beer",0.231
+"Indiana","2013","beer",0.115
+"Iowa","2013","beer",0.19
+"Kansas","2013","beer",0.18
+"Kentucky","2013","beer",0.08
+"Louisiana","2013","beer",0.32
+"Maine","2013","beer",0.35
+"Maryland","2013","beer",0.09
+"Massachusetts","2013","beer",0.11
+"Michigan","2013","beer",0.2
+"Minnesota","2013","beer",0.15
+"Mississippi","2013","beer",0.4268
+"Missouri","2013","beer",0.06
+"Montana","2013","beer",0.14
+"Nebraska","2013","beer",0.31
+"Nevada","2013","beer",0.16
+"New Hampshire","2013","beer",0.3
+"New Jersey","2013","beer",0.12
+"New Mexico","2013","beer",0.41
+"New York","2013","beer",0.14
+"North Carolina","2013","beer",0.6171
+"North Dakota","2013","beer",0.16
+"Ohio","2013","beer",0.18
+"Oklahoma","2013","beer",0.4
+"Oregon","2013","beer",0.08
+"Pennsylvania","2013","beer",0.08
+"Rhode Island","2013","beer",0.1
+"South Carolina","2013","beer",0.77
+"South Dakota","2013","beer",0.27
+"Tennessee","2013","beer",0.14
+"Texas","2013","beer",0.2
+"Utah","2013","beer",0.41
+"Vermont","2013","beer",0.265
+"Virginia","2013","beer",0.26
+"Washington","2013","beer",0
+"West Virginia","2013","beer",0.18
+"Wisconsin","2013","beer",0.06
+"Wyoming","2013","beer",0.02
+"Dist. of Columbia","2013","beer",0.09
+"U.S. Median","2013","beer",0.19
+"Alabama","2014","beer",0.53
+"Alaska","2014","beer",1.07
+"Arizona","2014","beer",0.16
+"Arkansas","2014","beer",0.23
+"California","2014","beer",0.2
+"Colorado","2014","beer",0.08
+"Connecticut","2014","beer",0.24
+"Delaware","2014","beer",0.16
+"Florida","2014","beer",0.48
+"Georgia","2014","beer",0.32
+"Hawaii","2014","beer",0.93
+"Idaho","2014","beer",0.15
+"Illinois","2014","beer",0.231
+"Indiana","2014","beer",0.115
+"Iowa","2014","beer",0.19
+"Kansas","2014","beer",0.18
+"Kentucky","2014","beer",0.08
+"Louisiana","2014","beer",0.32
+"Maine","2014","beer",0.35
+"Maryland","2014","beer",0.09
+"Massachusetts","2014","beer",0.11
+"Michigan","2014","beer",0.2
+"Minnesota","2014","beer",0.15
+"Mississippi","2014","beer",0.4268
+"Missouri","2014","beer",0.06
+"Montana","2014","beer",0.14
+"Nebraska","2014","beer",0.31
+"Nevada","2014","beer",0.16
+"New Hampshire","2014","beer",0.3
+"New Jersey","2014","beer",0.12
+"New Mexico","2014","beer",0.41
+"New York","2014","beer",0.14
+"North Carolina","2014","beer",0.6171
+"North Dakota","2014","beer",0.16
+"Ohio","2014","beer",0.18
+"Oklahoma","2014","beer",0.4
+"Oregon","2014","beer",0.08
+"Pennsylvania","2014","beer",0.08
+"Rhode Island","2014","beer",0.11
+"South Carolina","2014","beer",0.77
+"South Dakota","2014","beer",0.27
+"Tennessee","2014","beer",1.15
+"Texas","2014","beer",0.2
+"Utah","2014","beer",0.41
+"Vermont","2014","beer",0.265
+"Virginia","2014","beer",0.26
+"Washington","2014","beer",0.26
+"West Virginia","2014","beer",0.18
+"Wisconsin","2014","beer",0.06
+"Wyoming","2014","beer",0.02
+"Dist. of Columbia","2014","beer",0.09
+"U.S. Median","2014","beer",0.2
+"Alabama","2015","beer",0.53
+"Alaska","2015","beer",1.07
+"Arizona","2015","beer",0.16
+"Arkansas","2015","beer",0.23
+"California","2015","beer",0.2
+"Colorado","2015","beer",0.08
+"Connecticut","2015","beer",0.24
+"Delaware","2015","beer",0.16
+"Florida","2015","beer",0.48
+"Georgia","2015","beer",0.32
+"Hawaii","2015","beer",0.93
+"Idaho","2015","beer",0.15
+"Illinois","2015","beer",0.231
+"Indiana","2015","beer",0.115
+"Iowa","2015","beer",0.19
+"Kansas","2015","beer",0.18
+"Kentucky","2015","beer",0.08
+"Louisiana","2015","beer",0.32
+"Maine","2015","beer",0.35
+"Maryland","2015","beer",0.09
+"Massachusetts","2015","beer",0.11
+"Michigan","2015","beer",0.2
+"Minnesota","2015","beer",0.15
+"Mississippi","2015","beer",0.4268
+"Missouri","2015","beer",0.06
+"Montana","2015","beer",0.14
+"Nebraska","2015","beer",0.31
+"Nevada","2015","beer",0.16
+"New Hampshire","2015","beer",0.3
+"New Jersey","2015","beer",0.12
+"New Mexico","2015","beer",0.41
+"New York","2015","beer",0.14
+"North Carolina","2015","beer",0.6171
+"North Dakota","2015","beer",0.16
+"Ohio","2015","beer",0.18
+"Oklahoma","2015","beer",0.4
+"Oregon","2015","beer",0.08
+"Pennsylvania","2015","beer",0.08
+"Rhode Island [3]","2015","beer",0.11
+"South Carolina","2015","beer",0.77
+"South Dakota","2015","beer",0.27
+"Tennessee","2015","beer",1.15
+"Texas","2015","beer",0.2
+"Utah","2015","beer",0.41
+"Vermont","2015","beer",0.265
+"Virginia","2015","beer",0.26
+"Washington","2015","beer",0.26
+"West Virginia","2015","beer",0.18
+"Wisconsin","2015","beer",0.06
+"Wyoming","2015","beer",0.02
+"Dist. of Columbia","2015","beer",0.09
+"U.S. Median","2015","beer",0.2
+"Alabama","2016","beer",0.533333
+"Alaska","2016","beer",1.07
+"Arizona","2016","beer",0.16
+"Arkansas","2016","beer",0.234375
+"California","2016","beer",0.2
+"Colorado","2016","beer",0.08
+"Connecticut","2016","beer",0.24
+"Delaware","2016","beer",0.156452
+"Florida","2016","beer",0.48
+"Georgia","2016","beer",0.322581
+"Hawaii","2016","beer",0.93
+"Idaho","2016","beer",0.15
+"Illinois","2016","beer",0.231
+"Indiana","2016","beer",0.115
+"Iowa","2016","beer",0.19
+"Kansas","2016","beer",0.18
+"Kentucky","2016","beer",0.0806452
+"Louisiana","2016","beer",0.322581
+"Maine","2016","beer",0.35
+"Maryland","2016","beer",0.09
+"Massachusetts","2016","beer",0.106452
+"Michigan","2016","beer",0.203226
+"Minnesota","2016","beer",0.148387
+"Mississippi","2016","beer",0.4268
+"Missouri","2016","beer",0.06
+"Montana","2016","beer",0.13871
+"Nebraska","2016","beer",0.31
+"Nevada","2016","beer",0.16
+"New Hampshire","2016","beer",0.3
+"New Jersey","2016","beer",0.12
+"New Mexico","2016","beer",0.41
+"New York","2016","beer",0.14
+"North Carolina","2016","beer",0.6171
+"North Dakota","2016","beer",0.16
+"Ohio","2016","beer",0.18
+"Oklahoma","2016","beer",0.403226
+"Oregon","2016","beer",0.083871
+"Pennsylvania","2016","beer",0.08
+"Rhode Island","2016","beer",0.0967742
+"South Carolina","2016","beer",0.768
+"South Dakota","2016","beer",0.274194
+"Tennessee","2016","beer",1.28677
+"Texas","2016","beer",0.2
+"Utah","2016","beer",0.412903
+"Vermont","2016","beer",0.265
+"Virginia","2016","beer",0.256452
+"Washington","2016","beer",0.260645
+"West Virginia","2016","beer",0.177419
+"Wisconsin","2016","beer",0.0645161
+"Wyoming","2016","beer",0.0189271
+"Dist. of Columbia","2016","beer",0.09
+"U.S. Median","2016","beer",0.2
+"Alabama","2017","beer",0.533333
+"Alaska","2017","beer",1.07
+"Arizona","2017","beer",0.16
+"Arkansas","2017","beer",0.234375
+"California","2017","beer",0.2
+"Colorado","2017","beer",0.08
+"Connecticut","2017","beer",0.24
+"Delaware","2017","beer",0.156452
+"Florida","2017","beer",0.48
+"Georgia","2017","beer",0.322581
+"Hawaii","2017","beer",0.93
+"Idaho","2017","beer",0.15
+"Illinois","2017","beer",0.231
+"Indiana","2017","beer",0.115
+"Iowa","2017","beer",0.19
+"Kansas","2017","beer",0.18
+"Kentucky","2017","beer",0.0806452
+"Louisiana","2017","beer",0.403226
+"Maine","2017","beer",0.35
+"Maryland","2017","beer",0.09
+"Massachusetts","2017","beer",0.106452
+"Michigan","2017","beer",0.203226
+"Minnesota","2017","beer",0.148387
+"Mississippi","2017","beer",0.4268
+"Missouri","2017","beer",0.06
+"Montana","2017","beer",0.13871
+"Nebraska","2017","beer",0.31
+"Nevada","2017","beer",0.16
+"New Hampshire","2017","beer",0.3
+"New Jersey","2017","beer",0.12
+"New Mexico","2017","beer",0.41
+"New York","2017","beer",0.14
+"North Carolina","2017","beer",0.6171
+"North Dakota","2017","beer",0.16
+"Ohio","2017","beer",0.18
+"Oklahoma","2017","beer",0.403226
+"Oregon","2017","beer",0.083871
+"Pennsylvania","2017","beer",0.08
+"Rhode Island","2017","beer",0.106452
+"South Carolina","2017","beer",0.768
+"South Dakota","2017","beer",0.274194
+"Tennessee","2017","beer",1.28677
+"Texas","2017","beer",0.2
+"Utah","2017","beer",0.412903
+"Vermont","2017","beer",0.265
+"Virginia","2017","beer",0.256452
+"Washington","2017","beer",0.260645
+"West Virginia","2017","beer",0.177419
+"Wisconsin","2017","beer",0.0645161
+"Wyoming","2017","beer",0.0189271
+"Dist. of Columbia","2017","beer",0.09
+"U.S. Median","2017","beer",0.2

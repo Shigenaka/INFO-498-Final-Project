@@ -2,6 +2,7 @@ setwd("/Users/MasonShigenaka/Desktop/INFO 498 D/INFO-498-Final-Project")
 
 library(readxl)
 library(dplyr)
+library(tidyr)
 
 read_excel_allsheets <- function(filename, tibble = FALSE) {
   sheets <- readxl::excel_sheets(filename)
@@ -34,5 +35,7 @@ for (i in seq(1:length(allSheets))){
 }
 
 prepped_data <- rbind(data2013, data2014, data2015, data2016, data2017)
+prepped_data <- prepped_data %>%
+  gather(key = type, value = tax_rate, c("liquor", "wine", "beer"))
 
-write.csv(prepped_data, "./data/prepped/prepped-tax-data.csv")
+write.csv(prepped_data, "./data/prepped/prepped-tax-data.csv", row.names = F)
