@@ -1,4 +1,4 @@
-setwd("/Users/MasonShigenaka/Desktop/INFO 498 D/INFO-498-Final-Project")
+#setwd("/Users/MasonShigenaka/Desktop/INFO 498 D/INFO-498-Final-Project")
 
 library(readxl)
 library(dplyr)
