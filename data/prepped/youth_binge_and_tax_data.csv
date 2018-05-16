@@ -1,0 +1,361 @@
+"state","year","type","tax_rate","Age group","DataFormat","Data"
+"Alabama",2013,"Overall Mean",2.23,"12 to 17","Percent","0.07"
+"Alabama",2013,"Overall Mean",2.23,"18 to 25","Percent","0.32"
+"Alabama",2014,"Overall Mean",2.23,"12 to 17","Percent","0.06"
+"Alabama",2014,"Overall Mean",2.23,"18 to 25","Percent","0.33"
+"Alabama",2015,"Overall Mean",2.23,NA,NA,NA
+"Alabama",2016,"Overall Mean",2.233333,NA,NA,NA
+"Alabama",2017,"Overall Mean",2.233333,NA,NA,NA
+"Alaska",2013,"Overall Mean",16.37,"12 to 17","Percent","0.06"
+"Alaska",2013,"Overall Mean",16.37,"18 to 25","Percent","0.36"
+"Alaska",2014,"Overall Mean",16.37,"12 to 17","Percent","0.05"
+"Alaska",2014,"Overall Mean",16.37,"18 to 25","Percent","0.39"
+"Alaska",2015,"Overall Mean",16.37,NA,NA,NA
+"Alaska",2016,"Overall Mean",16.37,NA,NA,NA
+"Alaska",2017,"Overall Mean",16.37,NA,NA,NA
+"Arizona",2013,"Overall Mean",4,"12 to 17","Percent","0.07"
+"Arizona",2013,"Overall Mean",4,"18 to 25","Percent","0.38"
+"Arizona",2014,"Overall Mean",4,"12 to 17","Percent","0.06"
+"Arizona",2014,"Overall Mean",4,"18 to 25","Percent","0.37"
+"Arizona",2015,"Overall Mean",4,NA,NA,NA
+"Arizona",2016,"Overall Mean",4,NA,NA,NA
+"Arizona",2017,"Overall Mean",4,NA,NA,NA
+"Arkansas",2013,"Overall Mean",3.48,"12 to 17","Percent","0.07"
+"Arkansas",2013,"Overall Mean",3.48,"18 to 25","Percent","0.36"
+"Arkansas",2014,"Overall Mean",3.48,"12 to 17","Percent","0.06"
+"Arkansas",2014,"Overall Mean",3.48,"18 to 25","Percent","0.37"
+"Arkansas",2015,"Overall Mean",3.48,NA,NA,NA
+"Arkansas",2016,"Overall Mean",3.484375,NA,NA,NA
+"Arkansas",2017,"Overall Mean",3.484375,NA,NA,NA
+"California",2013,"Overall Mean",3.7,"12 to 17","Percent","0.06"
+"California",2013,"Overall Mean",3.7,"18 to 25","Percent","0.36"
+"California",2014,"Overall Mean",3.7,"12 to 17","Percent","0.06"
+"California",2014,"Overall Mean",3.7,"18 to 25","Percent","0.37"
+"California",2015,"Overall Mean",3.7,NA,NA,NA
+"California",2016,"Overall Mean",3.7,NA,NA,NA
+"California",2017,"Overall Mean",3.7,NA,NA,NA
+"Colorado",2013,"Overall Mean",2.64,"12 to 17","Percent","0.07"
+"Colorado",2013,"Overall Mean",2.64,"18 to 25","Percent","0.44"
+"Colorado",2014,"Overall Mean",2.64,"12 to 17","Percent","0.07"
+"Colorado",2014,"Overall Mean",2.64,"18 to 25","Percent","0.41"
+"Colorado",2015,"Overall Mean",2.64,NA,NA,NA
+"Colorado",2016,"Overall Mean",2.638561,NA,NA,NA
+"Colorado",2017,"Overall Mean",2.638561,NA,NA,NA
+"Connecticut",2013,"Overall Mean",6.36,"12 to 17","Percent","0.08"
+"Connecticut",2013,"Overall Mean",6.36,"18 to 25","Percent","0.45"
+"Connecticut",2014,"Overall Mean",6.36,"12 to 17","Percent","0.06"
+"Connecticut",2014,"Overall Mean",6.36,"18 to 25","Percent","0.42"
+"Connecticut",2015,"Overall Mean",6.36,NA,NA,NA
+"Connecticut",2016,"Overall Mean",6.36,NA,NA,NA
+"Connecticut",2017,"Overall Mean",6.36,NA,NA,NA
+"Delaware",2013,"Overall Mean",4.88,"12 to 17","Percent","0.06"
+"Delaware",2013,"Overall Mean",4.88,"18 to 25","Percent","0.41"
+"Delaware",2014,"Overall Mean",4.88,"12 to 17","Percent","0.06"
+"Delaware",2014,"Overall Mean",4.88,"18 to 25","Percent","0.41"
+"Delaware",2015,"Overall Mean",4.88,NA,NA,NA
+"Delaware",2016,"Overall Mean",4.876452,NA,NA,NA
+"Delaware",2017,"Overall Mean",4.876452,NA,NA,NA
+"Dist. of Columbia",2013,"Overall Mean",1.89,NA,NA,NA
+"Dist. of Columbia",2014,"Overall Mean",1.89,NA,NA,NA
+"Dist. of Columbia",2015,"Overall Mean",1.89,NA,NA,NA
+"Dist. of Columbia",2016,"Overall Mean",1.89,NA,NA,NA
+"Dist. of Columbia",2017,"Overall Mean",1.89,NA,NA,NA
+"Florida",2013,"Overall Mean",9.23,"12 to 17","Percent","0.06"
+"Florida",2013,"Overall Mean",9.23,"18 to 25","Percent","0.35"
+"Florida",2014,"Overall Mean",9.23,"12 to 17","Percent","0.06"
+"Florida",2014,"Overall Mean",9.23,"18 to 25","Percent","0.34"
+"Florida",2015,"Overall Mean",9.23,NA,NA,NA
+"Florida",2016,"Overall Mean",9.23,NA,NA,NA
+"Florida",2017,"Overall Mean",9.23,NA,NA,NA
+"Georgia",2013,"Overall Mean",5.62,"12 to 17","Percent","0.06"
+"Georgia",2013,"Overall Mean",5.62,"18 to 25","Percent","0.31"
+"Georgia",2014,"Overall Mean",5.62,"12 to 17","Percent","0.05"
+"Georgia",2014,"Overall Mean",5.62,"18 to 25","Percent","0.32"
+"Georgia",2015,"Overall Mean",5.62,NA,NA,NA
+"Georgia",2016,"Overall Mean",5.622161,NA,NA,NA
+"Georgia",2017,"Overall Mean",5.622161,NA,NA,NA
+"Hawaii",2013,"Overall Mean",8.29,"12 to 17","Percent","0.06"
+"Hawaii",2013,"Overall Mean",8.29,"18 to 25","Percent","0.39"
+"Hawaii",2014,"Overall Mean",8.29,"12 to 17","Percent","0.06"
+"Hawaii",2014,"Overall Mean",8.29,"18 to 25","Percent","0.42"
+"Hawaii",2015,"Overall Mean",8.29,NA,NA,NA
+"Hawaii",2016,"Overall Mean",8.29,NA,NA,NA
+"Hawaii",2017,"Overall Mean",8.29,NA,NA,NA
+"Idaho",2013,"Overall Mean",0.6,"12 to 17","Percent","0.07"
+"Idaho",2013,"Overall Mean",0.6,"18 to 25","Percent","0.32"
+"Idaho",2014,"Overall Mean",0.6,"12 to 17","Percent","0.06"
+"Idaho",2014,"Overall Mean",0.6,"18 to 25","Percent","0.33"
+"Idaho",2015,"Overall Mean",0.6,NA,NA,NA
+"Idaho",2016,"Overall Mean",0.6,NA,NA,NA
+"Idaho",2017,"Overall Mean",0.6,NA,NA,NA
+"Illinois",2013,"Overall Mean",10.171,"12 to 17","Percent","0.07"
+"Illinois",2013,"Overall Mean",10.171,"18 to 25","Percent","0.44"
+"Illinois",2014,"Overall Mean",10.171,"12 to 17","Percent","0.06"
+"Illinois",2014,"Overall Mean",10.171,"18 to 25","Percent","0.41"
+"Illinois",2015,"Overall Mean",10.171,NA,NA,NA
+"Illinois",2016,"Overall Mean",10.171,NA,NA,NA
+"Illinois",2017,"Overall Mean",10.171,NA,NA,NA
+"Indiana",2013,"Overall Mean",3.265,"12 to 17","Percent","0.07"
+"Indiana",2013,"Overall Mean",3.265,"18 to 25","Percent","0.41"
+"Indiana",2014,"Overall Mean",3.265,"18 to 25","Percent","0.39"
+"Indiana",2014,"Overall Mean",3.265,"12 to 17","Percent","0.06"
+"Indiana",2015,"Overall Mean",3.265,NA,NA,NA
+"Indiana",2016,"Overall Mean",3.265,NA,NA,NA
+"Indiana",2017,"Overall Mean",3.265,NA,NA,NA
+"Iowa",2013,"Overall Mean",1.94,"12 to 17","Percent","0.07"
+"Iowa",2013,"Overall Mean",1.94,"18 to 25","Percent","0.48"
+"Iowa",2014,"Overall Mean",1.94,"12 to 17","Percent","0.06"
+"Iowa",2014,"Overall Mean",1.94,"18 to 25","Percent","0.47"
+"Iowa",2015,"Overall Mean",1.94,NA,NA,NA
+"Iowa",2016,"Overall Mean",1.94,NA,NA,NA
+"Iowa",2017,"Overall Mean",1.94,NA,NA,NA
+"Kansas",2013,"Overall Mean",2.98,"12 to 17","Percent","0.07"
+"Kansas",2013,"Overall Mean",2.98,"18 to 25","Percent","0.39"
+"Kansas",2014,"Overall Mean",2.98,"12 to 17","Percent","0.07"
+"Kansas",2014,"Overall Mean",2.98,"18 to 25","Percent","0.4"
+"Kansas",2015,"Overall Mean",2.98,NA,NA,NA
+"Kansas",2016,"Overall Mean",2.98,NA,NA,NA
+"Kansas",2017,"Overall Mean",2.98,NA,NA,NA
+"Kentucky",2013,"Overall Mean",2.5,"18 to 25","Percent","0.4"
+"Kentucky",2013,"Overall Mean",2.5,"12 to 17","Percent","0.06"
+"Kentucky",2014,"Overall Mean",2.5,"18 to 25","Percent","0.34"
+"Kentucky",2014,"Overall Mean",2.5,"12 to 17","Percent","0.05"
+"Kentucky",2015,"Overall Mean",2.5,NA,NA,NA
+"Kentucky",2016,"Overall Mean",2.5006452,NA,NA,NA
+"Kentucky",2017,"Overall Mean",2.5006452,NA,NA,NA
+"Louisiana",2013,"Overall Mean",2.93,"12 to 17","Percent","0.07"
+"Louisiana",2013,"Overall Mean",2.93,"18 to 25","Percent","0.36"
+"Louisiana",2014,"Overall Mean",2.93,"12 to 17","Percent","0.07"
+"Louisiana",2014,"Overall Mean",2.93,"18 to 25","Percent","0.34"
+"Louisiana",2015,"Overall Mean",2.93,NA,NA,NA
+"Louisiana",2016,"Overall Mean",2.934513,NA,NA,NA
+"Louisiana",2017,"Overall Mean",4.188639,NA,NA,NA
+"Maine",2013,"Overall Mean",0.95,"18 to 25","Percent","0.43"
+"Maine",2013,"Overall Mean",0.95,"12 to 17","Percent","0.07"
+"Maine",2014,"Overall Mean",0.95,"18 to 25","Percent","0.43"
+"Maine",2014,"Overall Mean",0.95,"12 to 17","Percent","0.07"
+"Maine",2015,"Overall Mean",0.95,NA,NA,NA
+"Maine",2016,"Overall Mean",0.95,NA,NA,NA
+"Maine",2017,"Overall Mean",0.95,NA,NA,NA
+"Maryland",2013,"Overall Mean",1.99,"12 to 17","Percent","0.07"
+"Maryland",2013,"Overall Mean",1.99,"18 to 25","Percent","0.39"
+"Maryland",2014,"Overall Mean",1.99,"12 to 17","Percent","0.06"
+"Maryland",2014,"Overall Mean",1.99,"18 to 25","Percent","0.35"
+"Maryland",2015,"Overall Mean",1.99,NA,NA,NA
+"Maryland",2016,"Overall Mean",1.99,NA,NA,NA
+"Maryland",2017,"Overall Mean",1.99,NA,NA,NA
+"Massachusetts",2013,"Overall Mean",4.71,"18 to 25","Percent","0.46"
+"Massachusetts",2013,"Overall Mean",4.71,"12 to 17","Percent","0.08"
+"Massachusetts",2014,"Overall Mean",4.71,"18 to 25","Percent","0.44"
+"Massachusetts",2014,"Overall Mean",4.71,"12 to 17","Percent","0.07"
+"Massachusetts",2015,"Overall Mean",4.71,NA,NA,NA
+"Massachusetts",2016,"Overall Mean",4.706452,NA,NA,NA
+"Massachusetts",2017,"Overall Mean",4.706452,NA,NA,NA
+"Michigan",2013,"Overall Mean",0.71,"12 to 17","Percent","0.06"
+"Michigan",2013,"Overall Mean",0.71,"18 to 25","Percent","0.42"
+"Michigan",2014,"Overall Mean",0.71,"12 to 17","Percent","0.06"
+"Michigan",2014,"Overall Mean",0.71,"18 to 25","Percent","0.42"
+"Michigan",2015,"Overall Mean",0.71,NA,NA,NA
+"Michigan",2016,"Overall Mean",0.714257,NA,NA,NA
+"Michigan",2017,"Overall Mean",0.714257,NA,NA,NA
+"Minnesota",2013,"Overall Mean",5.48,"18 to 25","Percent","0.45"
+"Minnesota",2013,"Overall Mean",5.48,"12 to 17","Percent","0.07"
+"Minnesota",2014,"Overall Mean",5.48,"18 to 25","Percent","0.42"
+"Minnesota",2014,"Overall Mean",5.48,"12 to 17","Percent","0.05"
+"Minnesota",2015,"Overall Mean",5.48,NA,NA,NA
+"Minnesota",2016,"Overall Mean",5.482987,NA,NA,NA
+"Minnesota",2017,"Overall Mean",5.482987,NA,NA,NA
+"Mississippi",2013,"Overall Mean",0.7768,"12 to 17","Percent","0.06"
+"Mississippi",2013,"Overall Mean",0.7768,"18 to 25","Percent","0.33"
+"Mississippi",2014,"Overall Mean",0.7768,"12 to 17","Percent","0.05"
+"Mississippi",2014,"Overall Mean",0.7768,"18 to 25","Percent","0.31"
+"Mississippi",2015,"Overall Mean",0.7768,NA,NA,NA
+"Mississippi",2016,"Overall Mean",0.7768,NA,NA,NA
+"Mississippi",2017,"Overall Mean",0.7768,NA,NA,NA
+"Missouri",2013,"Overall Mean",2.48,"18 to 25","Percent","0.41"
+"Missouri",2013,"Overall Mean",2.48,"12 to 17","Percent","0.07"
+"Missouri",2014,"Overall Mean",2.48,"18 to 25","Percent","0.41"
+"Missouri",2014,"Overall Mean",2.48,"12 to 17","Percent","0.07"
+"Missouri",2015,"Overall Mean",2.48,NA,NA,NA
+"Missouri",2016,"Overall Mean",2.48,NA,NA,NA
+"Missouri",2017,"Overall Mean",2.48,NA,NA,NA
+"Montana",2013,"Overall Mean",1.2,"12 to 17","Percent","0.07"
+"Montana",2013,"Overall Mean",1.2,"18 to 25","Percent","0.45"
+"Montana",2014,"Overall Mean",1.2,"12 to 17","Percent","0.07"
+"Montana",2014,"Overall Mean",1.2,"18 to 25","Percent","0.43"
+"Montana",2015,"Overall Mean",1.2,NA,NA,NA
+"Montana",2016,"Overall Mean",1.19863,NA,NA,NA
+"Montana",2017,"Overall Mean",1.16077,NA,NA,NA
+"Nebraska",2013,"Overall Mean",5.01,"18 to 25","Percent","0.42"
+"Nebraska",2013,"Overall Mean",5.01,"12 to 17","Percent","0.07"
+"Nebraska",2014,"Overall Mean",5.01,"18 to 25","Percent","0.43"
+"Nebraska",2014,"Overall Mean",5.01,"12 to 17","Percent","0.06"
+"Nebraska",2015,"Overall Mean",5.01,NA,NA,NA
+"Nebraska",2016,"Overall Mean",5.01,NA,NA,NA
+"Nebraska",2017,"Overall Mean",5.01,NA,NA,NA
+"Nevada",2013,"Overall Mean",4.46,"12 to 17","Percent","0.07"
+"Nevada",2013,"Overall Mean",4.46,"18 to 25","Percent","0.37"
+"Nevada",2014,"Overall Mean",4.46,"12 to 17","Percent","0.07"
+"Nevada",2014,"Overall Mean",4.46,"18 to 25","Percent","0.37"
+"Nevada",2015,"Overall Mean",4.46,NA,NA,NA
+"Nevada",2016,"Overall Mean",4.46,NA,NA,NA
+"Nevada",2017,"Overall Mean",4.46,NA,NA,NA
+"New Hampshire",2013,"Overall Mean",0.3,"18 to 25","Percent","0.49"
+"New Hampshire",2013,"Overall Mean",0.3,"12 to 17","Percent","0.08"
+"New Hampshire",2014,"Overall Mean",0.3,"18 to 25","Percent","0.46"
+"New Hampshire",2014,"Overall Mean",0.3,"12 to 17","Percent","0.07"
+"New Hampshire",2015,"Overall Mean",0.3,NA,NA,NA
+"New Hampshire",2016,"Overall Mean",0.3,NA,NA,NA
+"New Hampshire",2017,"Overall Mean",0.6,NA,NA,NA
+"New Jersey",2013,"Overall Mean",6.495,"12 to 17","Percent","0.07"
+"New Jersey",2013,"Overall Mean",6.495,"18 to 25","Percent","0.41"
+"New Jersey",2014,"Overall Mean",6.495,"12 to 17","Percent","0.08"
+"New Jersey",2014,"Overall Mean",6.495,"18 to 25","Percent","0.38"
+"New Jersey",2015,"Overall Mean",6.495,NA,NA,NA
+"New Jersey",2016,"Overall Mean",6.495,NA,NA,NA
+"New Jersey",2017,"Overall Mean",6.495,NA,NA,NA
+"New Mexico",2013,"Overall Mean",8.17,"18 to 25","Percent","0.39"
+"New Mexico",2013,"Overall Mean",8.17,"12 to 17","Percent","0.07"
+"New Mexico",2014,"Overall Mean",8.17,"18 to 25","Percent","0.37"
+"New Mexico",2014,"Overall Mean",8.17,"12 to 17","Percent","0.06"
+"New Mexico",2015,"Overall Mean",8.17,NA,NA,NA
+"New Mexico",2016,"Overall Mean",8.1701,NA,NA,NA
+"New Mexico",2017,"Overall Mean",8.1701,NA,NA,NA
+"New York",2013,"Overall Mean",6.88,"12 to 17","Percent","0.08"
+"New York",2013,"Overall Mean",6.88,"18 to 25","Percent","0.41"
+"New York",2014,"Overall Mean",6.88,"12 to 17","Percent","0.07"
+"New York",2014,"Overall Mean",6.88,"18 to 25","Percent","0.38"
+"New York",2015,"Overall Mean",6.88,NA,NA,NA
+"New York",2016,"Overall Mean",6.8752,NA,NA,NA
+"New York",2017,"Overall Mean",6.8752,NA,NA,NA
+"North Carolina",2013,"Overall Mean",1.6171,"18 to 25","Percent","0.33"
+"North Carolina",2013,"Overall Mean",1.6171,"12 to 17","Percent","0.07"
+"North Carolina",2014,"Overall Mean",1.6171,"18 to 25","Percent","0.33"
+"North Carolina",2014,"Overall Mean",1.6171,"12 to 17","Percent","0.06"
+"North Carolina",2015,"Overall Mean",1.6171,NA,NA,NA
+"North Carolina",2016,"Overall Mean",1.614178,NA,NA,NA
+"North Carolina",2017,"Overall Mean",1.614178,NA,NA,NA
+"North Dakota",2013,"Overall Mean",3.16,"12 to 17","Percent","0.07"
+"North Dakota",2013,"Overall Mean",3.16,"18 to 25","Percent","0.54"
+"North Dakota",2014,"Overall Mean",3.16,"12 to 17","Percent","0.07"
+"North Dakota",2014,"Overall Mean",3.16,"18 to 25","Percent","0.49"
+"North Dakota",2015,"Overall Mean",3.16,NA,NA,NA
+"North Dakota",2016,"Overall Mean",3.16,NA,NA,NA
+"North Dakota",2017,"Overall Mean",3.16,NA,NA,NA
+"Ohio",2013,"Overall Mean",0.48,"18 to 25","Percent","0.41"
+"Ohio",2013,"Overall Mean",0.48,"12 to 17","Percent","0.07"
+"Ohio",2014,"Overall Mean",0.5,"18 to 25","Percent","0.42"
+"Ohio",2014,"Overall Mean",0.5,"12 to 17","Percent","0.06"
+"Ohio",2015,"Overall Mean",0.5,NA,NA,NA
+"Ohio",2016,"Overall Mean",0.5,NA,NA,NA
+"Ohio",2017,"Overall Mean",0.5,NA,NA,NA
+"Oklahoma",2013,"Overall Mean",6.68,"12 to 17","Percent","0.06"
+"Oklahoma",2013,"Overall Mean",6.68,"18 to 25","Percent","0.38"
+"Oklahoma",2014,"Overall Mean",6.68,"12 to 17","Percent","0.06"
+"Oklahoma",2014,"Overall Mean",6.68,"18 to 25","Percent","0.37"
+"Oklahoma",2015,"Overall Mean",6.68,NA,NA,NA
+"Oklahoma",2016,"Overall Mean",6.687014,NA,NA,NA
+"Oklahoma",2017,"Overall Mean",6.687014,NA,NA,NA
+"Oregon",2013,"Overall Mean",0.75,"18 to 25","Percent","0.39"
+"Oregon",2013,"Overall Mean",0.75,"12 to 17","Percent","0.08"
+"Oregon",2014,"Overall Mean",0.75,"18 to 25","Percent","0.4"
+"Oregon",2014,"Overall Mean",0.75,"12 to 17","Percent","0.07"
+"Oregon",2015,"Overall Mean",0.75,NA,NA,NA
+"Oregon",2016,"Overall Mean",0.753871,NA,NA,NA
+"Oregon",2017,"Overall Mean",0.753871,NA,NA,NA
+"Pennsylvania",2013,"Overall Mean",0.08,"12 to 17","Percent","0.07"
+"Pennsylvania",2013,"Overall Mean",0.08,"18 to 25","Percent","0.44"
+"Pennsylvania",2014,"Overall Mean",0.08,"12 to 17","Percent","0.07"
+"Pennsylvania",2014,"Overall Mean",0.08,"18 to 25","Percent","0.43"
+"Pennsylvania",2015,"Overall Mean",0.08,NA,NA,NA
+"Pennsylvania",2016,"Overall Mean",0.08,NA,NA,NA
+"Pennsylvania",2017,"Overall Mean",0.08,NA,NA,NA
+"Rhode Island",2013,"Overall Mean",4.45,"18 to 25","Percent","0.49"
+"Rhode Island",2013,"Overall Mean",4.45,"12 to 17","Percent","0.07"
+"Rhode Island",2014,"Overall Mean",6.91,"18 to 25","Percent","0.43"
+"Rhode Island",2014,"Overall Mean",6.91,"12 to 17","Percent","0.06"
+"Rhode Island",2016,"Overall Mean",6.8967742,NA,NA,NA
+"Rhode Island",2017,"Overall Mean",6.906452,NA,NA,NA
+"Rhode Island [3]",2015,"Overall Mean",6.91,NA,NA,NA
+"South Carolina",2013,"Overall Mean",4.39,"12 to 17","Percent","0.06"
+"South Carolina",2013,"Overall Mean",4.39,"18 to 25","Percent","0.39"
+"South Carolina",2014,"Overall Mean",4.39,"12 to 17","Percent","0.05"
+"South Carolina",2014,"Overall Mean",4.39,"18 to 25","Percent","0.36"
+"South Carolina",2015,"Overall Mean",4.39,NA,NA,NA
+"South Carolina",2016,"Overall Mean",4.388,NA,NA,NA
+"South Carolina",2017,"Overall Mean",4.388,NA,NA,NA
+"South Dakota",2013,"Overall Mean",5.13,"18 to 25","Percent","0.46"
+"South Dakota",2013,"Overall Mean",5.13,"12 to 17","Percent","0.07"
+"South Dakota",2014,"Overall Mean",5.13,"18 to 25","Percent","0.45"
+"South Dakota",2014,"Overall Mean",5.13,"12 to 17","Percent","0.06"
+"South Dakota",2015,"Overall Mean",5.13,NA,NA,NA
+"South Dakota",2016,"Overall Mean",5.134194,NA,NA,NA
+"South Dakota",2017,"Overall Mean",5.134194,NA,NA,NA
+"Tennessee",2013,"Overall Mean",5.75,"12 to 17","Percent","0.06"
+"Tennessee",2013,"Overall Mean",5.75,"18 to 25","Percent","0.3"
+"Tennessee",2014,"Overall Mean",6.76,"12 to 17","Percent","0.05"
+"Tennessee",2014,"Overall Mean",6.76,"18 to 25","Percent","0.31"
+"Tennessee",2015,"Overall Mean",6.76,NA,NA,NA
+"Tennessee",2016,"Overall Mean",6.89677,NA,NA,NA
+"Tennessee",2017,"Overall Mean",6.89677,NA,NA,NA
+"Texas",2013,"Overall Mean",2.804,"18 to 25","Percent","0.35"
+"Texas",2013,"Overall Mean",2.804,"12 to 17","Percent","0.06"
+"Texas",2014,"Overall Mean",2.804,"18 to 25","Percent","0.34"
+"Texas",2014,"Overall Mean",2.804,"12 to 17","Percent","0.06"
+"Texas",2015,"Overall Mean",2.804,NA,NA,NA
+"Texas",2016,"Overall Mean",2.804,NA,NA,NA
+"Texas",2017,"Overall Mean",2.804,NA,NA,NA
+"U.S. Median",2013,"Overall Mean",4.61,NA,NA,NA
+"U.S. Median",2014,"Overall Mean",4.67,NA,NA,NA
+"U.S. Median",2015,"Overall Mean",4.67,NA,NA,NA
+"U.S. Median",2016,"Overall Mean",4.635,NA,NA,NA
+"U.S. Median",2017,"Overall Mean",4.67,NA,NA,NA
+"Utah",2013,"Overall Mean",0.41,"12 to 17","Percent","0.06"
+"Utah",2013,"Overall Mean",0.41,"18 to 25","Percent","0.26"
+"Utah",2014,"Overall Mean",0.41,"12 to 17","Percent","0.05"
+"Utah",2014,"Overall Mean",0.41,"18 to 25","Percent","0.26"
+"Utah",2015,"Overall Mean",0.41,NA,NA,NA
+"Utah",2016,"Overall Mean",0.412903,NA,NA,NA
+"Utah",2017,"Overall Mean",0.412903,NA,NA,NA
+"Vermont",2013,"Overall Mean",0.815,"18 to 25","Percent","0.45"
+"Vermont",2013,"Overall Mean",0.815,"12 to 17","Percent","0.09"
+"Vermont",2014,"Overall Mean",0.815,"18 to 25","Percent","0.47"
+"Vermont",2014,"Overall Mean",0.815,"12 to 17","Percent","0.07"
+"Vermont",2015,"Overall Mean",0.815,NA,NA,NA
+"Vermont",2016,"Overall Mean",0.815,NA,NA,NA
+"Vermont",2017,"Overall Mean",0.815,NA,NA,NA
+"Virginia",2013,"Overall Mean",1.77,"12 to 17","Percent","0.06"
+"Virginia",2013,"Overall Mean",1.77,"18 to 25","Percent","0.41"
+"Virginia",2014,"Overall Mean",1.77,"12 to 17","Percent","0.06"
+"Virginia",2014,"Overall Mean",1.77,"18 to 25","Percent","0.41"
+"Virginia",2015,"Overall Mean",1.77,NA,NA,NA
+"Virginia",2016,"Overall Mean",1.770622,NA,NA,NA
+"Virginia",2017,"Overall Mean",1.770622,NA,NA,NA
+"Washington",2013,"Overall Mean",0.87,"18 to 25","Percent","0.39"
+"Washington",2013,"Overall Mean",0.87,"12 to 17","Percent","0.07"
+"Washington",2014,"Overall Mean",15.4,"18 to 25","Percent","0.36"
+"Washington",2014,"Overall Mean",15.4,"12 to 17","Percent","0.06"
+"Washington",2015,"Overall Mean",15.4,NA,NA,NA
+"Washington",2016,"Overall Mean",15.402262,NA,NA,NA
+"Washington",2017,"Overall Mean",15.402262,NA,NA,NA
+"West Virginia",2013,"Overall Mean",1.18,"12 to 17","Percent","0.08"
+"West Virginia",2013,"Overall Mean",1.18,"18 to 25","Percent","0.37"
+"West Virginia",2014,"Overall Mean",1.18,"12 to 17","Percent","0.06"
+"West Virginia",2014,"Overall Mean",1.18,"18 to 25","Percent","0.37"
+"West Virginia",2015,"Overall Mean",1.18,NA,NA,NA
+"West Virginia",2016,"Overall Mean",1.176995,NA,NA,NA
+"West Virginia",2017,"Overall Mean",1.176995,NA,NA,NA
+"Wisconsin",2013,"Overall Mean",3.56,"18 to 25","Percent","0.47"
+"Wisconsin",2013,"Overall Mean",3.56,"12 to 17","Percent","0.07"
+"Wisconsin",2014,"Overall Mean",3.56,"18 to 25","Percent","0.5"
+"Wisconsin",2014,"Overall Mean",3.56,"12 to 17","Percent","0.07"
+"Wisconsin",2015,"Overall Mean",3.56,NA,NA,NA
+"Wisconsin",2016,"Overall Mean",3.5647021,NA,NA,NA
+"Wisconsin",2017,"Overall Mean",3.5647021,NA,NA,NA
+"Wyoming",2013,"Overall Mean",0.02,"12 to 17","Percent","0.08"
+"Wyoming",2013,"Overall Mean",0.02,"18 to 25","Percent","0.45"
+"Wyoming",2014,"Overall Mean",0.02,"12 to 17","Percent","0.07"
+"Wyoming",2014,"Overall Mean",0.02,"18 to 25","Percent","0.43"
+"Wyoming",2015,"Overall Mean",0.02,NA,NA,NA
+"Wyoming",2016,"Overall Mean",0.0189271,NA,NA,NA
+"Wyoming",2017,"Overall Mean",0.0189271,NA,NA,NA
