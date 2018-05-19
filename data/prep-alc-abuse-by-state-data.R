@@ -1,5 +1,5 @@
 #Setup
-setwd("/Users/Klimb/Documents/INFO498/INFO-498-Final-Project")
+#setwd("/Users/Klimb/Documents/INFO498/INFO-498-Final-Project")
 library(dplyr)
 library(readxl)
 
@@ -29,6 +29,7 @@ alcohol_data <- left_join(tempdf, alcohol_data)
 
 binge_youth_data <- read_excel("data/raw/Binge alcohol drinking among youths by age group.xlsx")
 binge_youth_data <- filter(binge_youth_data, DataFormat == "Percent")
+binge_youth_data$Data <- as.numeric(binge_youth_data$Data)
 binge_youth_data$TimeFrame <- substring(binge_youth_data$TimeFrame, 6)
 names(binge_youth_data)[3] <- "year"
 binge_youth_data$year <- as.numeric(binge_youth_data$year)
