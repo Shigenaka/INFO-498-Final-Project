@@ -18,7 +18,7 @@ server <- shinyServer(function(input, output, session) {
     gbd_data <- read.csv("data/raw/GBD.csv")
 
     #load alc vs taxrate data
-    state_alc_taxrate <- read.csv("~/info498/wb-8-kevinsanglim/data/prepped/alcohol_and_tax_rate_state_data.csv")
+    state_alc_taxrate <- read.csv("data/prepped/alcohol_and_tax_rate_state_data.csv")
     colnames(state_alc_taxrate)[9:10] <- c("strata", "by")
     state_alc_taxrate <- na.omit(state_alc_taxrate)
     state_alc_taxrate <- filter(state_alc_taxrate, DataValueType != "Age-adjusted Prevalence", 
