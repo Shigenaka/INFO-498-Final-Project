@@ -8,23 +8,25 @@
 
 library(shiny)
 library(plotly)
+library(rsconnect)
+
+# Read in NSDUH data (Must extract NSDUH.tsv)
+#nsduh_data <- read.csv("data/raw/NSDUH/NSDUH.tsv", sep = "\t")
+
+# Read in GBD data
+gbd_data <- read.csv("data/raw/GBD.csv")
+
+#load alc vs taxrate data
+state_alc_taxrate <- read.csv("data/prepped/alcohol_and_tax_rate_state_data.csv")
+colnames(state_alc_taxrate)[9:10] <- c("strata", "by")
+state_alc_taxrate <- na.omit(state_alc_taxrate)
+state_alc_taxrate <- filter(state_alc_taxrate, DataValueType != "Age-adjusted Prevalence", 
+                            DataValueType != "Age-adjusted Mean", 
+                            DataValueType != "Age-adjusted Rate")
 
 # Define server logic required to draw a histogram
 server <- shinyServer(function(input, output, session) {
-    # Read in NSDUH data (Must extract NSDUH.tsv)
-    nsduh_data <- read.csv("data/raw/NSDUH/NSDUH.tsv", sep = "\t")
 
-    # Read in GBD data
-    gbd_data <- read.csv("data/raw/GBD.csv")
-
-    #load alc vs taxrate data
-    state_alc_taxrate <- read.csv("data/prepped/alcohol_and_tax_rate_state_data.csv")
-    colnames(state_alc_taxrate)[9:10] <- c("strata", "by")
-    state_alc_taxrate <- na.omit(state_alc_taxrate)
-    state_alc_taxrate <- filter(state_alc_taxrate, DataValueType != "Age-adjusted Prevalence", 
-                               DataValueType != "Age-adjusted Mean", 
-                               DataValueType != "Age-adjusted Rate")
-    
     observeEvent(
       input$Question,
       updateSliderInput(session, "year", "year",
@@ -32,9 +34,9 @@ server <- shinyServer(function(input, output, session) {
                         max = max(state_alc_taxrate$year[state_alc_taxrate$Question==input$Question]),
                         value = c(min(state_alc_taxrate$year[state_alc_taxrate$Question==input$Question]),
                                   max(state_alc_taxrate$year[state_alc_taxrate$Question==input$Question]))
-                        )
+      )
     )
-
+    
     observeEvent(
       input$year,
       updateSelectInput(session, "strata", "strata",
@@ -46,19 +48,19 @@ server <- shinyServer(function(input, output, session) {
       input$strata,
       updateSelectInput(session, "by", "by",
                         choices = state_alc_taxrate$by[state_alc_taxrate$strata==input$strata &
-                                                                    state_alc_taxrate$year%in%input$year &
-                                                                    state_alc_taxrate$Question==input$Question])
+                                                         state_alc_taxrate$year%in%input$year &
+                                                         state_alc_taxrate$Question==input$Question])
     )
     
     observeEvent(
       input$by,
       updateSelectInput(session, "type", "type",
                         choices = state_alc_taxrate$type[state_alc_taxrate$by==input$by &
-                                                         state_alc_taxrate$strata==input$strata &
-                                                         state_alc_taxrate$year%in%input$year &
-                                                         state_alc_taxrate$Question==input$Question])
+                                                           state_alc_taxrate$strata==input$strata &
+                                                           state_alc_taxrate$year%in%input$year &
+                                                           state_alc_taxrate$Question==input$Question])
     )
-
+    
     output$state_alc_taxrate_plot <- renderPlotly({
       filtered_state_alc_taxrate <- filter(state_alc_taxrate, 
                                            Question == input$Question,
@@ -73,19 +75,26 @@ server <- shinyServer(function(input, output, session) {
         hoverinfo = 'text',
         text = ~paste('State: ', state,
                       '</br> Year: ', year,
+                      '</br> ID: ', by,
                       '</br> Tax Rate', tax_rate,
                       '</br> X value', DataValueAlt
-                      )
+        )
       )%>%
         layout(
           title = "Alcohol vs Tax Rates",
           xaxis = list (title = input$Question),
           yaxis = list(
             title = "Tax Rate"
-          )
+          ) 
         )
-
-  })
-
+      graph <- add_trace(graph,
+                         x = ~DataValueAlt,
+                         y = fitted(lm(tax_rate ~ DataValueAlt, filtered_state_alc_taxrate)),
+                         mode = "lines"
+      )
+    })
+    
 })
+
+shinyServer(server)
 
