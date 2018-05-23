@@ -1,0 +1,40 @@
+outcome,age_group,year_pair,geography,estimate,ci_lower,ci_upper
+Alcohol Dependence in the Past Year,12 or Older,2002-03,United States,0.033385,0.031792,0.035056
+Alcohol Dependence in the Past Year,12 or Older,2003-04,United States,0.033289,0.031663,0.034996
+Alcohol Dependence in the Past Year,12 or Older,2004-05,United States,0.033756,0.032186,0.035401
+Alcohol Dependence in the Past Year,12 or Older,2005-06,United States,0.033515,0.03202,0.035077
+Alcohol Dependence in the Past Year,12 or Older,2006-07,United States,0.034201,0.032632,0.035843
+Alcohol Dependence in the Past Year,12 or Older,2007-08,United States,0.034749,0.033164,0.036406
+Alcohol Dependence in the Past Year,12 or Older,2008-09,United States,0.035425,0.033766,0.037162
+Alcohol Dependence in the Past Year,12 or Older,2009-10,United States,0.034198,0.032618,0.035852
+Alcohol Dependence in the Past Year,12 or Older,2010-11,United States,0.031486,0.029977,0.033069
+Alcohol Dependence in the Past Year,12 or Older,2011-12,United States,0.031649,0.030234,0.033128
+Alcohol Dependence in the Past Year,12 or Older,2012-13,United States,0.031821,0.030303,0.033413
+Alcohol Dependence in the Past Year,12 or Older,2013-14,United States,0.030447,0.029074,0.031882
+Alcohol Dependence in the Past Year,12 or Older,2014-15,United States,0.029715,0.028411,0.031077
+Alcohol Dependence or Abuse in the Past Year,12 or Older,2002-03,United States,0.075936,0.073492,0.078454
+Alcohol Dependence or Abuse in the Past Year,12 or Older,2003-04,United States,0.076241,0.073953,0.078594
+Alcohol Dependence or Abuse in the Past Year,12 or Older,2004-05,United States,0.077133,0.07482,0.079511
+Alcohol Dependence or Abuse in the Past Year,12 or Older,2005-06,United States,0.076669,0.074383,0.07902
+Alcohol Dependence or Abuse in the Past Year,12 or Older,2006-07,United States,0.076009,0.073705,0.078378
+Alcohol Dependence or Abuse in the Past Year,12 or Older,2007-08,United States,0.074678,0.07242,0.077001
+Alcohol Dependence or Abuse in the Past Year,12 or Older,2008-09,United States,0.074239,0.071882,0.076668
+Alcohol Dependence or Abuse in the Past Year,12 or Older,2009-10,United States,0.07267,0.070423,0.074982
+Alcohol Dependence or Abuse in the Past Year,12 or Older,2010-11,United States,0.067757,0.065597,0.069983
+Alcohol Dependence or Abuse in the Past Year,12 or Older,2011-12,United States,0.066426,0.064304,0.068612
+Alcohol Dependence or Abuse in the Past Year,12 or Older,2012-13,United States,0.067016,0.064806,0.069297
+Alcohol Dependence or Abuse in the Past Year,12 or Older,2013-14,United States,0.065008,0.06299,0.067087
+Alcohol Dependence or Abuse in the Past Year,12 or Older,2014-15,United States,0.061428,0.059584,0.063326
+Alcohol Use in the Past Month,12 or Older,2002-03,United States,0.505017,0.499304,0.510728
+Alcohol Use in the Past Month,12 or Older,2003-04,United States,0.501673,0.496153,0.507192
+Alcohol Use in the Past Month,12 or Older,2004-05,United States,0.510531,0.504991,0.516068
+Alcohol Use in the Past Month,12 or Older,2005-06,United States,0.513833,0.50824,0.519423
+Alcohol Use in the Past Month,12 or Older,2006-07,United States,0.510716,0.504824,0.516606
+Alcohol Use in the Past Month,12 or Older,2007-08,United States,0.513904,0.508317,0.519488
+Alcohol Use in the Past Month,12 or Older,2008-09,United States,0.517366,0.511759,0.522969
+Alcohol Use in the Past Month,12 or Older,2009-10,United States,0.518399,0.51286,0.523933
+Alcohol Use in the Past Month,12 or Older,2010-11,United States,0.517899,0.512299,0.523495
+Alcohol Use in the Past Month,12 or Older,2011-12,United States,0.519432,0.513947,0.524912
+Alcohol Use in the Past Month,12 or Older,2012-13,United States,0.521333,0.515571,0.527089
+Alcohol Use in the Past Month,12 or Older,2013-14,United States,0.524241,0.519093,0.529383
+Alcohol Use in the Past Month,12 or Older,2014-15,United States,0.521751,0.51711,0.526388
