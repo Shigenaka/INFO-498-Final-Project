@@ -1,6 +1,7 @@
 library(shiny)
 library(plotly)
 library(rsconnect)
+library(DT)
 
 # Read in GBD data
 gbd_data <- read.csv("data/raw/GBD.csv")
@@ -12,6 +13,10 @@ state_alc_taxrate <- na.omit(state_alc_taxrate)
 state_alc_taxrate <- filter(state_alc_taxrate, DataValueType != "Age-adjusted Prevalence", 
                             DataValueType != "Age-adjusted Mean", 
                             DataValueType != "Age-adjusted Rate")
+
+tax_data <- read.csv("data/prepped/prepped-tax-data.csv") %>%
+  mutate(state = as.character(state)) %>%
+  filter(state != "U.S. Median")
 
 # Read in US alcohol abuse counts and proportions
 
@@ -130,6 +135,29 @@ server <- shinyServer(function(input, output, session) {
         )
       
     })
+    
+    output$alchPlot <- renderPlotly({
+      plot_data <- tax_data %>%
+        filter(type == input$alchType & year == input$yearAlch & tax_rate > 0)
+      
+      y <- list(
+        title = "State"
+        ,tickfont = list(size = 7)
+      )
+      
+      x <- list(
+        title = "Tax Rate (%)"
+      )
+      plot_ly(plot_data, x=~tax_rate, y=~state, type = "bar") %>%
+        layout(yaxis = y, xaxis = x)
+    })
+    
+    output$statesNoTax <- DT::renderDataTable(DT::datatable(
+      tax_data %>%
+        filter(type == input$alchType & year == input$yearAlch & tax_rate == 0) %>%
+        select(state),
+      options = list(searching = FALSE, paging = FALSE)
+    ))
     
 })
 

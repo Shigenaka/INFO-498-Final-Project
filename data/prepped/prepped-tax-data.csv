@@ -1,781 +1,1 @@
-"state","year","type","tax_rate"
-"Alabama","2013","liquor",0
-"Alaska","2013","liquor",12.8
-"Arizona","2013","liquor",3
-"Arkansas","2013","liquor",2.5
-"California","2013","liquor",3.3
-"Colorado","2013","liquor",2.28
-"Connecticut","2013","liquor",5.4
-"Delaware","2013","liquor",3.75
-"Florida","2013","liquor",6.5
-"Georgia","2013","liquor",3.79
-"Hawaii","2013","liquor",5.98
-"Idaho","2013","liquor",0
-"Illinois","2013","liquor",8.55
-"Indiana","2013","liquor",2.68
-"Iowa","2013","liquor",0
-"Kansas","2013","liquor",2.5
-"Kentucky","2013","liquor",1.92
-"Louisiana","2013","liquor",2.5
-"Maine","2013","liquor",0
-"Maryland","2013","liquor",1.5
-"Massachusetts","2013","liquor",4.05
-"Michigan","2013","liquor",0
-"Minnesota","2013","liquor",5.03
-"Mississippi","2013","liquor",0
-"Missouri","2013","liquor",2
-"Montana","2013","liquor",0
-"Nebraska","2013","liquor",3.75
-"Nevada","2013","liquor",3.6
-"New Hampshire","2013","liquor",0
-"New Jersey","2013","liquor",5.5
-"New Mexico","2013","liquor",6.06
-"New York","2013","liquor",6.44
-"North Carolina","2013","liquor",0
-"North Dakota","2013","liquor",2.5
-"Ohio","2013","liquor",0
-"Oklahoma","2013","liquor",5.56
-"Oregon","2013","liquor",0
-"Pennsylvania","2013","liquor",0
-"Rhode Island","2013","liquor",3.75
-"South Carolina","2013","liquor",2.72
-"South Dakota","2013","liquor",3.93
-"Tennessee","2013","liquor",4.4
-"Texas","2013","liquor",2.4
-"Utah","2013","liquor",0
-"Vermont","2013","liquor",0
-"Virginia","2013","liquor",0
-"Washington","2013","liquor",0
-"West Virginia","2013","liquor",0
-"Wisconsin","2013","liquor",3.25
-"Wyoming","2013","liquor",0
-"Dist. of Columbia","2013","liquor",1.5
-"U.S. Median","2013","liquor",3.75
-"Alabama","2014","liquor",0
-"Alaska","2014","liquor",12.8
-"Arizona","2014","liquor",3
-"Arkansas","2014","liquor",2.5
-"California","2014","liquor",3.3
-"Colorado","2014","liquor",2.28
-"Connecticut","2014","liquor",5.4
-"Delaware","2014","liquor",3.75
-"Florida","2014","liquor",6.5
-"Georgia","2014","liquor",3.79
-"Hawaii","2014","liquor",5.98
-"Idaho","2014","liquor",0
-"Illinois","2014","liquor",8.55
-"Indiana","2014","liquor",2.68
-"Iowa","2014","liquor",0
-"Kansas","2014","liquor",2.5
-"Kentucky","2014","liquor",1.92
-"Louisiana","2014","liquor",2.5
-"Maine","2014","liquor",0
-"Maryland","2014","liquor",1.5
-"Massachusetts","2014","liquor",4.05
-"Michigan","2014","liquor",0
-"Minnesota","2014","liquor",5.03
-"Mississippi","2014","liquor",0
-"Missouri","2014","liquor",2
-"Montana","2014","liquor",0
-"Nebraska","2014","liquor",3.75
-"Nevada","2014","liquor",3.6
-"New Hampshire","2014","liquor",0
-"New Jersey","2014","liquor",5.5
-"New Mexico","2014","liquor",6.06
-"New York","2014","liquor",6.44
-"North Carolina","2014","liquor",0
-"North Dakota","2014","liquor",2.5
-"Ohio","2014","liquor",0
-"Oklahoma","2014","liquor",5.56
-"Oregon","2014","liquor",0
-"Pennsylvania","2014","liquor",0
-"Rhode Island","2014","liquor",5.4
-"South Carolina","2014","liquor",2.72
-"South Dakota","2014","liquor",3.93
-"Tennessee","2014","liquor",4.4
-"Texas","2014","liquor",2.4
-"Utah","2014","liquor",0
-"Vermont","2014","liquor",0
-"Virginia","2014","liquor",0
-"Washington","2014","liquor",14.27
-"West Virginia","2014","liquor",0
-"Wisconsin","2014","liquor",3.25
-"Wyoming","2014","liquor",0
-"Dist. of Columbia","2014","liquor",1.5
-"U.S. Median","2014","liquor",3.75
-"Alabama","2015","liquor",0
-"Alaska","2015","liquor",12.8
-"Arizona","2015","liquor",3
-"Arkansas","2015","liquor",2.5
-"California","2015","liquor",3.3
-"Colorado","2015","liquor",2.28
-"Connecticut","2015","liquor",5.4
-"Delaware","2015","liquor",3.75
-"Florida","2015","liquor",6.5
-"Georgia","2015","liquor",3.79
-"Hawaii","2015","liquor",5.98
-"Idaho","2015","liquor",0
-"Illinois","2015","liquor",8.55
-"Indiana","2015","liquor",2.68
-"Iowa","2015","liquor",0
-"Kansas","2015","liquor",2.5
-"Kentucky","2015","liquor",1.92
-"Louisiana","2015","liquor",2.5
-"Maine","2015","liquor",0
-"Maryland","2015","liquor",1.5
-"Massachusetts","2015","liquor",4.05
-"Michigan","2015","liquor",0
-"Minnesota","2015","liquor",5.03
-"Mississippi","2015","liquor",0
-"Missouri","2015","liquor",2
-"Montana","2015","liquor",0
-"Nebraska","2015","liquor",3.75
-"Nevada","2015","liquor",3.6
-"New Hampshire","2015","liquor",0
-"New Jersey","2015","liquor",5.5
-"New Mexico","2015","liquor",6.06
-"New York","2015","liquor",6.44
-"North Carolina","2015","liquor",0
-"North Dakota","2015","liquor",2.5
-"Ohio","2015","liquor",0
-"Oklahoma","2015","liquor",5.56
-"Oregon","2015","liquor",0
-"Pennsylvania","2015","liquor",0
-"Rhode Island [3]","2015","liquor",5.4
-"South Carolina","2015","liquor",2.72
-"South Dakota","2015","liquor",3.93
-"Tennessee","2015","liquor",4.4
-"Texas","2015","liquor",2.4
-"Utah","2015","liquor",0
-"Vermont","2015","liquor",0
-"Virginia","2015","liquor",0
-"Washington","2015","liquor",14.27
-"West Virginia","2015","liquor",0
-"Wisconsin","2015","liquor",3.25
-"Wyoming","2015","liquor",0
-"Dist. of Columbia","2015","liquor",1.5
-"U.S. Median","2015","liquor",3.75
-"Alabama","2016","liquor",0
-"Alaska","2016","liquor",12.8
-"Arizona","2016","liquor",3
-"Arkansas","2016","liquor",2.5
-"California","2016","liquor",3.3
-"Colorado","2016","liquor",2.28109
-"Connecticut","2016","liquor",5.4
-"Delaware","2016","liquor",3.75
-"Florida","2016","liquor",6.5
-"Georgia","2016","liquor",3.78541
-"Hawaii","2016","liquor",5.98
-"Idaho","2016","liquor",0
-"Illinois","2016","liquor",8.55
-"Indiana","2016","liquor",2.68
-"Iowa","2016","liquor",0
-"Kansas","2016","liquor",2.5
-"Kentucky","2016","liquor",1.92
-"Louisiana","2016","liquor",2.49837
-"Maine","2016","liquor",0
-"Maryland","2016","liquor",1.5
-"Massachusetts","2016","liquor",4.05
-"Michigan","2016","liquor",0
-"Minnesota","2016","liquor",5.0346
-"Mississippi","2016","liquor",0
-"Missouri","2016","liquor",2
-"Montana","2016","liquor",0
-"Nebraska","2016","liquor",3.75
-"Nevada","2016","liquor",3.6
-"New Hampshire","2016","liquor",0
-"New Jersey","2016","liquor",5.5
-"New Mexico","2016","liquor",6.05666
-"New York","2016","liquor",6.4352
-"North Carolina","2016","liquor",0
-"North Dakota","2016","liquor",2.5
-"Ohio","2016","liquor",0
-"Oklahoma","2016","liquor",5.56456
-"Oregon","2016","liquor",0
-"Pennsylvania","2016","liquor",0
-"Rhode Island","2016","liquor",5.4
-"South Carolina","2016","liquor",2.72
-"South Dakota","2016","liquor",3.93
-"Tennessee","2016","liquor",4.4
-"Texas","2016","liquor",2.4
-"Utah","2016","liquor",0
-"Vermont","2016","liquor",0
-"Virginia","2016","liquor",0
-"Washington","2016","liquor",14.274
-"West Virginia","2016","liquor",0
-"Wisconsin","2016","liquor",3.25016
-"Wyoming","2016","liquor",0
-"Dist. of Columbia","2016","liquor",1.5
-"U.S. Median","2016","liquor",3.75
-"Alabama","2017","liquor",0
-"Alaska","2017","liquor",12.8
-"Arizona","2017","liquor",3
-"Arkansas","2017","liquor",2.5
-"California","2017","liquor",3.3
-"Colorado","2017","liquor",2.28109
-"Connecticut","2017","liquor",5.4
-"Delaware","2017","liquor",3.75
-"Florida","2017","liquor",6.5
-"Georgia","2017","liquor",3.78541
-"Hawaii","2017","liquor",5.98
-"Idaho","2017","liquor",0
-"Illinois","2017","liquor",8.55
-"Indiana","2017","liquor",2.68
-"Iowa","2017","liquor",0
-"Kansas","2017","liquor",2.5
-"Kentucky","2017","liquor",1.92
-"Louisiana","2017","liquor",3.02833
-"Maine","2017","liquor",0
-"Maryland","2017","liquor",1.5
-"Massachusetts","2017","liquor",4.05
-"Michigan","2017","liquor",0
-"Minnesota","2017","liquor",5.0346
-"Mississippi","2017","liquor",0
-"Missouri","2017","liquor",2
-"Montana","2017","liquor",0
-"Nebraska","2017","liquor",3.75
-"Nevada","2017","liquor",3.6
-"New Hampshire","2017","liquor",0
-"New Jersey","2017","liquor",5.5
-"New Mexico","2017","liquor",6.05666
-"New York","2017","liquor",6.4352
-"North Carolina","2017","liquor",0
-"North Dakota","2017","liquor",2.5
-"Ohio","2017","liquor",0
-"Oklahoma","2017","liquor",5.56456
-"Oregon","2017","liquor",0
-"Pennsylvania","2017","liquor",0
-"Rhode Island","2017","liquor",5.4
-"South Carolina","2017","liquor",2.72
-"South Dakota","2017","liquor",3.93
-"Tennessee","2017","liquor",4.4
-"Texas","2017","liquor",2.4
-"Utah","2017","liquor",0
-"Vermont","2017","liquor",0
-"Virginia","2017","liquor",0
-"Washington","2017","liquor",14.274
-"West Virginia","2017","liquor",0
-"Wisconsin","2017","liquor",3.25016
-"Wyoming","2017","liquor",0
-"Dist. of Columbia","2017","liquor",1.5
-"U.S. Median","2017","liquor",3.75
-"Alabama","2013","wine",1.7
-"Alaska","2013","wine",2.5
-"Arizona","2013","wine",0.84
-"Arkansas","2013","wine",0.75
-"California","2013","wine",0.2
-"Colorado","2013","wine",0.28
-"Connecticut","2013","wine",0.72
-"Delaware","2013","wine",0.97
-"Florida","2013","wine",2.25
-"Georgia","2013","wine",1.51
-"Hawaii","2013","wine",1.38
-"Idaho","2013","wine",0.45
-"Illinois","2013","wine",1.39
-"Indiana","2013","wine",0.47
-"Iowa","2013","wine",1.75
-"Kansas","2013","wine",0.3
-"Kentucky","2013","wine",0.5
-"Louisiana","2013","wine",0.11
-"Maine","2013","wine",0.6
-"Maryland","2013","wine",0.4
-"Massachusetts","2013","wine",0.55
-"Michigan","2013","wine",0.51
-"Minnesota","2013","wine",0.3
-"Mississippi","2013","wine",0.35
-"Missouri","2013","wine",0.42
-"Montana","2013","wine",1.06
-"Nebraska","2013","wine",0.95
-"Nevada","2013","wine",0.7
-"New Hampshire","2013","wine",0
-"New Jersey","2013","wine",0.875
-"New Mexico","2013","wine",1.7
-"New York","2013","wine",0.3
-"North Carolina","2013","wine",1
-"North Dakota","2013","wine",0.5
-"Ohio","2013","wine",0.3
-"Oklahoma","2013","wine",0.72
-"Oregon","2013","wine",0.67
-"Pennsylvania","2013","wine",0
-"Rhode Island","2013","wine",0.6
-"South Carolina","2013","wine",0.9
-"South Dakota","2013","wine",0.93
-"Tennessee","2013","wine",1.21
-"Texas","2013","wine",0.204
-"Utah","2013","wine",0
-"Vermont","2013","wine",0.55
-"Virginia","2013","wine",1.51
-"Washington","2013","wine",0.87
-"West Virginia","2013","wine",1
-"Wisconsin","2013","wine",0.25
-"Wyoming","2013","wine",0
-"Dist. of Columbia","2013","wine",0.3
-"U.S. Median","2013","wine",0.67
-"Alabama","2014","wine",1.7
-"Alaska","2014","wine",2.5
-"Arizona","2014","wine",0.84
-"Arkansas","2014","wine",0.75
-"California","2014","wine",0.2
-"Colorado","2014","wine",0.28
-"Connecticut","2014","wine",0.72
-"Delaware","2014","wine",0.97
-"Florida","2014","wine",2.25
-"Georgia","2014","wine",1.51
-"Hawaii","2014","wine",1.38
-"Idaho","2014","wine",0.45
-"Illinois","2014","wine",1.39
-"Indiana","2014","wine",0.47
-"Iowa","2014","wine",1.75
-"Kansas","2014","wine",0.3
-"Kentucky","2014","wine",0.5
-"Louisiana","2014","wine",0.11
-"Maine","2014","wine",0.6
-"Maryland","2014","wine",0.4
-"Massachusetts","2014","wine",0.55
-"Michigan","2014","wine",0.51
-"Minnesota","2014","wine",0.3
-"Mississippi","2014","wine",0.35
-"Missouri","2014","wine",0.42
-"Montana","2014","wine",1.06
-"Nebraska","2014","wine",0.95
-"Nevada","2014","wine",0.7
-"New Hampshire","2014","wine",0
-"New Jersey","2014","wine",0.875
-"New Mexico","2014","wine",1.7
-"New York","2014","wine",0.3
-"North Carolina","2014","wine",1
-"North Dakota","2014","wine",0.5
-"Ohio","2014","wine",0.32
-"Oklahoma","2014","wine",0.72
-"Oregon","2014","wine",0.67
-"Pennsylvania","2014","wine",0
-"Rhode Island","2014","wine",1.4
-"South Carolina","2014","wine",0.9
-"South Dakota","2014","wine",0.93
-"Tennessee","2014","wine",1.21
-"Texas","2014","wine",0.204
-"Utah","2014","wine",0
-"Vermont","2014","wine",0.55
-"Virginia","2014","wine",1.51
-"Washington","2014","wine",0.87
-"West Virginia","2014","wine",1
-"Wisconsin","2014","wine",0.25
-"Wyoming","2014","wine",0
-"Dist. of Columbia","2014","wine",0.3
-"U.S. Median","2014","wine",0.72
-"Alabama","2015","wine",1.7
-"Alaska","2015","wine",2.5
-"Arizona","2015","wine",0.84
-"Arkansas","2015","wine",0.75
-"California","2015","wine",0.2
-"Colorado","2015","wine",0.28
-"Connecticut","2015","wine",0.72
-"Delaware","2015","wine",0.97
-"Florida","2015","wine",2.25
-"Georgia","2015","wine",1.51
-"Hawaii","2015","wine",1.38
-"Idaho","2015","wine",0.45
-"Illinois","2015","wine",1.39
-"Indiana","2015","wine",0.47
-"Iowa","2015","wine",1.75
-"Kansas","2015","wine",0.3
-"Kentucky","2015","wine",0.5
-"Louisiana","2015","wine",0.11
-"Maine","2015","wine",0.6
-"Maryland","2015","wine",0.4
-"Massachusetts","2015","wine",0.55
-"Michigan","2015","wine",0.51
-"Minnesota","2015","wine",0.3
-"Mississippi","2015","wine",0.35
-"Missouri","2015","wine",0.42
-"Montana","2015","wine",1.06
-"Nebraska","2015","wine",0.95
-"Nevada","2015","wine",0.7
-"New Hampshire","2015","wine",0
-"New Jersey","2015","wine",0.875
-"New Mexico","2015","wine",1.7
-"New York","2015","wine",0.3
-"North Carolina","2015","wine",1
-"North Dakota","2015","wine",0.5
-"Ohio","2015","wine",0.32
-"Oklahoma","2015","wine",0.72
-"Oregon","2015","wine",0.67
-"Pennsylvania","2015","wine",0
-"Rhode Island [3]","2015","wine",1.4
-"South Carolina","2015","wine",0.9
-"South Dakota","2015","wine",0.93
-"Tennessee","2015","wine",1.21
-"Texas","2015","wine",0.204
-"Utah","2015","wine",0
-"Vermont","2015","wine",0.55
-"Virginia","2015","wine",1.51
-"Washington","2015","wine",0.87
-"West Virginia","2015","wine",1
-"Wisconsin","2015","wine",0.25
-"Wyoming","2015","wine",0
-"Dist. of Columbia","2015","wine",0.3
-"U.S. Median","2015","wine",0.72
-"Alabama","2016","wine",1.7
-"Alaska","2016","wine",2.5
-"Arizona","2016","wine",0.84
-"Arkansas","2016","wine",0.75
-"California","2016","wine",0.2
-"Colorado","2016","wine",0.277471
-"Connecticut","2016","wine",0.72
-"Delaware","2016","wine",0.97
-"Florida","2016","wine",2.25
-"Georgia","2016","wine",1.51417
-"Hawaii","2016","wine",1.38
-"Idaho","2016","wine",0.45
-"Illinois","2016","wine",1.39
-"Indiana","2016","wine",0.47
-"Iowa","2016","wine",1.75
-"Kansas","2016","wine",0.3
-"Kentucky","2016","wine",0.5
-"Louisiana","2016","wine",0.113562
-"Maine","2016","wine",0.6
-"Maryland","2016","wine",0.4
-"Massachusetts","2016","wine",0.55
-"Michigan","2016","wine",0.511031
-"Minnesota","2016","wine",0.3
-"Mississippi","2016","wine",0.35
-"Missouri","2016","wine",0.42
-"Montana","2016","wine",1.05992
-"Nebraska","2016","wine",0.95
-"Nevada","2016","wine",0.7
-"New Hampshire","2016","wine",0
-"New Jersey","2016","wine",0.875
-"New Mexico","2016","wine",1.70344
-"New York","2016","wine",0.3
-"North Carolina","2016","wine",0.997078
-"North Dakota","2016","wine",0.5
-"Ohio","2016","wine",0.32
-"Oklahoma","2016","wine",0.719228
-"Oregon","2016","wine",0.67
-"Pennsylvania","2016","wine",0
-"Rhode Island","2016","wine",1.4
-"South Carolina","2016","wine",0.9
-"South Dakota","2016","wine",0.93
-"Tennessee","2016","wine",1.21
-"Texas","2016","wine",0.204
-"Utah","2016","wine",0
-"Vermont","2016","wine",0.55
-"Virginia","2016","wine",1.51417
-"Washington","2016","wine",0.867617
-"West Virginia","2016","wine",0.999576
-"Wisconsin","2016","wine",0.250026
-"Wyoming","2016","wine",0
-"Dist. of Columbia","2016","wine",0.3
-"U.S. Median","2016","wine",0.685
-"Alabama","2017","wine",1.7
-"Alaska","2017","wine",2.5
-"Arizona","2017","wine",0.84
-"Arkansas","2017","wine",0.75
-"California","2017","wine",0.2
-"Colorado","2017","wine",0.277471
-"Connecticut","2017","wine",0.72
-"Delaware","2017","wine",0.97
-"Florida","2017","wine",2.25
-"Georgia","2017","wine",1.51417
-"Hawaii","2017","wine",1.38
-"Idaho","2017","wine",0.45
-"Illinois","2017","wine",1.39
-"Indiana","2017","wine",0.47
-"Iowa","2017","wine",1.75
-"Kansas","2017","wine",0.3
-"Kentucky","2017","wine",0.5
-"Louisiana","2017","wine",0.757083
-"Maine","2017","wine",0.6
-"Maryland","2017","wine",0.4
-"Massachusetts","2017","wine",0.55
-"Michigan","2017","wine",0.511031
-"Minnesota","2017","wine",0.3
-"Mississippi","2017","wine",0.35
-"Missouri","2017","wine",0.42
-"Montana","2017","wine",1.02206
-"Nebraska","2017","wine",0.95
-"Nevada","2017","wine",0.7
-"New Hampshire","2017","wine",0.3
-"New Jersey","2017","wine",0.875
-"New Mexico","2017","wine",1.70344
-"New York","2017","wine",0.3
-"North Carolina","2017","wine",0.997078
-"North Dakota","2017","wine",0.5
-"Ohio","2017","wine",0.32
-"Oklahoma","2017","wine",0.719228
-"Oregon","2017","wine",0.67
-"Pennsylvania","2017","wine",0
-"Rhode Island","2017","wine",1.4
-"South Carolina","2017","wine",0.9
-"South Dakota","2017","wine",0.93
-"Tennessee","2017","wine",1.21
-"Texas","2017","wine",0.204
-"Utah","2017","wine",0
-"Vermont","2017","wine",0.55
-"Virginia","2017","wine",1.51417
-"Washington","2017","wine",0.867617
-"West Virginia","2017","wine",0.999576
-"Wisconsin","2017","wine",0.250026
-"Wyoming","2017","wine",0
-"Dist. of Columbia","2017","wine",0.3
-"U.S. Median","2017","wine",0.72
-"Alabama","2013","beer",0.53
-"Alaska","2013","beer",1.07
-"Arizona","2013","beer",0.16
-"Arkansas","2013","beer",0.23
-"California","2013","beer",0.2
-"Colorado","2013","beer",0.08
-"Connecticut","2013","beer",0.24
-"Delaware","2013","beer",0.16
-"Florida","2013","beer",0.48
-"Georgia","2013","beer",0.32
-"Hawaii","2013","beer",0.93
-"Idaho","2013","beer",0.15
-"Illinois","2013","beer",0.231
-"Indiana","2013","beer",0.115
-"Iowa","2013","beer",0.19
-"Kansas","2013","beer",0.18
-"Kentucky","2013","beer",0.08
-"Louisiana","2013","beer",0.32
-"Maine","2013","beer",0.35
-"Maryland","2013","beer",0.09
-"Massachusetts","2013","beer",0.11
-"Michigan","2013","beer",0.2
-"Minnesota","2013","beer",0.15
-"Mississippi","2013","beer",0.4268
-"Missouri","2013","beer",0.06
-"Montana","2013","beer",0.14
-"Nebraska","2013","beer",0.31
-"Nevada","2013","beer",0.16
-"New Hampshire","2013","beer",0.3
-"New Jersey","2013","beer",0.12
-"New Mexico","2013","beer",0.41
-"New York","2013","beer",0.14
-"North Carolina","2013","beer",0.6171
-"North Dakota","2013","beer",0.16
-"Ohio","2013","beer",0.18
-"Oklahoma","2013","beer",0.4
-"Oregon","2013","beer",0.08
-"Pennsylvania","2013","beer",0.08
-"Rhode Island","2013","beer",0.1
-"South Carolina","2013","beer",0.77
-"South Dakota","2013","beer",0.27
-"Tennessee","2013","beer",0.14
-"Texas","2013","beer",0.2
-"Utah","2013","beer",0.41
-"Vermont","2013","beer",0.265
-"Virginia","2013","beer",0.26
-"Washington","2013","beer",0
-"West Virginia","2013","beer",0.18
-"Wisconsin","2013","beer",0.06
-"Wyoming","2013","beer",0.02
-"Dist. of Columbia","2013","beer",0.09
-"U.S. Median","2013","beer",0.19
-"Alabama","2014","beer",0.53
-"Alaska","2014","beer",1.07
-"Arizona","2014","beer",0.16
-"Arkansas","2014","beer",0.23
-"California","2014","beer",0.2
-"Colorado","2014","beer",0.08
-"Connecticut","2014","beer",0.24
-"Delaware","2014","beer",0.16
-"Florida","2014","beer",0.48
-"Georgia","2014","beer",0.32
-"Hawaii","2014","beer",0.93
-"Idaho","2014","beer",0.15
-"Illinois","2014","beer",0.231
-"Indiana","2014","beer",0.115
-"Iowa","2014","beer",0.19
-"Kansas","2014","beer",0.18
-"Kentucky","2014","beer",0.08
-"Louisiana","2014","beer",0.32
-"Maine","2014","beer",0.35
-"Maryland","2014","beer",0.09
-"Massachusetts","2014","beer",0.11
-"Michigan","2014","beer",0.2
-"Minnesota","2014","beer",0.15
-"Mississippi","2014","beer",0.4268
-"Missouri","2014","beer",0.06
-"Montana","2014","beer",0.14
-"Nebraska","2014","beer",0.31
-"Nevada","2014","beer",0.16
-"New Hampshire","2014","beer",0.3
-"New Jersey","2014","beer",0.12
-"New Mexico","2014","beer",0.41
-"New York","2014","beer",0.14
-"North Carolina","2014","beer",0.6171
-"North Dakota","2014","beer",0.16
-"Ohio","2014","beer",0.18
-"Oklahoma","2014","beer",0.4
-"Oregon","2014","beer",0.08
-"Pennsylvania","2014","beer",0.08
-"Rhode Island","2014","beer",0.11
-"South Carolina","2014","beer",0.77
-"South Dakota","2014","beer",0.27
-"Tennessee","2014","beer",1.15
-"Texas","2014","beer",0.2
-"Utah","2014","beer",0.41
-"Vermont","2014","beer",0.265
-"Virginia","2014","beer",0.26
-"Washington","2014","beer",0.26
-"West Virginia","2014","beer",0.18
-"Wisconsin","2014","beer",0.06
-"Wyoming","2014","beer",0.02
-"Dist. of Columbia","2014","beer",0.09
-"U.S. Median","2014","beer",0.2
-"Alabama","2015","beer",0.53
-"Alaska","2015","beer",1.07
-"Arizona","2015","beer",0.16
-"Arkansas","2015","beer",0.23
-"California","2015","beer",0.2
-"Colorado","2015","beer",0.08
-"Connecticut","2015","beer",0.24
-"Delaware","2015","beer",0.16
-"Florida","2015","beer",0.48
-"Georgia","2015","beer",0.32
-"Hawaii","2015","beer",0.93
-"Idaho","2015","beer",0.15
-"Illinois","2015","beer",0.231
-"Indiana","2015","beer",0.115
-"Iowa","2015","beer",0.19
-"Kansas","2015","beer",0.18
-"Kentucky","2015","beer",0.08
-"Louisiana","2015","beer",0.32
-"Maine","2015","beer",0.35
-"Maryland","2015","beer",0.09
-"Massachusetts","2015","beer",0.11
-"Michigan","2015","beer",0.2
-"Minnesota","2015","beer",0.15
-"Mississippi","2015","beer",0.4268
-"Missouri","2015","beer",0.06
-"Montana","2015","beer",0.14
-"Nebraska","2015","beer",0.31
-"Nevada","2015","beer",0.16
-"New Hampshire","2015","beer",0.3
-"New Jersey","2015","beer",0.12
-"New Mexico","2015","beer",0.41
-"New York","2015","beer",0.14
-"North Carolina","2015","beer",0.6171
-"North Dakota","2015","beer",0.16
-"Ohio","2015","beer",0.18
-"Oklahoma","2015","beer",0.4
-"Oregon","2015","beer",0.08
-"Pennsylvania","2015","beer",0.08
-"Rhode Island [3]","2015","beer",0.11
-"South Carolina","2015","beer",0.77
-"South Dakota","2015","beer",0.27
-"Tennessee","2015","beer",1.15
-"Texas","2015","beer",0.2
-"Utah","2015","beer",0.41
-"Vermont","2015","beer",0.265
-"Virginia","2015","beer",0.26
-"Washington","2015","beer",0.26
-"West Virginia","2015","beer",0.18
-"Wisconsin","2015","beer",0.06
-"Wyoming","2015","beer",0.02
-"Dist. of Columbia","2015","beer",0.09
-"U.S. Median","2015","beer",0.2
-"Alabama","2016","beer",0.533333
-"Alaska","2016","beer",1.07
-"Arizona","2016","beer",0.16
-"Arkansas","2016","beer",0.234375
-"California","2016","beer",0.2
-"Colorado","2016","beer",0.08
-"Connecticut","2016","beer",0.24
-"Delaware","2016","beer",0.156452
-"Florida","2016","beer",0.48
-"Georgia","2016","beer",0.322581
-"Hawaii","2016","beer",0.93
-"Idaho","2016","beer",0.15
-"Illinois","2016","beer",0.231
-"Indiana","2016","beer",0.115
-"Iowa","2016","beer",0.19
-"Kansas","2016","beer",0.18
-"Kentucky","2016","beer",0.0806452
-"Louisiana","2016","beer",0.322581
-"Maine","2016","beer",0.35
-"Maryland","2016","beer",0.09
-"Massachusetts","2016","beer",0.106452
-"Michigan","2016","beer",0.203226
-"Minnesota","2016","beer",0.148387
-"Mississippi","2016","beer",0.4268
-"Missouri","2016","beer",0.06
-"Montana","2016","beer",0.13871
-"Nebraska","2016","beer",0.31
-"Nevada","2016","beer",0.16
-"New Hampshire","2016","beer",0.3
-"New Jersey","2016","beer",0.12
-"New Mexico","2016","beer",0.41
-"New York","2016","beer",0.14
-"North Carolina","2016","beer",0.6171
-"North Dakota","2016","beer",0.16
-"Ohio","2016","beer",0.18
-"Oklahoma","2016","beer",0.403226
-"Oregon","2016","beer",0.083871
-"Pennsylvania","2016","beer",0.08
-"Rhode Island","2016","beer",0.0967742
-"South Carolina","2016","beer",0.768
-"South Dakota","2016","beer",0.274194
-"Tennessee","2016","beer",1.28677
-"Texas","2016","beer",0.2
-"Utah","2016","beer",0.412903
-"Vermont","2016","beer",0.265
-"Virginia","2016","beer",0.256452
-"Washington","2016","beer",0.260645
-"West Virginia","2016","beer",0.177419
-"Wisconsin","2016","beer",0.0645161
-"Wyoming","2016","beer",0.0189271
-"Dist. of Columbia","2016","beer",0.09
-"U.S. Median","2016","beer",0.2
-"Alabama","2017","beer",0.533333
-"Alaska","2017","beer",1.07
-"Arizona","2017","beer",0.16
-"Arkansas","2017","beer",0.234375
-"California","2017","beer",0.2
-"Colorado","2017","beer",0.08
-"Connecticut","2017","beer",0.24
-"Delaware","2017","beer",0.156452
-"Florida","2017","beer",0.48
-"Georgia","2017","beer",0.322581
-"Hawaii","2017","beer",0.93
-"Idaho","2017","beer",0.15
-"Illinois","2017","beer",0.231
-"Indiana","2017","beer",0.115
-"Iowa","2017","beer",0.19
-"Kansas","2017","beer",0.18
-"Kentucky","2017","beer",0.0806452
-"Louisiana","2017","beer",0.403226
-"Maine","2017","beer",0.35
-"Maryland","2017","beer",0.09
-"Massachusetts","2017","beer",0.106452
-"Michigan","2017","beer",0.203226
-"Minnesota","2017","beer",0.148387
-"Mississippi","2017","beer",0.4268
-"Missouri","2017","beer",0.06
-"Montana","2017","beer",0.13871
-"Nebraska","2017","beer",0.31
-"Nevada","2017","beer",0.16
-"New Hampshire","2017","beer",0.3
-"New Jersey","2017","beer",0.12
-"New Mexico","2017","beer",0.41
-"New York","2017","beer",0.14
-"North Carolina","2017","beer",0.6171
-"North Dakota","2017","beer",0.16
-"Ohio","2017","beer",0.18
-"Oklahoma","2017","beer",0.403226
-"Oregon","2017","beer",0.083871
-"Pennsylvania","2017","beer",0.08
-"Rhode Island","2017","beer",0.106452
-"South Carolina","2017","beer",0.768
-"South Dakota","2017","beer",0.274194
-"Tennessee","2017","beer",1.28677
-"Texas","2017","beer",0.2
-"Utah","2017","beer",0.412903
-"Vermont","2017","beer",0.265
-"Virginia","2017","beer",0.256452
-"Washington","2017","beer",0.260645
-"West Virginia","2017","beer",0.177419
-"Wisconsin","2017","beer",0.0645161
-"Wyoming","2017","beer",0.0189271
-"Dist. of Columbia","2017","beer",0.09
-"U.S. Median","2017","beer",0.2
+state,year,type,tax_rateAlabama,2013,liquor,0Alaska,2013,liquor,12.8Arizona,2013,liquor,3Arkansas,2013,liquor,2.5California,2013,liquor,3.3Colorado,2013,liquor,2.28Connecticut,2013,liquor,5.4Delaware,2013,liquor,3.75Florida,2013,liquor,6.5Georgia,2013,liquor,3.79Hawaii,2013,liquor,5.98Idaho,2013,liquor,0Illinois,2013,liquor,8.55Indiana,2013,liquor,2.68Iowa,2013,liquor,0Kansas,2013,liquor,2.5Kentucky,2013,liquor,1.92Louisiana,2013,liquor,2.5Maine,2013,liquor,0Maryland,2013,liquor,1.5Massachusetts,2013,liquor,4.05Michigan,2013,liquor,0Minnesota,2013,liquor,5.03Mississippi,2013,liquor,0Missouri,2013,liquor,2Montana,2013,liquor,0Nebraska,2013,liquor,3.75Nevada,2013,liquor,3.6New Hampshire,2013,liquor,0New Jersey,2013,liquor,5.5New Mexico,2013,liquor,6.06New York,2013,liquor,6.44North Carolina,2013,liquor,0North Dakota,2013,liquor,2.5Ohio,2013,liquor,0Oklahoma,2013,liquor,5.56Oregon,2013,liquor,0Pennsylvania,2013,liquor,0Rhode Island,2013,liquor,3.75South Carolina,2013,liquor,2.72South Dakota,2013,liquor,3.93Tennessee,2013,liquor,4.4Texas,2013,liquor,2.4Utah,2013,liquor,0Vermont,2013,liquor,0Virginia,2013,liquor,0Washington,2013,liquor,0West Virginia,2013,liquor,0Wisconsin,2013,liquor,3.25Wyoming,2013,liquor,0Dist. of Columbia,2013,liquor,1.5U.S. Median,2013,liquor,3.75Alabama,2014,liquor,0Alaska,2014,liquor,12.8Arizona,2014,liquor,3Arkansas,2014,liquor,2.5California,2014,liquor,3.3Colorado,2014,liquor,2.28Connecticut,2014,liquor,5.4Delaware,2014,liquor,3.75Florida,2014,liquor,6.5Georgia,2014,liquor,3.79Hawaii,2014,liquor,5.98Idaho,2014,liquor,0Illinois,2014,liquor,8.55Indiana,2014,liquor,2.68Iowa,2014,liquor,0Kansas,2014,liquor,2.5Kentucky,2014,liquor,1.92Louisiana,2014,liquor,2.5Maine,2014,liquor,0Maryland,2014,liquor,1.5Massachusetts,2014,liquor,4.05Michigan,2014,liquor,0Minnesota,2014,liquor,5.03Mississippi,2014,liquor,0Missouri,2014,liquor,2Montana,2014,liquor,0Nebraska,2014,liquor,3.75Nevada,2014,liquor,3.6New Hampshire,2014,liquor,0New Jersey,2014,liquor,5.5New Mexico,2014,liquor,6.06New York,2014,liquor,6.44North Carolina,2014,liquor,0North Dakota,2014,liquor,2.5Ohio,2014,liquor,0Oklahoma,2014,liquor,5.56Oregon,2014,liquor,0Pennsylvania,2014,liquor,0Rhode Island,2014,liquor,5.4South Carolina,2014,liquor,2.72South Dakota,2014,liquor,3.93Tennessee,2014,liquor,4.4Texas,2014,liquor,2.4Utah,2014,liquor,0Vermont,2014,liquor,0Virginia,2014,liquor,0Washington,2014,liquor,14.27West Virginia,2014,liquor,0Wisconsin,2014,liquor,3.25Wyoming,2014,liquor,0Dist. of Columbia,2014,liquor,1.5U.S. Median,2014,liquor,3.75Alabama,2015,liquor,0Alaska,2015,liquor,12.8Arizona,2015,liquor,3Arkansas,2015,liquor,2.5California,2015,liquor,3.3Colorado,2015,liquor,2.28Connecticut,2015,liquor,5.4Delaware,2015,liquor,3.75Florida,2015,liquor,6.5Georgia,2015,liquor,3.79Hawaii,2015,liquor,5.98Idaho,2015,liquor,0Illinois,2015,liquor,8.55Indiana,2015,liquor,2.68Iowa,2015,liquor,0Kansas,2015,liquor,2.5Kentucky,2015,liquor,1.92Louisiana,2015,liquor,2.5Maine,2015,liquor,0Maryland,2015,liquor,1.5Massachusetts,2015,liquor,4.05Michigan,2015,liquor,0Minnesota,2015,liquor,5.03Mississippi,2015,liquor,0Missouri,2015,liquor,2Montana,2015,liquor,0Nebraska,2015,liquor,3.75Nevada,2015,liquor,3.6New Hampshire,2015,liquor,0New Jersey,2015,liquor,5.5New Mexico,2015,liquor,6.06New York,2015,liquor,6.44North Carolina,2015,liquor,0North Dakota,2015,liquor,2.5Ohio,2015,liquor,0Oklahoma,2015,liquor,5.56Oregon,2015,liquor,0Pennsylvania,2015,liquor,0Rhode Island,2015,liquor,5.4South Carolina,2015,liquor,2.72South Dakota,2015,liquor,3.93Tennessee,2015,liquor,4.4Texas,2015,liquor,2.4Utah,2015,liquor,0Vermont,2015,liquor,0Virginia,2015,liquor,0Washington,2015,liquor,14.27West Virginia,2015,liquor,0Wisconsin,2015,liquor,3.25Wyoming,2015,liquor,0Dist. of Columbia,2015,liquor,1.5U.S. Median,2015,liquor,3.75Alabama,2016,liquor,0Alaska,2016,liquor,12.8Arizona,2016,liquor,3Arkansas,2016,liquor,2.5California,2016,liquor,3.3Colorado,2016,liquor,2.28109Connecticut,2016,liquor,5.4Delaware,2016,liquor,3.75Florida,2016,liquor,6.5Georgia,2016,liquor,3.78541Hawaii,2016,liquor,5.98Idaho,2016,liquor,0Illinois,2016,liquor,8.55Indiana,2016,liquor,2.68Iowa,2016,liquor,0Kansas,2016,liquor,2.5Kentucky,2016,liquor,1.92Louisiana,2016,liquor,2.49837Maine,2016,liquor,0Maryland,2016,liquor,1.5Massachusetts,2016,liquor,4.05Michigan,2016,liquor,0Minnesota,2016,liquor,5.0346Mississippi,2016,liquor,0Missouri,2016,liquor,2Montana,2016,liquor,0Nebraska,2016,liquor,3.75Nevada,2016,liquor,3.6New Hampshire,2016,liquor,0New Jersey,2016,liquor,5.5New Mexico,2016,liquor,6.05666New York,2016,liquor,6.4352North Carolina,2016,liquor,0North Dakota,2016,liquor,2.5Ohio,2016,liquor,0Oklahoma,2016,liquor,5.56456Oregon,2016,liquor,0Pennsylvania,2016,liquor,0Rhode Island,2016,liquor,5.4South Carolina,2016,liquor,2.72South Dakota,2016,liquor,3.93Tennessee,2016,liquor,4.4Texas,2016,liquor,2.4Utah,2016,liquor,0Vermont,2016,liquor,0Virginia,2016,liquor,0Washington,2016,liquor,14.274West Virginia,2016,liquor,0Wisconsin,2016,liquor,3.25016Wyoming,2016,liquor,0Dist. of Columbia,2016,liquor,1.5U.S. Median,2016,liquor,3.75Alabama,2017,liquor,0Alaska,2017,liquor,12.8Arizona,2017,liquor,3Arkansas,2017,liquor,2.5California,2017,liquor,3.3Colorado,2017,liquor,2.28109Connecticut,2017,liquor,5.4Delaware,2017,liquor,3.75Florida,2017,liquor,6.5Georgia,2017,liquor,3.78541Hawaii,2017,liquor,5.98Idaho,2017,liquor,0Illinois,2017,liquor,8.55Indiana,2017,liquor,2.68Iowa,2017,liquor,0Kansas,2017,liquor,2.5Kentucky,2017,liquor,1.92Louisiana,2017,liquor,3.02833Maine,2017,liquor,0Maryland,2017,liquor,1.5Massachusetts,2017,liquor,4.05Michigan,2017,liquor,0Minnesota,2017,liquor,5.0346Mississippi,2017,liquor,0Missouri,2017,liquor,2Montana,2017,liquor,0Nebraska,2017,liquor,3.75Nevada,2017,liquor,3.6New Hampshire,2017,liquor,0New Jersey,2017,liquor,5.5New Mexico,2017,liquor,6.05666New York,2017,liquor,6.4352North Carolina,2017,liquor,0North Dakota,2017,liquor,2.5Ohio,2017,liquor,0Oklahoma,2017,liquor,5.56456Oregon,2017,liquor,0Pennsylvania,2017,liquor,0Rhode Island,2017,liquor,5.4South Carolina,2017,liquor,2.72South Dakota,2017,liquor,3.93Tennessee,2017,liquor,4.4Texas,2017,liquor,2.4Utah,2017,liquor,0Vermont,2017,liquor,0Virginia,2017,liquor,0Washington,2017,liquor,14.274West Virginia,2017,liquor,0Wisconsin,2017,liquor,3.25016Wyoming,2017,liquor,0Dist. of Columbia,2017,liquor,1.5U.S. Median,2017,liquor,3.75Alabama,2013,wine,1.7Alaska,2013,wine,2.5Arizona,2013,wine,0.84Arkansas,2013,wine,0.75California,2013,wine,0.2Colorado,2013,wine,0.28Connecticut,2013,wine,0.72Delaware,2013,wine,0.97Florida,2013,wine,2.25Georgia,2013,wine,1.51Hawaii,2013,wine,1.38Idaho,2013,wine,0.45Illinois,2013,wine,1.39Indiana,2013,wine,0.47Iowa,2013,wine,1.75Kansas,2013,wine,0.3Kentucky,2013,wine,0.5Louisiana,2013,wine,0.11Maine,2013,wine,0.6Maryland,2013,wine,0.4Massachusetts,2013,wine,0.55Michigan,2013,wine,0.51Minnesota,2013,wine,0.3Mississippi,2013,wine,0.35Missouri,2013,wine,0.42Montana,2013,wine,1.06Nebraska,2013,wine,0.95Nevada,2013,wine,0.7New Hampshire,2013,wine,0New Jersey,2013,wine,0.875New Mexico,2013,wine,1.7New York,2013,wine,0.3North Carolina,2013,wine,1North Dakota,2013,wine,0.5Ohio,2013,wine,0.3Oklahoma,2013,wine,0.72Oregon,2013,wine,0.67Pennsylvania,2013,wine,0Rhode Island,2013,wine,0.6South Carolina,2013,wine,0.9South Dakota,2013,wine,0.93Tennessee,2013,wine,1.21Texas,2013,wine,0.204Utah,2013,wine,0Vermont,2013,wine,0.55Virginia,2013,wine,1.51Washington,2013,wine,0.87West Virginia,2013,wine,1Wisconsin,2013,wine,0.25Wyoming,2013,wine,0Dist. of Columbia,2013,wine,0.3U.S. Median,2013,wine,0.67Alabama,2014,wine,1.7Alaska,2014,wine,2.5Arizona,2014,wine,0.84Arkansas,2014,wine,0.75California,2014,wine,0.2Colorado,2014,wine,0.28Connecticut,2014,wine,0.72Delaware,2014,wine,0.97Florida,2014,wine,2.25Georgia,2014,wine,1.51Hawaii,2014,wine,1.38Idaho,2014,wine,0.45Illinois,2014,wine,1.39Indiana,2014,wine,0.47Iowa,2014,wine,1.75Kansas,2014,wine,0.3Kentucky,2014,wine,0.5Louisiana,2014,wine,0.11Maine,2014,wine,0.6Maryland,2014,wine,0.4Massachusetts,2014,wine,0.55Michigan,2014,wine,0.51Minnesota,2014,wine,0.3Mississippi,2014,wine,0.35Missouri,2014,wine,0.42Montana,2014,wine,1.06Nebraska,2014,wine,0.95Nevada,2014,wine,0.7New Hampshire,2014,wine,0New Jersey,2014,wine,0.875New Mexico,2014,wine,1.7New York,2014,wine,0.3North Carolina,2014,wine,1North Dakota,2014,wine,0.5Ohio,2014,wine,0.32Oklahoma,2014,wine,0.72Oregon,2014,wine,0.67Pennsylvania,2014,wine,0Rhode Island,2014,wine,1.4South Carolina,2014,wine,0.9South Dakota,2014,wine,0.93Tennessee,2014,wine,1.21Texas,2014,wine,0.204Utah,2014,wine,0Vermont,2014,wine,0.55Virginia,2014,wine,1.51Washington,2014,wine,0.87West Virginia,2014,wine,1Wisconsin,2014,wine,0.25Wyoming,2014,wine,0Dist. of Columbia,2014,wine,0.3U.S. Median,2014,wine,0.72Alabama,2015,wine,1.7Alaska,2015,wine,2.5Arizona,2015,wine,0.84Arkansas,2015,wine,0.75California,2015,wine,0.2Colorado,2015,wine,0.28Connecticut,2015,wine,0.72Delaware,2015,wine,0.97Florida,2015,wine,2.25Georgia,2015,wine,1.51Hawaii,2015,wine,1.38Idaho,2015,wine,0.45Illinois,2015,wine,1.39Indiana,2015,wine,0.47Iowa,2015,wine,1.75Kansas,2015,wine,0.3Kentucky,2015,wine,0.5Louisiana,2015,wine,0.11Maine,2015,wine,0.6Maryland,2015,wine,0.4Massachusetts,2015,wine,0.55Michigan,2015,wine,0.51Minnesota,2015,wine,0.3Mississippi,2015,wine,0.35Missouri,2015,wine,0.42Montana,2015,wine,1.06Nebraska,2015,wine,0.95Nevada,2015,wine,0.7New Hampshire,2015,wine,0New Jersey,2015,wine,0.875New Mexico,2015,wine,1.7New York,2015,wine,0.3North Carolina,2015,wine,1North Dakota,2015,wine,0.5Ohio,2015,wine,0.32Oklahoma,2015,wine,0.72Oregon,2015,wine,0.67Pennsylvania,2015,wine,0Rhode Island,2015,wine,1.4South Carolina,2015,wine,0.9South Dakota,2015,wine,0.93Tennessee,2015,wine,1.21Texas,2015,wine,0.204Utah,2015,wine,0Vermont,2015,wine,0.55Virginia,2015,wine,1.51Washington,2015,wine,0.87West Virginia,2015,wine,1Wisconsin,2015,wine,0.25Wyoming,2015,wine,0Dist. of Columbia,2015,wine,0.3U.S. Median,2015,wine,0.72Alabama,2016,wine,1.7Alaska,2016,wine,2.5Arizona,2016,wine,0.84Arkansas,2016,wine,0.75California,2016,wine,0.2Colorado,2016,wine,0.277471Connecticut,2016,wine,0.72Delaware,2016,wine,0.97Florida,2016,wine,2.25Georgia,2016,wine,1.51417Hawaii,2016,wine,1.38Idaho,2016,wine,0.45Illinois,2016,wine,1.39Indiana,2016,wine,0.47Iowa,2016,wine,1.75Kansas,2016,wine,0.3Kentucky,2016,wine,0.5Louisiana,2016,wine,0.113562Maine,2016,wine,0.6Maryland,2016,wine,0.4Massachusetts,2016,wine,0.55Michigan,2016,wine,0.511031Minnesota,2016,wine,0.3Mississippi,2016,wine,0.35Missouri,2016,wine,0.42Montana,2016,wine,1.05992Nebraska,2016,wine,0.95Nevada,2016,wine,0.7New Hampshire,2016,wine,0New Jersey,2016,wine,0.875New Mexico,2016,wine,1.70344New York,2016,wine,0.3North Carolina,2016,wine,0.997078North Dakota,2016,wine,0.5Ohio,2016,wine,0.32Oklahoma,2016,wine,0.719228Oregon,2016,wine,0.67Pennsylvania,2016,wine,0Rhode Island,2016,wine,1.4South Carolina,2016,wine,0.9South Dakota,2016,wine,0.93Tennessee,2016,wine,1.21Texas,2016,wine,0.204Utah,2016,wine,0Vermont,2016,wine,0.55Virginia,2016,wine,1.51417Washington,2016,wine,0.867617West Virginia,2016,wine,0.999576Wisconsin,2016,wine,0.250026Wyoming,2016,wine,0Dist. of Columbia,2016,wine,0.3U.S. Median,2016,wine,0.685Alabama,2017,wine,1.7Alaska,2017,wine,2.5Arizona,2017,wine,0.84Arkansas,2017,wine,0.75California,2017,wine,0.2Colorado,2017,wine,0.277471Connecticut,2017,wine,0.72Delaware,2017,wine,0.97Florida,2017,wine,2.25Georgia,2017,wine,1.51417Hawaii,2017,wine,1.38Idaho,2017,wine,0.45Illinois,2017,wine,1.39Indiana,2017,wine,0.47Iowa,2017,wine,1.75Kansas,2017,wine,0.3Kentucky,2017,wine,0.5Louisiana,2017,wine,0.757083Maine,2017,wine,0.6Maryland,2017,wine,0.4Massachusetts,2017,wine,0.55Michigan,2017,wine,0.511031Minnesota,2017,wine,0.3Mississippi,2017,wine,0.35Missouri,2017,wine,0.42Montana,2017,wine,1.02206Nebraska,2017,wine,0.95Nevada,2017,wine,0.7New Hampshire,2017,wine,0.3New Jersey,2017,wine,0.875New Mexico,2017,wine,1.70344New York,2017,wine,0.3North Carolina,2017,wine,0.997078North Dakota,2017,wine,0.5Ohio,2017,wine,0.32Oklahoma,2017,wine,0.719228Oregon,2017,wine,0.67Pennsylvania,2017,wine,0Rhode Island,2017,wine,1.4South Carolina,2017,wine,0.9South Dakota,2017,wine,0.93Tennessee,2017,wine,1.21Texas,2017,wine,0.204Utah,2017,wine,0Vermont,2017,wine,0.55Virginia,2017,wine,1.51417Washington,2017,wine,0.867617West Virginia,2017,wine,0.999576Wisconsin,2017,wine,0.250026Wyoming,2017,wine,0Dist. of Columbia,2017,wine,0.3U.S. Median,2017,wine,0.72Alabama,2013,beer,0.53Alaska,2013,beer,1.07Arizona,2013,beer,0.16Arkansas,2013,beer,0.23California,2013,beer,0.2Colorado,2013,beer,0.08Connecticut,2013,beer,0.24Delaware,2013,beer,0.16Florida,2013,beer,0.48Georgia,2013,beer,0.32Hawaii,2013,beer,0.93Idaho,2013,beer,0.15Illinois,2013,beer,0.231Indiana,2013,beer,0.115Iowa,2013,beer,0.19Kansas,2013,beer,0.18Kentucky,2013,beer,0.08Louisiana,2013,beer,0.32Maine,2013,beer,0.35Maryland,2013,beer,0.09Massachusetts,2013,beer,0.11Michigan,2013,beer,0.2Minnesota,2013,beer,0.15Mississippi,2013,beer,0.4268Missouri,2013,beer,0.06Montana,2013,beer,0.14Nebraska,2013,beer,0.31Nevada,2013,beer,0.16New Hampshire,2013,beer,0.3New Jersey,2013,beer,0.12New Mexico,2013,beer,0.41New York,2013,beer,0.14North Carolina,2013,beer,0.6171North Dakota,2013,beer,0.16Ohio,2013,beer,0.18Oklahoma,2013,beer,0.4Oregon,2013,beer,0.08Pennsylvania,2013,beer,0.08Rhode Island,2013,beer,0.1South Carolina,2013,beer,0.77South Dakota,2013,beer,0.27Tennessee,2013,beer,0.14Texas,2013,beer,0.2Utah,2013,beer,0.41Vermont,2013,beer,0.265Virginia,2013,beer,0.26Washington,2013,beer,0West Virginia,2013,beer,0.18Wisconsin,2013,beer,0.06Wyoming,2013,beer,0.02Dist. of Columbia,2013,beer,0.09U.S. Median,2013,beer,0.19Alabama,2014,beer,0.53Alaska,2014,beer,1.07Arizona,2014,beer,0.16Arkansas,2014,beer,0.23California,2014,beer,0.2Colorado,2014,beer,0.08Connecticut,2014,beer,0.24Delaware,2014,beer,0.16Florida,2014,beer,0.48Georgia,2014,beer,0.32Hawaii,2014,beer,0.93Idaho,2014,beer,0.15Illinois,2014,beer,0.231Indiana,2014,beer,0.115Iowa,2014,beer,0.19Kansas,2014,beer,0.18Kentucky,2014,beer,0.08Louisiana,2014,beer,0.32Maine,2014,beer,0.35Maryland,2014,beer,0.09Massachusetts,2014,beer,0.11Michigan,2014,beer,0.2Minnesota,2014,beer,0.15Mississippi,2014,beer,0.4268Missouri,2014,beer,0.06Montana,2014,beer,0.14Nebraska,2014,beer,0.31Nevada,2014,beer,0.16New Hampshire,2014,beer,0.3New Jersey,2014,beer,0.12New Mexico,2014,beer,0.41New York,2014,beer,0.14North Carolina,2014,beer,0.6171North Dakota,2014,beer,0.16Ohio,2014,beer,0.18Oklahoma,2014,beer,0.4Oregon,2014,beer,0.08Pennsylvania,2014,beer,0.08Rhode Island,2014,beer,0.11South Carolina,2014,beer,0.77South Dakota,2014,beer,0.27Tennessee,2014,beer,1.15Texas,2014,beer,0.2Utah,2014,beer,0.41Vermont,2014,beer,0.265Virginia,2014,beer,0.26Washington,2014,beer,0.26West Virginia,2014,beer,0.18Wisconsin,2014,beer,0.06Wyoming,2014,beer,0.02Dist. of Columbia,2014,beer,0.09U.S. Median,2014,beer,0.2Alabama,2015,beer,0.53Alaska,2015,beer,1.07Arizona,2015,beer,0.16Arkansas,2015,beer,0.23California,2015,beer,0.2Colorado,2015,beer,0.08Connecticut,2015,beer,0.24Delaware,2015,beer,0.16Florida,2015,beer,0.48Georgia,2015,beer,0.32Hawaii,2015,beer,0.93Idaho,2015,beer,0.15Illinois,2015,beer,0.231Indiana,2015,beer,0.115Iowa,2015,beer,0.19Kansas,2015,beer,0.18Kentucky,2015,beer,0.08Louisiana,2015,beer,0.32Maine,2015,beer,0.35Maryland,2015,beer,0.09Massachusetts,2015,beer,0.11Michigan,2015,beer,0.2Minnesota,2015,beer,0.15Mississippi,2015,beer,0.4268Missouri,2015,beer,0.06Montana,2015,beer,0.14Nebraska,2015,beer,0.31Nevada,2015,beer,0.16New Hampshire,2015,beer,0.3New Jersey,2015,beer,0.12New Mexico,2015,beer,0.41New York,2015,beer,0.14North Carolina,2015,beer,0.6171North Dakota,2015,beer,0.16Ohio,2015,beer,0.18Oklahoma,2015,beer,0.4Oregon,2015,beer,0.08Pennsylvania,2015,beer,0.08Rhode Island,2015,beer,0.11South Carolina,2015,beer,0.77South Dakota,2015,beer,0.27Tennessee,2015,beer,1.15Texas,2015,beer,0.2Utah,2015,beer,0.41Vermont,2015,beer,0.265Virginia,2015,beer,0.26Washington,2015,beer,0.26West Virginia,2015,beer,0.18Wisconsin,2015,beer,0.06Wyoming,2015,beer,0.02Dist. of Columbia,2015,beer,0.09U.S. Median,2015,beer,0.2Alabama,2016,beer,0.533333Alaska,2016,beer,1.07Arizona,2016,beer,0.16Arkansas,2016,beer,0.234375California,2016,beer,0.2Colorado,2016,beer,0.08Connecticut,2016,beer,0.24Delaware,2016,beer,0.156452Florida,2016,beer,0.48Georgia,2016,beer,0.322581Hawaii,2016,beer,0.93Idaho,2016,beer,0.15Illinois,2016,beer,0.231Indiana,2016,beer,0.115Iowa,2016,beer,0.19Kansas,2016,beer,0.18Kentucky,2016,beer,0.0806452Louisiana,2016,beer,0.322581Maine,2016,beer,0.35Maryland,2016,beer,0.09Massachusetts,2016,beer,0.106452Michigan,2016,beer,0.203226Minnesota,2016,beer,0.148387Mississippi,2016,beer,0.4268Missouri,2016,beer,0.06Montana,2016,beer,0.13871Nebraska,2016,beer,0.31Nevada,2016,beer,0.16New Hampshire,2016,beer,0.3New Jersey,2016,beer,0.12New Mexico,2016,beer,0.41New York,2016,beer,0.14North Carolina,2016,beer,0.6171North Dakota,2016,beer,0.16Ohio,2016,beer,0.18Oklahoma,2016,beer,0.403226Oregon,2016,beer,0.083871Pennsylvania,2016,beer,0.08Rhode Island,2016,beer,0.0967742South Carolina,2016,beer,0.768South Dakota,2016,beer,0.274194Tennessee,2016,beer,1.28677Texas,2016,beer,0.2Utah,2016,beer,0.412903Vermont,2016,beer,0.265Virginia,2016,beer,0.256452Washington,2016,beer,0.260645West Virginia,2016,beer,0.177419Wisconsin,2016,beer,0.0645161Wyoming,2016,beer,0.0189271Dist. of Columbia,2016,beer,0.09U.S. Median,2016,beer,0.2Alabama,2017,beer,0.533333Alaska,2017,beer,1.07Arizona,2017,beer,0.16Arkansas,2017,beer,0.234375California,2017,beer,0.2Colorado,2017,beer,0.08Connecticut,2017,beer,0.24Delaware,2017,beer,0.156452Florida,2017,beer,0.48Georgia,2017,beer,0.322581Hawaii,2017,beer,0.93Idaho,2017,beer,0.15Illinois,2017,beer,0.231Indiana,2017,beer,0.115Iowa,2017,beer,0.19Kansas,2017,beer,0.18Kentucky,2017,beer,0.0806452Louisiana,2017,beer,0.403226Maine,2017,beer,0.35Maryland,2017,beer,0.09Massachusetts,2017,beer,0.106452Michigan,2017,beer,0.203226Minnesota,2017,beer,0.148387Mississippi,2017,beer,0.4268Missouri,2017,beer,0.06Montana,2017,beer,0.13871Nebraska,2017,beer,0.31Nevada,2017,beer,0.16New Hampshire,2017,beer,0.3New Jersey,2017,beer,0.12New Mexico,2017,beer,0.41New York,2017,beer,0.14North Carolina,2017,beer,0.6171North Dakota,2017,beer,0.16Ohio,2017,beer,0.18Oklahoma,2017,beer,0.403226Oregon,2017,beer,0.083871Pennsylvania,2017,beer,0.08Rhode Island,2017,beer,0.106452South Carolina,2017,beer,0.768South Dakota,2017,beer,0.274194Tennessee,2017,beer,1.28677Texas,2017,beer,0.2Utah,2017,beer,0.412903Vermont,2017,beer,0.265Virginia,2017,beer,0.256452Washington,2017,beer,0.260645West Virginia,2017,beer,0.177419Wisconsin,2017,beer,0.0645161Wyoming,2017,beer,0.0189271Dist. of Columbia,2017,beer,0.09U.S. Median,2017,beer,0.2

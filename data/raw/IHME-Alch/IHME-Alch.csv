@@ -1,0 +1,625 @@
+measure,location,sex,age,cause,metric,year,val,upper,lower
+Prevalence,Virginia,Both,All Ages,Alcohol use disorders,Number,2013,159112.529005,175833.94532,144772.601826
+Prevalence,Virginia,Both,All Ages,Alcohol use disorders,Percent,2013,0.0210188796055,0.023187274748,0.0190881887702
+Prevalence,Virginia,Both,All Ages,Alcohol use disorders,Rate,2013,1927.3314470999999,2129.8781083,1753.6317845199999
+Prevalence,Delaware,Both,All Ages,Alcohol use disorders,Number,2013,17850.1335651,19623.9138495,16490.955756
+Prevalence,Delaware,Both,All Ages,Alcohol use disorders,Percent,2013,0.0210629635074,0.0231026427172,0.0194744561894
+Prevalence,Delaware,Both,All Ages,Alcohol use disorders,Rate,2013,1931.9534166600001,2123.93298188,1784.84705454
+Prevalence,Nevada,Both,All Ages,Alcohol use disorders,Number,2013,69690.7399508,75095.0290378,64063.5115119
+Prevalence,Nevada,Both,All Ages,Alcohol use disorders,Percent,2013,0.0274748817537,0.0295686259369,0.0253011783127
+Prevalence,Nevada,Both,All Ages,Alcohol use disorders,Rate,2013,2498.4302708600003,2692.17537181,2296.69273897
+Prevalence,Montana,Both,All Ages,Alcohol use disorders,Number,2013,27952.3873792,30100.7330581,26093.8393412
+Prevalence,Montana,Both,All Ages,Alcohol use disorders,Percent,2013,0.0302722843792,0.0325234973267,0.0282618622475
+Prevalence,Montana,Both,All Ages,Alcohol use disorders,Rate,2013,2763.35595829,2975.74010107,2579.6210334400002
+Prevalence,District of Columbia,Both,All Ages,Alcohol use disorders,Number,2013,22351.7231468,24395.8925971,21025.674615
+Prevalence,District of Columbia,Both,All Ages,Alcohol use disorders,Percent,2013,0.0369109294144,0.0401870608132,0.0346787343347
+Prevalence,District of Columbia,Both,All Ages,Alcohol use disorders,Rate,2013,3395.484019,3706.0168873200005,3194.0419839300002
+Prevalence,West Virginia,Both,All Ages,Alcohol use disorders,Number,2014,36901.1727084,40146.6430959,33694.8992877
+Prevalence,West Virginia,Both,All Ages,Alcohol use disorders,Percent,2014,0.0215451488715,0.0234442480992,0.0197100189484
+Prevalence,West Virginia,Both,All Ages,Alcohol use disorders,Rate,2014,2003.30044516,2179.4913842299998,1829.23744121
+Prevalence,Washington,Both,All Ages,Alcohol use disorders,Number,2013,143347.589887,157691.900989,131331.76965
+Prevalence,Washington,Both,All Ages,Alcohol use disorders,Percent,2013,0.0226129577752,0.0248685480721,0.0207666746964
+Prevalence,Washington,Both,All Ages,Alcohol use disorders,Rate,2013,2062.17688044,2268.53198375,1889.3190967
+Prevalence,Nebraska,Both,All Ages,Alcohol use disorders,Number,2013,33155.4988972,36226.6099621,30127.2346402
+Prevalence,Nebraska,Both,All Ages,Alcohol use disorders,Percent,2013,0.0197756032164,0.0216713166487,0.0179424198602
+Prevalence,Nebraska,Both,All Ages,Alcohol use disorders,Rate,2013,1777.2098656100002,1941.8283772999998,1614.8880399
+Prevalence,Florida,Both,All Ages,Alcohol use disorders,Number,2014,388265.545168,420816.467928,362587.024838
+Prevalence,Florida,Both,All Ages,Alcohol use disorders,Percent,2014,0.021121771717,0.0228962040665,0.0197513711056
+Prevalence,Florida,Both,All Ages,Alcohol use disorders,Rate,2014,1958.85077059,2123.0744595799997,1829.29925627
+Prevalence,Hawaii,Both,All Ages,Alcohol use disorders,Number,2014,32578.6251118,35122.4296143,29571.1435048
+Prevalence,Hawaii,Both,All Ages,Alcohol use disorders,Percent,2014,0.0246247566294,0.0265550668951,0.0223745379104
+Prevalence,Hawaii,Both,All Ages,Alcohol use disorders,Rate,2014,2297.4685324300003,2476.8594913,2085.37872416
+Prevalence,Nevada,Both,All Ages,Alcohol use disorders,Number,2014,70793.2511115,76272.1657002,65075.8306165
+Prevalence,Nevada,Both,All Ages,Alcohol use disorders,Percent,2014,0.0274716482599,0.0295558880559,0.0252944055303
+Prevalence,Nevada,Both,All Ages,Alcohol use disorders,Rate,2014,2501.0759792,2694.64219426,2299.08351751
+Prevalence,Wisconsin,Both,All Ages,Alcohol use disorders,Number,2013,121594.532454,133926.976976,110239.155838
+Prevalence,Wisconsin,Both,All Ages,Alcohol use disorders,Percent,2013,0.0233573176601,0.0257172851707,0.0212017462036
+Prevalence,Wisconsin,Both,All Ages,Alcohol use disorders,Rate,2013,2122.41113164,2337.67177705,1924.20503431
+Prevalence,Wyoming,Both,All Ages,Alcohol use disorders,Number,2014,15477.8418332,16864.837107,14242.3059957
+Prevalence,Wyoming,Both,All Ages,Alcohol use disorders,Percent,2014,0.029352175613,0.0319514026951,0.0270062735195
+Prevalence,Wyoming,Both,All Ages,Alcohol use disorders,Rate,2014,2662.98754479,2901.62230916,2450.41161969
+Prevalence,Idaho,Both,All Ages,Alcohol use disorders,Number,2014,32032.2084268,34650.9075613,29287.0911829
+Prevalence,Idaho,Both,All Ages,Alcohol use disorders,Percent,2014,0.0217524113812,0.0235160756924,0.019840139391
+Prevalence,Idaho,Both,All Ages,Alcohol use disorders,Rate,2014,1965.83960521,2126.55104927,1797.36979111
+Prevalence,Wisconsin,Both,All Ages,Alcohol use disorders,Number,2014,121789.051309,134197.17623,110379.035438
+Prevalence,Wisconsin,Both,All Ages,Alcohol use disorders,Percent,2014,0.0233487948255,0.0257080432774,0.0211706430578
+Prevalence,Wisconsin,Both,All Ages,Alcohol use disorders,Rate,2014,2123.08738941,2339.39200188,1924.18231093
+Prevalence,Georgia,Both,All Ages,Alcohol use disorders,Number,2014,183735.523584,200167.887513,168491.056694
+Prevalence,Georgia,Both,All Ages,Alcohol use disorders,Percent,2014,0.0199125466474,0.0216726011089,0.0182364084035
+Prevalence,Georgia,Both,All Ages,Alcohol use disorders,Rate,2014,1826.71121026,1990.08290243,1675.14967214
+Prevalence,Georgia,Both,All Ages,Alcohol use disorders,Number,2013,182143.979117,198550.414063,167030.958084
+Prevalence,Georgia,Both,All Ages,Alcohol use disorders,Percent,2013,0.0199226527435,0.0216933688982,0.0182399474272
+Prevalence,Georgia,Both,All Ages,Alcohol use disorders,Rate,2013,1826.3207403400002,1990.8247363700002,1674.78554332
+Prevalence,New Mexico,Both,All Ages,Alcohol use disorders,Number,2013,60797.312785,67333.8245245,55296.4643983
+Prevalence,New Mexico,Both,All Ages,Alcohol use disorders,Percent,2013,0.0316632456635,0.0350564693326,0.0288551804857
+Prevalence,New Mexico,Both,All Ages,Alcohol use disorders,Rate,2013,2922.05287526,3236.21203868,2657.66997562
+Prevalence,New Hampshire,Both,All Ages,Alcohol use disorders,Number,2013,28792.679005,31431.6663834,26270.5603242
+Prevalence,New Hampshire,Both,All Ages,Alcohol use disorders,Percent,2013,0.0239750849825,0.0261723594681,0.021884699576
+Prevalence,New Hampshire,Both,All Ages,Alcohol use disorders,Rate,2013,2183.03428722,2383.11986903,1991.80958194
+Prevalence,West Virginia,Both,All Ages,Alcohol use disorders,Number,2013,37005.2026043,40258.623841,33814.8666783
+Prevalence,West Virginia,Both,All Ages,Alcohol use disorders,Percent,2013,0.0215185741466,0.023415257943,0.0197043246608
+Prevalence,West Virginia,Both,All Ages,Alcohol use disorders,Rate,2013,2000.4526175500002,2176.3282937,1827.98725039
+Prevalence,New Hampshire,Both,All Ages,Alcohol use disorders,Number,2014,28964.4636463,31641.0341325,26393.3299708
+Prevalence,New Hampshire,Both,All Ages,Alcohol use disorders,Percent,2014,0.0240124644946,0.0262199295522,0.0218907402305
+Prevalence,New Hampshire,Both,All Ages,Alcohol use disorders,Rate,2014,2190.70742371,2393.1480042,1996.24148438
+Prevalence,New York,Both,All Ages,Alcohol use disorders,Number,2013,380507.303412,408722.37349,357471.262187
+Prevalence,New York,Both,All Ages,Alcohol use disorders,Percent,2013,0.0208564593931,0.0223798406409,0.0195807791396
+Prevalence,New York,Both,All Ages,Alcohol use disorders,Rate,2013,1932.0448407899999,2075.3082685599998,1815.07819074
+Prevalence,Idaho,Both,All Ages,Alcohol use disorders,Number,2013,31601.8309748,34192.8128484,28910.7643087
+Prevalence,Idaho,Both,All Ages,Alcohol use disorders,Percent,2013,0.0217446919241,0.0235172898408,0.0198448833858
+Prevalence,Idaho,Both,All Ages,Alcohol use disorders,Rate,2013,1963.07996712,2124.02964803,1795.91310054
+Prevalence,United States,Both,All Ages,Alcohol use disorders,Number,2014,6289313.29335,6732221.65126,5873822.23258
+Prevalence,United States,Both,All Ages,Alcohol use disorders,Percent,2014,0.0215647801799,0.0230490701715,0.0201001647938
+Prevalence,United States,Both,All Ages,Alcohol use disorders,Rate,2014,1979.11482168,2118.4887811099998,1848.3685099099998
+Prevalence,Wyoming,Both,All Ages,Alcohol use disorders,Number,2013,15468.6294212,16822.0766218,14239.6533518
+Prevalence,Wyoming,Both,All Ages,Alcohol use disorders,Percent,2013,0.0293572092175,0.0318870485428,0.0270222594894
+Prevalence,Wyoming,Both,All Ages,Alcohol use disorders,Rate,2013,2662.76871991,2895.7510205099998,2451.21287058
+Prevalence,New Jersey,Both,All Ages,Alcohol use disorders,Number,2014,149686.149373,164883.140972,137174.645734
+Prevalence,New Jersey,Both,All Ages,Alcohol use disorders,Percent,2014,0.0182646519368,0.0201088813282,0.0167227156639
+Prevalence,New Jersey,Both,All Ages,Alcohol use disorders,Rate,2014,1681.94671955,1852.70754327,1541.36135083
+Prevalence,Florida,Both,All Ages,Alcohol use disorders,Number,2013,382907.446121,414612.212024,357716.743545
+Prevalence,Florida,Both,All Ages,Alcohol use disorders,Percent,2013,0.0211241726292,0.0228722565588,0.0197555980511
+Prevalence,Florida,Both,All Ages,Alcohol use disorders,Rate,2013,1957.5993493100002,2119.68872556,1828.81286717
+Prevalence,Hawaii,Both,All Ages,Alcohol use disorders,Number,2013,32246.333607,34709.7610631,29289.1935423
+Prevalence,Hawaii,Both,All Ages,Alcohol use disorders,Percent,2013,0.0245163744437,0.0263906504467,0.0222995752688
+Prevalence,Hawaii,Both,All Ages,Alcohol use disorders,Rate,2013,2287.63600577,2462.39774503,2077.84905236
+Prevalence,Indiana,Both,All Ages,Alcohol use disorders,Number,2014,124652.578542,135717.823412,114870.709245
+Prevalence,Indiana,Both,All Ages,Alcohol use disorders,Percent,2014,0.0208032399536,0.0226272423892,0.0191003618297
+Prevalence,Indiana,Both,All Ages,Alcohol use disorders,Rate,2014,1896.84028079,2065.22028889,1747.9894192900001
+Prevalence,Illinois,Both,All Ages,Alcohol use disorders,Number,2014,239793.300142,254487.215691,225621.660394
+Prevalence,Illinois,Both,All Ages,Alcohol use disorders,Percent,2014,0.0204474282051,0.0216960288818,0.019206476607
+Prevalence,Illinois,Both,All Ages,Alcohol use disorders,Rate,2014,1865.9972745799998,1980.3407794,1755.7179584799999
+Prevalence,Alabama,Both,All Ages,Alcohol use disorders,Number,2014,89573.8471577,99281.343425,81488.9135965
+Prevalence,Alabama,Both,All Ages,Alcohol use disorders,Percent,2014,0.020183109604,0.0222775662889,0.0183485573314
+Prevalence,Alabama,Both,All Ages,Alcohol use disorders,Rate,2014,1854.82245575,2055.83740193,1687.4062198899999
+Prevalence,New York,Both,All Ages,Alcohol use disorders,Number,2014,381429.270128,409932.505621,358117.951711
+Prevalence,New York,Both,All Ages,Alcohol use disorders,Percent,2014,0.0208666401895,0.0223959660075,0.0195716198232
+Prevalence,New York,Both,All Ages,Alcohol use disorders,Rate,2014,1935.02484172,2079.62430764,1816.76443602
+Prevalence,Hawaii,Both,All Ages,Alcohol use disorders,Number,2015,32955.5844709,35581.6028193,29894.8563595
+Prevalence,Hawaii,Both,All Ages,Alcohol use disorders,Percent,2015,0.0247211251151,0.0266882049653,0.0224663002715
+Prevalence,Hawaii,Both,All Ages,Alcohol use disorders,Rate,2015,2306.41290074,2490.19609542,2092.20632802
+Prevalence,United States,Both,All Ages,Alcohol use disorders,Number,2015,6345724.62856,6793244.86091,5924091.85434
+Prevalence,United States,Both,All Ages,Alcohol use disorders,Percent,2015,0.0215735679131,0.0230586890205,0.0200970879558
+Prevalence,United States,Both,All Ages,Alcohol use disorders,Rate,2015,1981.37294991,2121.10553126,1849.72340277
+Prevalence,New Mexico,Both,All Ages,Alcohol use disorders,Number,2014,60798.2910222,67366.3066526,55206.761366
+Prevalence,New Mexico,Both,All Ages,Alcohol use disorders,Percent,2014,0.0317197492258,0.0351417205122,0.0288591423208
+Prevalence,New Mexico,Both,All Ages,Alcohol use disorders,Rate,2014,2928.85617141,3245.25935956,2659.4935649
+Prevalence,Iowa,Both,All Ages,Alcohol use disorders,Number,2014,60565.0474408,65923.4881963,54905.5655497
+Prevalence,Iowa,Both,All Ages,Alcohol use disorders,Percent,2014,0.0216004426704,0.023510384361,0.0196026722556
+Prevalence,Iowa,Both,All Ages,Alcohol use disorders,Rate,2014,1955.75363537,2128.787265,1772.99884939
+Prevalence,Indiana,Both,All Ages,Alcohol use disorders,Number,2013,124042.046556,135037.408674,114359.371658
+Prevalence,Indiana,Both,All Ages,Alcohol use disorders,Percent,2013,0.0207694332496,0.0225839527148,0.0190944400417
+Prevalence,Indiana,Both,All Ages,Alcohol use disorders,Rate,2013,1892.2927922999997,2060.0298223,1744.58113784
+Prevalence,North Carolina,Both,All Ages,Alcohol use disorders,Number,2015,184056.60021,201323.537207,169183.118672
+Prevalence,North Carolina,Both,All Ages,Alcohol use disorders,Percent,2015,0.0201289386508,0.0220504134394,0.0185206388895
+Prevalence,North Carolina,Both,All Ages,Alcohol use disorders,Rate,2015,1840.4629869199998,2013.12269271,1691.73649613
+Prevalence,New Jersey,Both,All Ages,Alcohol use disorders,Number,2013,149041.572674,164161.118337,136660.000151
+Prevalence,New Jersey,Both,All Ages,Alcohol use disorders,Percent,2013,0.0182213408286,0.0200638365025,0.0166920235449
+Prevalence,New Jersey,Both,All Ages,Alcohol use disorders,Rate,2013,1677.09984884,1847.23350546,1537.77541047
+Prevalence,North Carolina,Both,All Ages,Alcohol use disorders,Number,2014,182238.219344,199165.648081,167527.981079
+Prevalence,North Carolina,Both,All Ages,Alcohol use disorders,Percent,2014,0.02014467824,0.0220641910896,0.0185416952926
+Prevalence,North Carolina,Both,All Ages,Alcohol use disorders,Rate,2014,1840.42980229,2011.3804647700001,1691.8706197100003
+Prevalence,Idaho,Both,All Ages,Alcohol use disorders,Number,2015,32512.0681458,35165.7452798,29709.8951218
+Prevalence,Idaho,Both,All Ages,Alcohol use disorders,Percent,2015,0.0217518268534,0.023511305012,0.0198358483517
+Prevalence,Idaho,Both,All Ages,Alcohol use disorders,Rate,2015,1967.5999875599998,2128.19804834,1798.0150942700002
+Prevalence,New Mexico,Both,All Ages,Alcohol use disorders,Number,2015,60883.1180371,67494.4298023,55193.0244036
+Prevalence,New Mexico,Both,All Ages,Alcohol use disorders,Percent,2015,0.0317715888569,0.0352111913312,0.0288554888441
+Prevalence,New Mexico,Both,All Ages,Alcohol use disorders,Rate,2015,2935.3103729,3254.05640018,2660.97831824
+Prevalence,Illinois,Both,All Ages,Alcohol use disorders,Number,2015,239803.103731,254504.905358,225548.715245
+Prevalence,Illinois,Both,All Ages,Alcohol use disorders,Percent,2015,0.0204367939912,0.0216780816726,0.0192029303569
+Prevalence,Illinois,Both,All Ages,Alcohol use disorders,Rate,2015,1866.88299441,1981.3374907000002,1755.91163897
+Prevalence,North Dakota,Both,All Ages,Alcohol use disorders,Number,2016,17313.4698031,19337.7794452,15429.9267798
+Prevalence,North Dakota,Both,All Ages,Alcohol use disorders,Percent,2016,0.0248559541624,0.0277342371876,0.0221628263711
+Prevalence,North Dakota,Both,All Ages,Alcohol use disorders,Rate,2016,2246.48276891,2509.14396747,2002.0865274500002
+Prevalence,New York,Both,All Ages,Alcohol use disorders,Number,2015,382905.507774,411731.950075,359286.449401
+Prevalence,New York,Both,All Ages,Alcohol use disorders,Percent,2015,0.0208694087699,0.0224181635436,0.0195738511346
+Prevalence,New York,Both,All Ages,Alcohol use disorders,Rate,2015,1937.69510425,2083.5714496799997,1818.17074943
+Prevalence,Iowa,Both,All Ages,Alcohol use disorders,Number,2013,60207.687124,65524.1594386,54601.8309767
+Prevalence,Iowa,Both,All Ages,Alcohol use disorders,Percent,2013,0.0215647058074,0.0234630049835,0.0195825339008
+Prevalence,Iowa,Both,All Ages,Alcohol use disorders,Rate,2013,1951.9182050999998,2124.2769120000003,1770.1777464999998
+Prevalence,North Dakota,Both,All Ages,Alcohol use disorders,Number,2015,16839.2403453,18493.3035924,15164.3954648
+Prevalence,North Dakota,Both,All Ages,Alcohol use disorders,Percent,2015,0.0247066024255,0.0270425680441,0.0222648700589
+Prevalence,North Dakota,Both,All Ages,Alcohol use disorders,Rate,2015,2235.0945323600004,2454.64052398,2012.7901671900001
+Prevalence,Ohio,Both,All Ages,Alcohol use disorders,Number,2013,210828.128464,226713.025907,196909.116744
+Prevalence,Ohio,Both,All Ages,Alcohol use disorders,Percent,2013,0.0198568536824,0.0213441349375,0.0185225130589
+Prevalence,Ohio,Both,All Ages,Alcohol use disorders,Rate,2013,1825.30753966,1962.8357873300001,1704.79953524
+Prevalence,Oklahoma,Both,All Ages,Alcohol use disorders,Number,2013,79619.1878728,87173.0644359,72477.6246254
+Prevalence,Oklahoma,Both,All Ages,Alcohol use disorders,Percent,2013,0.0224849477093,0.0246269991678,0.0204434392192
+Prevalence,Oklahoma,Both,All Ages,Alcohol use disorders,Rate,2013,2072.36273514,2268.9783087700002,1886.4790312300001
+Prevalence,Illinois,Both,All Ages,Alcohol use disorders,Number,2016,239831.736434,258256.731411,222617.108788
+Prevalence,Illinois,Both,All Ages,Alcohol use disorders,Percent,2016,0.020421388958,0.0219803779846,0.0189445082285
+Prevalence,Illinois,Both,All Ages,Alcohol use disorders,Rate,2016,1867.46012263,2010.9271378400001,1733.41768466
+Prevalence,Arizona,Both,All Ages,Alcohol use disorders,Number,2014,174951.904067,190916.644988,162358.563175
+Prevalence,Arizona,Both,All Ages,Alcohol use disorders,Percent,2014,0.0281331791935,0.0306027192828,0.026065256428
+Prevalence,Arizona,Both,All Ages,Alcohol use disorders,Rate,2014,2608.86146054,2846.92573048,2421.07109674
+Prevalence,Pennsylvania,Both,All Ages,Alcohol use disorders,Number,2013,217011.11716,231077.521629,200713.415748
+Prevalence,Pennsylvania,Both,All Ages,Alcohol use disorders,Percent,2013,0.0183491283401,0.019574192292,0.016967064118
+Prevalence,Pennsylvania,Both,All Ages,Alcohol use disorders,Rate,2013,1700.56515878,1810.79378515,1572.85141051
+Prevalence,Alabama,Both,All Ages,Alcohol use disorders,Number,2013,89440.0227542,99091.0764076,81392.7030407
+Prevalence,Alabama,Both,All Ages,Alcohol use disorders,Percent,2013,0.020191851062,0.022286987299,0.0183592196849
+Prevalence,Alabama,Both,All Ages,Alcohol use disorders,Rate,2013,1854.5177563999998,2054.63007544,1687.65848199
+Prevalence,Indiana,Both,All Ages,Alcohol use disorders,Number,2015,125459.622759,136616.698529,115563.703127
+Prevalence,Indiana,Both,All Ages,Alcohol use disorders,Percent,2015,0.0208346126562,0.0226605052991,0.0191290294405
+Prevalence,Indiana,Both,All Ages,Alcohol use disorders,Rate,2015,1900.9262099000002,2069.97484316,1750.98623251
+Prevalence,North Dakota,Both,All Ages,Alcohol use disorders,Number,2014,16380.2289213,17957.2809947,14762.4981929
+Prevalence,North Dakota,Both,All Ages,Alcohol use disorders,Percent,2014,0.024557984805,0.0268305980354,0.0221403148713
+Prevalence,North Dakota,Both,All Ages,Alcohol use disorders,Rate,2014,2224.02680821,2438.15117155,2004.3792974399998
+Prevalence,Alaska,Both,All Ages,Alcohol use disorders,Number,2014,24670.4768173,27501.2145145,22544.0798151
+Prevalence,Alaska,Both,All Ages,Alcohol use disorders,Percent,2014,0.036772126532,0.0409125507951,0.0336257401832
+Prevalence,Alaska,Both,All Ages,Alcohol use disorders,Rate,2014,3353.47711882,3738.26149762,3064.43431899
+Prevalence,Alabama,Both,All Ages,Alcohol use disorders,Number,2015,89839.3202818,99607.4076646,81708.5771071
+Prevalence,Alabama,Both,All Ages,Alcohol use disorders,Percent,2015,0.0201664293154,0.022268057147,0.0183261551558
+Prevalence,Alabama,Both,All Ages,Alcohol use disorders,Rate,2015,1854.44479552,2056.07564883,1686.6116650299998
+Prevalence,Alaska,Both,All Ages,Alcohol use disorders,Number,2013,24640.4709204,27479.1963667,22546.5294085
+Prevalence,Alaska,Both,All Ages,Alcohol use disorders,Percent,2013,0.0366927703173,0.0408596059496,0.0335874397195
+Prevalence,Alaska,Both,All Ages,Alcohol use disorders,Rate,2013,3344.40245455,3729.69705305,3060.19590854
+Prevalence,Indiana,Both,All Ages,Alcohol use disorders,Number,2016,126281.891162,139361.161561,114611.1904
+Prevalence,Indiana,Both,All Ages,Alcohol use disorders,Percent,2016,0.020860877304,0.0230123131469,0.0189348543588
+Prevalence,Indiana,Both,All Ages,Alcohol use disorders,Rate,2016,1904.84456191,2102.1331585899998,1728.80292463
+Prevalence,Alaska,Both,All Ages,Alcohol use disorders,Number,2016,24808.7775905,27778.4706397,22489.0746347
+Prevalence,Alaska,Both,All Ages,Alcohol use disorders,Percent,2016,0.0369675770527,0.0414282583195,0.0334393303568
+Prevalence,Alaska,Both,All Ages,Alcohol use disorders,Rate,2016,3374.94213164,3778.9339104899996,3059.37385303
+Prevalence,Arizona,Both,All Ages,Alcohol use disorders,Number,2013,172497.534027,188212.995204,160091.253003
+Prevalence,Arizona,Both,All Ages,Alcohol use disorders,Percent,2013,0.0281131233485,0.0305983911893,0.0260533273565
+Prevalence,Arizona,Both,All Ages,Alcohol use disorders,Rate,2013,2605.19978718,2842.54762142,2417.82991627
+Prevalence,Pennsylvania,Both,All Ages,Alcohol use disorders,Number,2015,217787.390146,232596.125315,201250.847396
+Prevalence,Pennsylvania,Both,All Ages,Alcohol use disorders,Percent,2015,0.0184191501159,0.0196967105666,0.0170192182619
+Prevalence,Pennsylvania,Both,All Ages,Alcohol use disorders,Rate,2015,1707.2387291999999,1823.32463387,1577.6085140999999
+Prevalence,United States,Both,All Ages,Alcohol use disorders,Number,2016,6403354.24412,6945824.45775,5942773.1041
+Prevalence,United States,Both,All Ages,Alcohol use disorders,Percent,2016,0.0215776653267,0.0234122119738,0.0200073367002
+Prevalence,United States,Both,All Ages,Alcohol use disorders,Rate,2016,1983.27907999,2151.29568272,1840.6255729700001
+Prevalence,Rhode Island,Both,All Ages,Alcohol use disorders,Number,2014,25968.9332412,28040.4164126,24103.957229
+Prevalence,Rhode Island,Both,All Ages,Alcohol use disorders,Percent,2014,0.0267943368516,0.0289654755973,0.0247786803122
+Prevalence,Rhode Island,Both,All Ages,Alcohol use disorders,Rate,2014,2469.53764017,2666.52708195,2292.18617111
+Prevalence,Oklahoma,Both,All Ages,Alcohol use disorders,Number,2015,81029.5024626,88635.0835783,73624.2318262
+Prevalence,Oklahoma,Both,All Ages,Alcohol use disorders,Percent,2015,0.0226222405537,0.0247730622799,0.0205263216429
+Prevalence,Oklahoma,Both,All Ages,Alcohol use disorders,Rate,2015,2084.69950659,2280.37331326,1894.17921987
+Prevalence,Arkansas,Both,All Ages,Alcohol use disorders,Number,2014,53759.8434908,59096.3127217,49195.40649
+Prevalence,Arkansas,Both,All Ages,Alcohol use disorders,Percent,2014,0.0198900173177,0.0217813118457,0.0182227353485
+Prevalence,Arkansas,Both,All Ages,Alcohol use disorders,Rate,2014,1818.80880846,1999.35280957,1664.3842848
+Prevalence,Oklahoma,Both,All Ages,Alcohol use disorders,Number,2014,80258.4132523,87827.0517365,72992.6604683
+Prevalence,Oklahoma,Both,All Ages,Alcohol use disorders,Percent,2014,0.02255324376,0.0246807852945,0.0204884548092
+Prevalence,Oklahoma,Both,All Ages,Alcohol use disorders,Rate,2014,2078.4520088599998,2274.45702845,1890.2908198000002
+Prevalence,Iowa,Both,All Ages,Alcohol use disorders,Number,2016,61489.4936474,67866.7435082,55663.7092387
+Prevalence,Iowa,Both,All Ages,Alcohol use disorders,Percent,2016,0.021655940306,0.0239500864663,0.019577966913
+Prevalence,Iowa,Both,All Ages,Alcohol use disorders,Rate,2016,1962.9006832100001,2166.4786827400003,1776.9268604000001
+Prevalence,Iowa,Both,All Ages,Alcohol use disorders,Number,2015,61022.0971569,66432.1427871,55296.9232683
+Prevalence,Iowa,Both,All Ages,Alcohol use disorders,Percent,2015,0.0216300883925,0.0235409203186,0.0196185675651
+Prevalence,Iowa,Both,All Ages,Alcohol use disorders,Rate,2015,1959.30645913,2133.01299892,1775.48173494
+Prevalence,Ohio,Both,All Ages,Alcohol use disorders,Number,2015,211701.601779,227936.584938,197642.269516
+Prevalence,Ohio,Both,All Ages,Alcohol use disorders,Percent,2015,0.0198722548547,0.0213822198515,0.018524880946
+Prevalence,Ohio,Both,All Ages,Alcohol use disorders,Rate,2015,1827.92632978,1968.1064367400002,1706.53176589
+Prevalence,California,Both,All Ages,Alcohol use disorders,Number,2014,806289.087018,864818.442586,751395.164795
+Prevalence,California,Both,All Ages,Alcohol use disorders,Percent,2014,0.0228702250932,0.0244122068879,0.0213212632528
+Prevalence,California,Both,All Ages,Alcohol use disorders,Rate,2014,2084.21065097,2235.50564954,1942.3130373099998
+Prevalence,Ohio,Both,All Ages,Alcohol use disorders,Number,2014,211110.557037,227160.156893,197133.853865
+Prevalence,Ohio,Both,All Ages,Alcohol use disorders,Percent,2014,0.0198662213681,0.0213760693093,0.0185269925522
+Prevalence,Ohio,Both,All Ages,Alcohol use disorders,Rate,2014,1826.8532129900002,1965.73903413,1705.90528195
+Prevalence,United States,Both,All Ages,Alcohol use disorders,Number,2013,6242696.12651,6681318.48266,5832776.30628
+Prevalence,United States,Both,All Ages,Alcohol use disorders,Percent,2013,0.0215471212736,0.0230312658672,0.0200965999419
+Prevalence,United States,Both,All Ages,Alcohol use disorders,Rate,2013,1976.0970407600003,2114.94095089,1846.3387877100001
+Prevalence,Kansas,Both,All Ages,Alcohol use disorders,Number,2014,59428.6268984,64266.7255868,54232.0654382
+Prevalence,Kansas,Both,All Ages,Alcohol use disorders,Percent,2014,0.0227125507105,0.0244243448381,0.0206994148537
+Prevalence,Kansas,Both,All Ages,Alcohol use disorders,Rate,2014,2055.6360065100002,2222.98582403,1875.88696291
+Prevalence,Kentucky,Both,All Ages,Alcohol use disorders,Number,2015,79987.6042304,88684.4421531,72296.7604857
+Prevalence,Kentucky,Both,All Ages,Alcohol use disorders,Percent,2015,0.0196431174563,0.0217287636752,0.0177534433844
+Prevalence,Kentucky,Both,All Ages,Alcohol use disorders,Rate,2015,1812.8145716899999,2009.91704358,1638.5116438399998
+Prevalence,North Carolina,Both,All Ages,Alcohol use disorders,Number,2013,180706.931987,197325.565243,166140.122354
+Prevalence,North Carolina,Both,All Ages,Alcohol use disorders,Percent,2013,0.0201491933221,0.0220643812544,0.0185421950939
+Prevalence,North Carolina,Both,All Ages,Alcohol use disorders,Rate,2013,1839.3667332900002,2008.5232832200002,1691.0951382
+Prevalence,Louisiana,Both,All Ages,Alcohol use disorders,Number,2014,85218.1083339,92450.4475219,78189.5375044
+Prevalence,Louisiana,Both,All Ages,Alcohol use disorders,Percent,2014,0.0199882346598,0.0217831830514,0.0183685605769
+Prevalence,Louisiana,Both,All Ages,Alcohol use disorders,Rate,2014,1838.3141031999999,1994.3291965600001,1686.69467472
+Prevalence,North Dakota,Both,All Ages,Alcohol use disorders,Number,2013,15960.372716,17465.3612998,14401.4368417
+Prevalence,North Dakota,Both,All Ages,Alcohol use disorders,Percent,2013,0.0244064108825,0.0266265223172,0.0220370254581
+Prevalence,North Dakota,Both,All Ages,Alcohol use disorders,Rate,2013,2212.61193746,2421.25090633,1996.49416963
+Prevalence,Wyoming,Both,All Ages,Alcohol use disorders,Number,2015,15508.3652998,16928.8372728,14265.2414101
+Prevalence,Wyoming,Both,All Ages,Alcohol use disorders,Percent,2015,0.0293324283916,0.0320107522981,0.0269669684863
+Prevalence,Wyoming,Both,All Ages,Alcohol use disorders,Rate,2015,2661.99706491,2905.81981154,2448.61595855
+Prevalence,Arkansas,Both,All Ages,Alcohol use disorders,Number,2016,54220.7206545,59580.6460176,49389.1700731
+Prevalence,Arkansas,Both,All Ages,Alcohol use disorders,Percent,2016,0.0199245439586,0.0219697952257,0.018122026504
+Prevalence,Arkansas,Both,All Ages,Alcohol use disorders,Rate,2016,1823.3798723099999,2003.6279381099998,1660.9004368500002
+Prevalence,Arkansas,Both,All Ages,Alcohol use disorders,Number,2013,53614.0907298,58929.0018208,49092.6649886
+Prevalence,Arkansas,Both,All Ages,Alcohol use disorders,Percent,2013,0.0198712419557,0.0217411343134,0.0182147324014
+Prevalence,Arkansas,Both,All Ages,Alcohol use disorders,Rate,2013,1816.25784975,1996.3084457399998,1663.0877617600001
+Prevalence,Oklahoma,Both,All Ages,Alcohol use disorders,Number,2016,81829.7282698,90343.1647465,74822.3900906
+Prevalence,Oklahoma,Both,All Ages,Alcohol use disorders,Percent,2016,0.0226956079376,0.0250883615052,0.0207646471092
+Prevalence,Oklahoma,Both,All Ages,Alcohol use disorders,Rate,2016,2091.36777868,2308.95039944,1912.2773479500001
+Prevalence,Maine,Both,All Ages,Alcohol use disorders,Number,2014,26784.7068025,28726.4265721,24707.6059072
+Prevalence,Maine,Both,All Ages,Alcohol use disorders,Percent,2014,0.0220009875903,0.0235971628176,0.020255300744
+Prevalence,Maine,Both,All Ages,Alcohol use disorders,Rate,2014,2022.1593624999998,2168.75297057,1865.3449141199999
+Prevalence,Kentucky,Both,All Ages,Alcohol use disorders,Number,2014,79610.0149105,88245.15038,71989.6658285
+Prevalence,Kentucky,Both,All Ages,Alcohol use disorders,Percent,2014,0.0196191475017,0.0217022733024,0.0177442259572
+Prevalence,Kentucky,Both,All Ages,Alcohol use disorders,Rate,2014,1809.81417676,2006.1210184099998,1636.5769802099999
+Prevalence,Kentucky,Both,All Ages,Alcohol use disorders,Number,2016,80377.3937156,89489.0553222,72270.2626869
+Prevalence,Kentucky,Both,All Ages,Alcohol use disorders,Percent,2016,0.0196694674194,0.0219034439148,0.0176713935767
+Prevalence,Kentucky,Both,All Ages,Alcohol use disorders,Rate,2016,1816.0866544900002,2021.9600509599998,1632.91011956
+Prevalence,Kansas,Both,All Ages,Alcohol use disorders,Number,2016,59911.512273,66384.1079966,54134.1284391
+Prevalence,Kansas,Both,All Ages,Alcohol use disorders,Percent,2016,0.0227249167245,0.0251795392726,0.0205575756043
+Prevalence,Kansas,Both,All Ages,Alcohol use disorders,Rate,2016,2060.3837856,2282.97925638,1861.6969636
+Prevalence,Alabama,Both,All Ages,Alcohol use disorders,Number,2016,90114.7570374,100294.793864,80790.0161622
+Prevalence,Alabama,Both,All Ages,Alcohol use disorders,Percent,2016,0.0201467701645,0.0224332138083,0.0180597703859
+Prevalence,Alabama,Both,All Ages,Alcohol use disorders,Rate,2016,1853.75443966,2063.1684034100003,1661.93480474
+Prevalence,Massachusetts,Both,All Ages,Alcohol use disorders,Number,2014,141697.469431,151577.402028,131259.056605
+Prevalence,Massachusetts,Both,All Ages,Alcohol use disorders,Percent,2014,0.0228674103574,0.0245020422244,0.0211623351166
+Prevalence,Massachusetts,Both,All Ages,Alcohol use disorders,Rate,2014,2103.7309895500002,2250.41476917,1948.75565632
+Prevalence,Ohio,Both,All Ages,Alcohol use disorders,Number,2016,212289.641131,228649.341554,198063.593836
+Prevalence,Ohio,Both,All Ages,Alcohol use disorders,Percent,2016,0.0198735921285,0.0214033384076,0.0185397194562
+Prevalence,Ohio,Both,All Ages,Alcohol use disorders,Rate,2016,1828.81487613,1969.74904203,1706.26152504
+Prevalence,Tennessee,Both,All Ages,Alcohol use disorders,Number,2015,122065.479909,133197.406543,111122.375824
+Prevalence,Tennessee,Both,All Ages,Alcohol use disorders,Percent,2015,0.0201442952003,0.0219107982121,0.0182983797505
+Prevalence,Tennessee,Both,All Ages,Alcohol use disorders,Rate,2015,1856.1466776700001,2025.4204859000001,1689.74413449
+Prevalence,Colorado,Both,All Ages,Alcohol use disorders,Number,2013,142442.768956,153059.01123,132683.473601
+Prevalence,Colorado,Both,All Ages,Alcohol use disorders,Percent,2013,0.0298753427837,0.0321559729986,0.0278732347482
+Prevalence,Colorado,Both,All Ages,Alcohol use disorders,Rate,2013,2710.88237147,2912.92410543,2525.1495194
+Prevalence,Illinois,Both,All Ages,Alcohol use disorders,Number,2013,240130.526679,254847.473282,226029.506076
+Prevalence,Illinois,Both,All Ages,Alcohol use disorders,Percent,2013,0.0204492807213,0.0216950626259,0.0192100377714
+Prevalence,Illinois,Both,All Ages,Alcohol use disorders,Rate,2013,1864.5230502799998,1978.7945948,1755.0339390499998
+Prevalence,Louisiana,Both,All Ages,Alcohol use disorders,Number,2016,86030.3721805,95618.0433528,77743.9568003
+Prevalence,Louisiana,Both,All Ages,Alcohol use disorders,Percent,2016,0.0199788425178,0.0222013706896,0.0180613797896
+Prevalence,Louisiana,Both,All Ages,Alcohol use disorders,Rate,2016,1838.37231298,2043.25006466,1661.3009343100002
+Prevalence,Oregon,Both,All Ages,Alcohol use disorders,Number,2014,97718.1385848,107061.902376,90017.0538403
+Prevalence,Oregon,Both,All Ages,Alcohol use disorders,Percent,2014,0.026856657444,0.0294540325828,0.024668039898
+Prevalence,Oregon,Both,All Ages,Alcohol use disorders,Rate,2014,2471.43510938,2707.75260602,2276.66337617
+Prevalence,Oregon,Both,All Ages,Alcohol use disorders,Number,2015,98901.6206718,108310.912181,91079.2651493
+Prevalence,Oregon,Both,All Ages,Alcohol use disorders,Percent,2015,0.0268760828519,0.0294601644955,0.0246834143191
+Prevalence,Oregon,Both,All Ages,Alcohol use disorders,Rate,2015,2474.11156252,2709.49331621,2278.42841686
+Prevalence,Oregon,Both,All Ages,Alcohol use disorders,Number,2016,100095.509332,108648.637973,92130.0909043
+Prevalence,Oregon,Both,All Ages,Alcohol use disorders,Percent,2016,0.0268876775175,0.0292609179298,0.0246844044069
+Prevalence,Oregon,Both,All Ages,Alcohol use disorders,Rate,2016,2476.12066946,2687.70437345,2279.0754939
+Prevalence,Rhode Island,Both,All Ages,Alcohol use disorders,Number,2013,25877.4304658,27933.4178218,24028.7841188
+Prevalence,Rhode Island,Both,All Ages,Alcohol use disorders,Percent,2013,0.0267144457785,0.0288776547462,0.0247151659797
+Prevalence,Rhode Island,Both,All Ages,Alcohol use disorders,Rate,2013,2460.54324589,2656.0358319499996,2284.76558167
+Prevalence,South Dakota,Both,All Ages,Alcohol use disorders,Number,2013,18472.0711452,19858.1514307,17159.6921014
+Prevalence,South Dakota,Both,All Ages,Alcohol use disorders,Percent,2013,0.0242104711007,0.0258927933089,0.0224797803401
+Prevalence,South Dakota,Both,All Ages,Alcohol use disorders,Rate,2013,2192.3086749500003,2356.81193017,2036.5524557400001
+Prevalence,North Carolina,Both,All Ages,Alcohol use disorders,Number,2016,185910.044751,206902.79357,169053.656513
+Prevalence,North Carolina,Both,All Ages,Alcohol use disorders,Percent,2016,0.0201027377778,0.0223780862619,0.0182808607189
+Prevalence,North Carolina,Both,All Ages,Alcohol use disorders,Rate,2016,1839.91546012,2047.67660156,1673.0910727599999
+Prevalence,Colorado,Both,All Ages,Alcohol use disorders,Number,2014,145013.18145,155902.368577,134998.907507
+Prevalence,Colorado,Both,All Ages,Alcohol use disorders,Percent,2014,0.0299582420122,0.0322619839332,0.0279412155796
+Prevalence,Colorado,Both,All Ages,Alcohol use disorders,Rate,2014,2720.56941657,2924.85973813,2532.69320321
+Prevalence,Colorado,Both,All Ages,Alcohol use disorders,Number,2015,147829.400515,159010.9951,137533.606849
+Prevalence,Colorado,Both,All Ages,Alcohol use disorders,Percent,2015,0.0300310493609,0.0323515417462,0.0279799922533
+Prevalence,Colorado,Both,All Ages,Alcohol use disorders,Rate,2015,2728.9757606000003,2935.3914024200003,2538.91227355
+Prevalence,Connecticut,Both,All Ages,Alcohol use disorders,Number,2016,68967.4011006,76016.358388,62708.8828655
+Prevalence,Connecticut,Both,All Ages,Alcohol use disorders,Percent,2016,0.020563379534,0.0226579821177,0.0186849824477
+Prevalence,Connecticut,Both,All Ages,Alcohol use disorders,Rate,2016,1928.20140027,2125.27725198,1753.2247673699999
+Prevalence,Alaska,Both,All Ages,Alcohol use disorders,Number,2015,24737.2589831,27608.6331504,22576.6610035
+Prevalence,Alaska,Both,All Ages,Alcohol use disorders,Percent,2015,0.036864064762,0.0410066108074,0.033673629864
+Prevalence,Alaska,Both,All Ages,Alcohol use disorders,Rate,2015,3363.5740333,3754.0004582999995,3069.79325244
+Prevalence,California,Both,All Ages,Alcohol use disorders,Number,2013,799506.225655,858143.736594,744793.793942
+Prevalence,California,Both,All Ages,Alcohol use disorders,Percent,2013,0.0228963744254,0.0244655149082,0.0213445942896
+Prevalence,California,Both,All Ages,Alcohol use disorders,Rate,2013,2082.52900322,2235.26617185,1940.01575914
+Prevalence,Arizona,Both,All Ages,Alcohol use disorders,Number,2016,180453.224855,195958.680599,166503.737255
+Prevalence,Arizona,Both,All Ages,Alcohol use disorders,Percent,2016,0.0281241840513,0.0305555358765,0.0259378774241
+Prevalence,Arizona,Both,All Ages,Alcohol use disorders,Rate,2016,2611.18103593,2835.54694585,2409.33018227
+Prevalence,Connecticut,Both,All Ages,Alcohol use disorders,Number,2014,68556.3966783,75704.0894676,62509.9862299
+Prevalence,Connecticut,Both,All Ages,Alcohol use disorders,Percent,2014,0.0204354859954,0.0225765049222,0.0186641791227
+Prevalence,Connecticut,Both,All Ages,Alcohol use disorders,Rate,2014,1915.5943813600002,2115.3143318,1746.6463262799998
+Prevalence,South Carolina,Both,All Ages,Alcohol use disorders,Number,2013,113701.690003,122925.977201,105656.735916
+Prevalence,South Carolina,Both,All Ages,Alcohol use disorders,Percent,2013,0.0259652265503,0.0280412925036,0.0240661914417
+Prevalence,South Carolina,Both,All Ages,Alcohol use disorders,Rate,2013,2390.07848049,2583.9785916700002,2220.96866657
+Prevalence,Kentucky,Both,All Ages,Alcohol use disorders,Number,2013,79350.038353,87937.9854773,71794.1138518
+Prevalence,Kentucky,Both,All Ages,Alcohol use disorders,Percent,2013,0.0195889771851,0.021665101445,0.0177219788381
+Prevalence,Kentucky,Both,All Ages,Alcohol use disorders,Rate,2013,1806.5474564400001,2002.06763961,1634.52313897
+Prevalence,District of Columbia,Both,All Ages,Alcohol use disorders,Number,2014,22582.6241385,24652.4151861,21225.1354208
+Prevalence,District of Columbia,Both,All Ages,Alcohol use disorders,Percent,2014,0.0368326001731,0.0401278814698,0.0345686002433
+Prevalence,District of Columbia,Both,All Ages,Alcohol use disorders,Rate,2014,3388.0402966799998,3698.56822436,3184.37811599
+Prevalence,Florida,Both,All Ages,Alcohol use disorders,Number,2015,394288.106777,427723.182438,368001.477104
+Prevalence,Florida,Both,All Ages,Alcohol use disorders,Percent,2015,0.0211090638228,0.0229082689988,0.0197214242631
+Prevalence,Florida,Both,All Ages,Alcohol use disorders,Rate,2015,1958.95685972,2125.07364005,1828.35598023
+Prevalence,Oregon,Both,All Ages,Alcohol use disorders,Number,2013,96681.7004077,105980.566938,89091.7460043
+Prevalence,Oregon,Both,All Ages,Alcohol use disorders,Percent,2013,0.0268279361926,0.0294313519217,0.0246575273698
+Prevalence,Oregon,Both,All Ages,Alcohol use disorders,Rate,2013,2467.72637545,2705.07282367,2273.99860079
+Prevalence,Tennessee,Both,All Ages,Alcohol use disorders,Number,2013,119790.281877,130523.723284,109180.868921
+Prevalence,Tennessee,Both,All Ages,Alcohol use disorders,Percent,2013,0.0200616541655,0.0217850289937,0.0182451794348
+Prevalence,Tennessee,Both,All Ages,Alcohol use disorders,Rate,2013,1847.39826702,2012.92873195,1683.7805611200001
+Prevalence,California,Both,All Ages,Alcohol use disorders,Number,2016,822398.220261,884860.580241,765820.716057
+Prevalence,California,Both,All Ages,Alcohol use disorders,Percent,2016,0.0227805821097,0.0244842077875,0.0212165460794
+Prevalence,California,Both,All Ages,Alcohol use disorders,Rate,2016,2084.40754334,2242.72137612,1941.00915843
+Prevalence,Arkansas,Both,All Ages,Alcohol use disorders,Number,2015,53986.3766632,59351.7163337,49373.9946486
+Prevalence,Arkansas,Both,All Ages,Alcohol use disorders,Percent,2015,0.0199066877855,0.021800277004,0.0182159013946
+Prevalence,Arkansas,Both,All Ages,Alcohol use disorders,Rate,2015,1821.0722543200002,2002.05626941,1665.48705983
+Prevalence,Connecticut,Both,All Ages,Alcohol use disorders,Number,2015,68756.241865,76003.0321746,62633.9005728
+Prevalence,Connecticut,Both,All Ages,Alcohol use disorders,Percent,2015,0.0205000410773,0.0226775781493,0.0187096050714
+Prevalence,Connecticut,Both,All Ages,Alcohol use disorders,Rate,2015,1921.96786572,2124.5399919399997,1750.82786581
+Prevalence,Rhode Island,Both,All Ages,Alcohol use disorders,Number,2015,26100.447058,28190.3435861,24216.3749174
+Prevalence,Rhode Island,Both,All Ages,Alcohol use disorders,Percent,2015,0.0268650615265,0.0290627100991,0.0248421149321
+Prevalence,Rhode Island,Both,All Ages,Alcohol use disorders,Rate,2015,2477.70712375,2676.1003353399997,2298.8527556999998
+Prevalence,District of Columbia,Both,All Ages,Alcohol use disorders,Number,2016,23114.4752841,25114.4590146,21153.331154
+Prevalence,District of Columbia,Both,All Ages,Alcohol use disorders,Percent,2016,0.036689398914,0.0398893440451,0.0335962650765
+Prevalence,District of Columbia,Both,All Ages,Alcohol use disorders,Rate,2016,3374.41427484,3666.38601837,3088.11261035
+Prevalence,Texas,Both,All Ages,Alcohol use disorders,Number,2013,449767.292714,485323.756125,418811.355082
+Prevalence,Texas,Both,All Ages,Alcohol use disorders,Percent,2013,0.0185459023131,0.019959276444,0.0172323617399
+Prevalence,Texas,Both,All Ages,Alcohol use disorders,Rate,2013,1701.07309873,1835.5518489100002,1583.9940812
+Prevalence,Vermont,Both,All Ages,Alcohol use disorders,Number,2013,13323.9007615,14465.9082421,12433.9714627
+Prevalence,Vermont,Both,All Ages,Alcohol use disorders,Percent,2013,0.023310225927,0.0252486879023,0.0217311417234
+Prevalence,Vermont,Both,All Ages,Alcohol use disorders,Rate,2013,2128.2817531299997,2310.6993293600003,1986.12966703
+Prevalence,Maine,Both,All Ages,Alcohol use disorders,Number,2016,26827.8535423,29439.4457527,24542.5257492
+Prevalence,Maine,Both,All Ages,Alcohol use disorders,Percent,2016,0.0219407360517,0.0240796387545,0.0200659185138
+Prevalence,Maine,Both,All Ages,Alcohol use disorders,Rate,2016,2020.4858192400002,2217.17263275,1848.37095395
+Prevalence,Maryland,Both,All Ages,Alcohol use disorders,Number,2013,104569.342278,114854.893581,95759.7037499
+Prevalence,Maryland,Both,All Ages,Alcohol use disorders,Percent,2013,0.0192005827363,0.0211220278294,0.0175878580467
+Prevalence,Maryland,Both,All Ages,Alcohol use disorders,Rate,2013,1765.02750957,1938.63748556,1616.32948765
+Prevalence,South Dakota,Both,All Ages,Alcohol use disorders,Number,2014,18622.5845016,20026.9317395,17287.197294
+Prevalence,South Dakota,Both,All Ages,Alcohol use disorders,Percent,2014,0.0242111110367,0.0259108087918,0.0224642500819
+Prevalence,South Dakota,Both,All Ages,Alcohol use disorders,Rate,2014,2193.15531652,2358.54329534,2035.88866248
+Prevalence,Texas,Both,All Ages,Alcohol use disorders,Number,2015,466269.004168,503147.943751,434266.102919
+Prevalence,Texas,Both,All Ages,Alcohol use disorders,Percent,2015,0.0185774736826,0.0199776117941,0.0172622612052
+Prevalence,Texas,Both,All Ages,Alcohol use disorders,Rate,2015,1705.16230791,1840.02989973,1588.12656145
+Prevalence,Louisiana,Both,All Ages,Alcohol use disorders,Number,2013,84939.4768425,92187.603437,77977.3184889
+Prevalence,Louisiana,Both,All Ages,Alcohol use disorders,Percent,2013,0.0199905542855,0.021794529081,0.018373221371
+Prevalence,Louisiana,Both,All Ages,Alcohol use disorders,Rate,2013,1838.2444167300002,1995.1070292600002,1687.57067588
+Prevalence,Rhode Island,Both,All Ages,Alcohol use disorders,Number,2016,26233.5461779,28573.0045829,23954.9176945
+Prevalence,Rhode Island,Both,All Ages,Alcohol use disorders,Percent,2016,0.0269314457767,0.0293530092821,0.0245689745633
+Prevalence,Rhode Island,Both,All Ages,Alcohol use disorders,Rate,2016,2485.49877664,2707.150892,2269.60999556
+Prevalence,Vermont,Both,All Ages,Alcohol use disorders,Number,2015,13323.6370761,14497.8600859,12423.8860802
+Prevalence,Vermont,Both,All Ages,Alcohol use disorders,Percent,2015,0.0233272415755,0.0253259613224,0.021722919377
+Prevalence,Vermont,Both,All Ages,Alcohol use disorders,Rate,2015,2133.35753267,2321.3720731999997,1989.29097235
+Prevalence,South Carolina,Both,All Ages,Alcohol use disorders,Number,2016,117464.079344,129268.584213,108021.648711
+Prevalence,South Carolina,Both,All Ages,Alcohol use disorders,Percent,2016,0.0258145517545,0.0283986901551,0.023719668367
+Prevalence,South Carolina,Both,All Ages,Alcohol use disorders,Rate,2016,2381.08506437,2620.37123929,2189.67990733
+Prevalence,Virginia,Both,All Ages,Alcohol use disorders,Number,2014,160199.246867,177014.013971,145773.076029
+Prevalence,Virginia,Both,All Ages,Alcohol use disorders,Percent,2014,0.0210388256791,0.0231981589516,0.0191197190775
+Prevalence,Virginia,Both,All Ages,Alcohol use disorders,Rate,2014,1929.96376918,2132.53582823,1756.1677770600002
+Prevalence,Mississippi,Both,All Ages,Alcohol use disorders,Number,2014,54874.6023324,59974.6967052,49950.1213565
+Prevalence,Mississippi,Both,All Ages,Alcohol use disorders,Percent,2014,0.0199194794898,0.021774574982,0.0181756934484
+Prevalence,Mississippi,Both,All Ages,Alcohol use disorders,Rate,2014,1839.5481782200002,2010.51742289,1674.4659794799998
+Prevalence,Texas,Both,All Ages,Alcohol use disorders,Number,2016,475173.923521,522956.672621,438020.038393
+Prevalence,Texas,Both,All Ages,Alcohol use disorders,Percent,2016,0.0185819020691,0.0204648683396,0.0171209922055
+Prevalence,Texas,Both,All Ages,Alcohol use disorders,Rate,2016,1706.13924881,1877.70595232,1572.7360915099998
+Prevalence,Pennsylvania,Both,All Ages,Alcohol use disorders,Number,2014,217236.208115,231671.719595,200846.262496
+Prevalence,Pennsylvania,Both,All Ages,Alcohol use disorders,Percent,2014,0.0183861701962,0.0196362863957,0.0169890423393
+Prevalence,Pennsylvania,Both,All Ages,Alcohol use disorders,Rate,2014,1704.0583568399998,1817.29433249,1575.49128212
+Prevalence,Missouri,Both,All Ages,Alcohol use disorders,Number,2014,112201.057838,123944.00415,101123.80198
+Prevalence,Missouri,Both,All Ages,Alcohol use disorders,Percent,2014,0.0203189330951,0.0223973193517,0.0182775032798
+Prevalence,Missouri,Both,All Ages,Alcohol use disorders,Rate,2014,1856.3246539499999,2050.60732089,1673.05558731
+Prevalence,Maryland,Both,All Ages,Alcohol use disorders,Number,2016,106490.748535,118580.924004,95901.9115148
+Prevalence,Maryland,Both,All Ages,Alcohol use disorders,Percent,2016,0.0191739471436,0.0213023304207,0.0172676971476
+Prevalence,Maryland,Both,All Ages,Alcohol use disorders,Rate,2016,1765.7393086900001,1966.2083481999998,1590.1641905
+Prevalence,Maryland,Both,All Ages,Alcohol use disorders,Number,2014,105102.329471,115566.207098,96214.3390337
+Prevalence,Maryland,Both,All Ages,Alcohol use disorders,Percent,2014,0.0191985996573,0.0211369628092,0.0175711294264
+Prevalence,Maryland,Both,All Ages,Alcohol use disorders,Rate,2014,1765.83104341,1941.63532901,1616.5033405200002
+Prevalence,Connecticut,Both,All Ages,Alcohol use disorders,Number,2013,68465.9625992,75528.6816483,62489.1012857
+Prevalence,Connecticut,Both,All Ages,Alcohol use disorders,Percent,2013,0.0203636481975,0.0224743185784,0.0186079001008
+Prevalence,Connecticut,Both,All Ages,Alcohol use disorders,Rate,2013,1908.72570955,2105.62345138,1742.1000109
+Prevalence,Arizona,Both,All Ages,Alcohol use disorders,Number,2015,177681.09116,193828.60855,164876.99687
+Prevalence,Arizona,Both,All Ages,Alcohol use disorders,Percent,2015,0.0281324419783,0.0305843222142,0.0260710992349
+Prevalence,Arizona,Both,All Ages,Alcohol use disorders,Rate,2015,2610.5371430699997,2847.78069916,2422.41603514
+Prevalence,Virginia,Both,All Ages,Alcohol use disorders,Number,2016,162879.466348,180070.54553,147335.306786
+Prevalence,Virginia,Both,All Ages,Alcohol use disorders,Percent,2016,0.021056280713,0.0233177499518,0.0190527324724
+Prevalence,Virginia,Both,All Ages,Alcohol use disorders,Rate,2016,1934.0220076399999,2138.1479556,1749.4514944900002
+Prevalence,Delaware,Both,All Ages,Alcohol use disorders,Number,2015,18281.2210001,20137.0707505,16864.8855396
+Prevalence,Delaware,Both,All Ages,Alcohol use disorders,Percent,2015,0.0210998182175,0.0231741174152,0.0194837470868
+Prevalence,Delaware,Both,All Ages,Alcohol use disorders,Rate,2015,1940.0097811100002,2136.9532274999997,1789.70775004
+Prevalence,Michigan,Both,All Ages,Alcohol use disorders,Number,2014,198538.731035,214271.799929,187096.646535
+Prevalence,Michigan,Both,All Ages,Alcohol use disorders,Percent,2014,0.0217650197464,0.0234331672269,0.0204779569079
+Prevalence,Michigan,Both,All Ages,Alcohol use disorders,Rate,2014,2009.87722658,2169.1486025500003,1894.04499102
+Prevalence,Delaware,Both,All Ages,Alcohol use disorders,Number,2016,18515.0260017,20579.2328702,16760.4904776
+Prevalence,Delaware,Both,All Ages,Alcohol use disorders,Percent,2016,0.0211119648547,0.0235038783171,0.0190945601805
+Prevalence,Delaware,Both,All Ages,Alcohol use disorders,Rate,2016,1943.1134369899999,2159.74765087,1758.9785860700001
+Prevalence,South Dakota,Both,All Ages,Alcohol use disorders,Number,2016,18984.0648808,20746.2911844,17324.5138169
+Prevalence,South Dakota,Both,All Ages,Alcohol use disorders,Percent,2016,0.0242063590235,0.026505689679,0.0220942261354
+Prevalence,South Dakota,Both,All Ages,Alcohol use disorders,Rate,2016,2194.67399306,2398.39813026,2002.81974145
+Prevalence,Kansas,Both,All Ages,Alcohol use disorders,Number,2015,59665.7631443,64547.3880721,54428.2771421
+Prevalence,Kansas,Both,All Ages,Alcohol use disorders,Percent,2015,0.0227217296886,0.024448254668,0.0207095897899
+Prevalence,Kansas,Both,All Ages,Alcohol use disorders,Rate,2015,2057.9630132800003,2226.33768942,1877.3141468699998
+Prevalence,Utah,Both,All Ages,Alcohol use disorders,Number,2014,53190.9039161,60620.0775581,47959.4873701
+Prevalence,Utah,Both,All Ages,Alcohol use disorders,Percent,2014,0.0203308813425,0.023029675331,0.0183391260729
+Prevalence,Utah,Both,All Ages,Alcohol use disorders,Rate,2014,1810.25943454,2063.09837289,1632.21731716
+Prevalence,Maryland,Both,All Ages,Alcohol use disorders,Number,2015,105789.876236,116443.687989,96811.2897312
+Prevalence,Maryland,Both,All Ages,Alcohol use disorders,Percent,2015,0.0191869127192,0.0211430775765,0.0175625771513
+Prevalence,Maryland,Both,All Ages,Alcohol use disorders,Rate,2015,1765.93613688,1943.7787796799998,1616.05780324
+Prevalence,California,Both,All Ages,Alcohol use disorders,Number,2015,814277.99975,872823.58859,759137.846209
+Prevalence,California,Both,All Ages,Alcohol use disorders,Percent,2015,0.0228295495244,0.0243580858641,0.0212842377314
+Prevalence,California,Both,All Ages,Alcohol use disorders,Rate,2015,2084.65474214,2234.5388596499997,1943.48897001
+Prevalence,Missouri,Both,All Ages,Alcohol use disorders,Number,2015,112726.681269,124533.383282,101604.32889
+Prevalence,Missouri,Both,All Ages,Alcohol use disorders,Percent,2015,0.0203378852124,0.0224277109662,0.0182985023613
+Prevalence,Missouri,Both,All Ages,Alcohol use disorders,Rate,2015,1858.93291042,2053.63275156,1675.51841932
+Prevalence,Minnesota,Both,All Ages,Alcohol use disorders,Number,2015,119525.158987,129911.193643,109799.03989
+Prevalence,Minnesota,Both,All Ages,Alcohol use disorders,Percent,2015,0.0241947463336,0.0262291166325,0.0222704863821
+Prevalence,Minnesota,Both,All Ages,Alcohol use disorders,Rate,2015,2184.82117501,2374.66930935,2007.0357519699999
+Prevalence,Mississippi,Both,All Ages,Alcohol use disorders,Number,2013,54889.2316133,59959.0887455,49993.0055097
+Prevalence,Mississippi,Both,All Ages,Alcohol use disorders,Percent,2013,0.019907392738,0.0217415961976,0.0181833679924
+Prevalence,Mississippi,Both,All Ages,Alcohol use disorders,Rate,2013,1838.23077593,2008.01940543,1674.25701924
+Prevalence,South Carolina,Both,All Ages,Alcohol use disorders,Number,2015,116138.530927,125767.269304,107878.238006
+Prevalence,South Carolina,Both,All Ages,Alcohol use disorders,Percent,2015,0.0258737805848,0.0279942856341,0.0239840183745
+Prevalence,South Carolina,Both,All Ages,Alcohol use disorders,Rate,2015,2385.1387706799997,2582.88431674,2215.4970097200003
+Prevalence,Utah,Both,All Ages,Alcohol use disorders,Number,2016,55469.3039444,62779.1026071,49567.8618018
+Prevalence,Utah,Both,All Ages,Alcohol use disorders,Percent,2016,0.0205407495154,0.0231690466413,0.0183233395646
+Prevalence,Utah,Both,All Ages,Alcohol use disorders,Rate,2016,1832.4387453699999,2073.9193001500003,1637.4835094599998
+Prevalence,Michigan,Both,All Ages,Alcohol use disorders,Number,2015,199249.579476,215115.614727,187759.324584
+Prevalence,Michigan,Both,All Ages,Alcohol use disorders,Percent,2015,0.0217965728358,0.0234813524666,0.0205099669523
+Prevalence,Michigan,Both,All Ages,Alcohol use disorders,Rate,2015,2013.56618928,2173.90435523,1897.44856023
+Prevalence,Florida,Both,All Ages,Alcohol use disorders,Number,2016,400458.94627,435061.77073,371625.015581
+Prevalence,Florida,Both,All Ages,Alcohol use disorders,Percent,2016,0.0210933827479,0.0229334611559,0.0195730145163
+Prevalence,Florida,Both,All Ages,Alcohol use disorders,Rate,2016,1958.6705959,2127.91524741,1817.64197678
+Prevalence,Kansas,Both,All Ages,Alcohol use disorders,Number,2013,59285.7140418,64084.8583493,54126.7048899
+Prevalence,Kansas,Both,All Ages,Alcohol use disorders,Percent,2013,0.0227014692712,0.0244157977068,0.0207021445273
+Prevalence,Kansas,Both,All Ages,Alcohol use disorders,Rate,2013,2053.34576419,2219.56291776,1874.66478243
+Prevalence,Georgia,Both,All Ages,Alcohol use disorders,Number,2016,187532.500476,208943.347441,169773.233561
+Prevalence,Georgia,Both,All Ages,Alcohol use disorders,Percent,2016,0.0198578236592,0.0220981065664,0.0180007347431
+Prevalence,Georgia,Both,All Ages,Alcohol use disorders,Rate,2016,1824.32099356,2032.6062641600001,1651.5583877200002
+Prevalence,Massachusetts,Both,All Ages,Alcohol use disorders,Number,2013,140447.2809,150229.511931,130205.73535
+Prevalence,Massachusetts,Both,All Ages,Alcohol use disorders,Percent,2013,0.0227892125902,0.0244194458392,0.0211072078498
+Prevalence,Massachusetts,Both,All Ages,Alcohol use disorders,Rate,2013,2095.76917571,2241.74066148,1942.94375012
+Prevalence,Virginia,Both,All Ages,Alcohol use disorders,Number,2015,161530.373399,178456.621186,146893.579276
+Prevalence,Virginia,Both,All Ages,Alcohol use disorders,Percent,2015,0.0210504734475,0.0232140934004,0.0191176299125
+Prevalence,Virginia,Both,All Ages,Alcohol use disorders,Rate,2015,1932.10942115,2134.5689470400002,1757.03468304
+Prevalence,Pennsylvania,Both,All Ages,Alcohol use disorders,Number,2016,218360.939686,237178.873323,201919.723618
+Prevalence,Pennsylvania,Both,All Ages,Alcohol use disorders,Percent,2016,0.0184522842714,0.0200405759329,0.0170830853077
+Prevalence,Pennsylvania,Both,All Ages,Alcohol use disorders,Rate,2016,1710.45742942,1857.8614222800002,1581.6706591700001
+Prevalence,Delaware,Both,All Ages,Alcohol use disorders,Number,2014,18050.9168892,19864.3081384,16664.0222297
+Prevalence,Delaware,Both,All Ages,Alcohol use disorders,Percent,2014,0.0210853384946,0.0231401454356,0.0194776545533
+Prevalence,Delaware,Both,All Ages,Alcohol use disorders,Rate,2014,1936.34153973,2130.86599658,1787.56783716
+Prevalence,Utah,Both,All Ages,Alcohol use disorders,Number,2013,52173.1980193,59428.6972552,47018.6621702
+Prevalence,Utah,Both,All Ages,Alcohol use disorders,Percent,2013,0.020227228838,0.0229087902076,0.0182190271123
+Prevalence,Utah,Both,All Ages,Alcohol use disorders,Rate,2013,1799.25229546,2049.46646961,1621.49224221
+Prevalence,South Carolina,Both,All Ages,Alcohol use disorders,Number,2014,114830.664635,124251.424832,106696.367058
+Prevalence,South Carolina,Both,All Ages,Alcohol use disorders,Percent,2014,0.0259252565721,0.0280232686988,0.0240260701256
+Prevalence,South Carolina,Both,All Ages,Alcohol use disorders,Rate,2014,2388.29896615,2584.23610464,2219.11824639
+Prevalence,Minnesota,Both,All Ages,Alcohol use disorders,Number,2016,120408.186851,132203.615116,109999.805387
+Prevalence,Minnesota,Both,All Ages,Alcohol use disorders,Percent,2016,0.0241908091072,0.0265789416255,0.0220518428473
+Prevalence,Minnesota,Both,All Ages,Alcohol use disorders,Rate,2016,2185.99267695,2400.13691816,1997.03006358
+Prevalence,Wisconsin,Both,All Ages,Alcohol use disorders,Number,2015,122172.373108,134676.122112,110692.435356
+Prevalence,Wisconsin,Both,All Ages,Alcohol use disorders,Percent,2015,0.0233345048363,0.0257115593009,0.0211576307627
+Prevalence,Wisconsin,Both,All Ages,Alcohol use disorders,Rate,2015,2123.45116632,2340.77607973,1923.92089128
+Prevalence,Maine,Both,All Ages,Alcohol use disorders,Number,2015,26808.3810786,28767.3143814,24720.5817167
+Prevalence,Maine,Both,All Ages,Alcohol use disorders,Percent,2015,0.0219741996184,0.0235790605711,0.020229085082
+Prevalence,Maine,Both,All Ages,Alcohol use disorders,Rate,2015,2021.4816931699997,2169.19474597,1864.05151577
+Prevalence,Louisiana,Both,All Ages,Alcohol use disorders,Number,2015,85619.1701258,92864.4518301,78513.2093944
+Prevalence,Louisiana,Both,All Ages,Alcohol use disorders,Percent,2015,0.0199848707562,0.0217677081645,0.0183586475241
+Prevalence,Louisiana,Both,All Ages,Alcohol use disorders,Rate,2015,1838.25641361,1993.81369759,1685.6903717999999
+Prevalence,Nevada,Both,All Ages,Alcohol use disorders,Number,2015,72013.2506682,77565.688049,66201.355827
+Prevalence,Nevada,Both,All Ages,Alcohol use disorders,Percent,2015,0.0274452182383,0.0295311967782,0.0252694707301
+Prevalence,Nevada,Both,All Ages,Alcohol use disorders,Rate,2015,2500.9931435,2693.82720793,2299.14821894
+Prevalence,Washington,Both,All Ages,Alcohol use disorders,Number,2015,147247.353323,162256.286785,134813.016664
+Prevalence,Washington,Both,All Ages,Alcohol use disorders,Percent,2015,0.0226497331515,0.0249389547743,0.0207784468002
+Prevalence,Washington,Both,All Ages,Alcohol use disorders,Rate,2015,2067.69048057,2278.45032204,1893.0838818099999
+Prevalence,Georgia,Both,All Ages,Alcohol use disorders,Number,2015,185611.825603,202081.568836,170226.915938
+Prevalence,Georgia,Both,All Ages,Alcohol use disorders,Percent,2015,0.0198868198612,0.0216156251985,0.0182119338654
+Prevalence,Georgia,Both,All Ages,Alcohol use disorders,Rate,2015,1825.85045634,1987.8621606,1674.5101834799998
+Prevalence,Tennessee,Both,All Ages,Alcohol use disorders,Number,2014,120831.498145,131755.727869,110067.651934
+Prevalence,Tennessee,Both,All Ages,Alcohol use disorders,Percent,2014,0.0201062790111,0.0218515377145,0.0182653737413
+Prevalence,Tennessee,Both,All Ages,Alcohol use disorders,Rate,2014,1852.1217089900001,2019.56979442,1687.1320039299999
+Prevalence,Hawaii,Both,All Ages,Alcohol use disorders,Number,2016,33337.6465137,36719.4132866,30041.6506609
+Prevalence,Hawaii,Both,All Ages,Alcohol use disorders,Percent,2016,0.0248147448428,0.0273469821571,0.0222977169179
+Prevalence,Hawaii,Both,All Ages,Alcohol use disorders,Rate,2016,2315.1666637599997,2550.01688614,2086.2728899
+Prevalence,Minnesota,Both,All Ages,Alcohol use disorders,Number,2014,118657.618327,128956.174815,109080.924314
+Prevalence,Minnesota,Both,All Ages,Alcohol use disorders,Percent,2014,0.0241935057927,0.0262093461498,0.0222921454974
+Prevalence,Minnesota,Both,All Ages,Alcohol use disorders,Rate,2014,2183.34217394,2372.8392583,2007.1276146
+Prevalence,Nebraska,Both,All Ages,Alcohol use disorders,Number,2016,34154.7059365,37760.5133687,30668.7064735
+Prevalence,Nebraska,Both,All Ages,Alcohol use disorders,Percent,2016,0.0199187557887,0.0220514380655,0.0179196061664
+Prevalence,Nebraska,Both,All Ages,Alcohol use disorders,Rate,2016,1792.1794832300002,1981.3848627900002,1609.2607156699999
+Prevalence,Colorado,Both,All Ages,Alcohol use disorders,Number,2016,150700.862939,165316.031533,137782.905243
+Prevalence,Colorado,Both,All Ages,Alcohol use disorders,Percent,2016,0.0300915198595,0.0329440993309,0.0274827751748
+Prevalence,Colorado,Both,All Ages,Alcohol use disorders,Rate,2016,2736.461643,3001.84730494,2501.89433495
+Prevalence,Montana,Both,All Ages,Alcohol use disorders,Number,2016,28610.2731488,31007.4681422,26347.3014632
+Prevalence,Montana,Both,All Ages,Alcohol use disorders,Percent,2016,0.0301891483743,0.0327144758703,0.0278306686197
+Prevalence,Montana,Both,All Ages,Alcohol use disorders,Rate,2016,2759.33706446,2990.5361502399996,2541.08323601
+Prevalence,Mississippi,Both,All Ages,Alcohol use disorders,Number,2016,55016.6990576,60984.4657258,49946.2721833
+Prevalence,Mississippi,Both,All Ages,Alcohol use disorders,Percent,2016,0.0199275186345,0.0221165559929,0.0181171902145
+Prevalence,Mississippi,Both,All Ages,Alcohol use disorders,Rate,2016,1840.2985735400002,2039.91928279,1670.69371712
+Prevalence,Massachusetts,Both,All Ages,Alcohol use disorders,Number,2016,144677.591825,159331.041577,131489.869702
+Prevalence,Massachusetts,Both,All Ages,Alcohol use disorders,Percent,2016,0.0230156496302,0.0253551244732,0.0209529395075
+Prevalence,Massachusetts,Both,All Ages,Alcohol use disorders,Rate,2016,2118.80870573,2333.40902159,1925.67402544
+Prevalence,West Virginia,Both,All Ages,Alcohol use disorders,Number,2015,36850.6169928,40096.0718646,33624.3636131
+Prevalence,West Virginia,Both,All Ages,Alcohol use disorders,Percent,2015,0.0215682678434,0.0234785868778,0.0197151110303
+Prevalence,West Virginia,Both,All Ages,Alcohol use disorders,Rate,2015,2006.17959204,2182.86497378,1830.53955621
+Prevalence,Montana,Both,All Ages,Alcohol use disorders,Number,2015,28375.8903364,30547.784224,26443.4793461
+Prevalence,Montana,Both,All Ages,Alcohol use disorders,Percent,2015,0.0302221101311,0.0325083403141,0.028136394309
+Prevalence,Montana,Both,All Ages,Alcohol use disorders,Rate,2015,2760.7892818,2972.1004087799997,2572.77828067
+Prevalence,Michigan,Both,All Ages,Alcohol use disorders,Number,2013,198133.621368,213760.91422,186722.404819
+Prevalence,Michigan,Both,All Ages,Alcohol use disorders,Percent,2013,0.0217262976995,0.0233893889624,0.0204533542243
+Prevalence,Michigan,Both,All Ages,Alcohol use disorders,Rate,2013,2005.8025541200002,2164.00520392,1890.2812854899998
+Prevalence,New Mexico,Both,All Ages,Alcohol use disorders,Number,2016,60969.23649,67097.0020718,55165.0897106
+Prevalence,New Mexico,Both,All Ages,Alcohol use disorders,Percent,2016,0.0318214525864,0.0350677243973,0.0287984770186
+Prevalence,New Mexico,Both,All Ages,Alcohol use disorders,Rate,2016,2941.6707565300003,3237.32590743,2661.6297091
+Prevalence,Massachusetts,Both,All Ages,Alcohol use disorders,Number,2015,143176.360472,153168.69361,132534.113036
+Prevalence,Massachusetts,Both,All Ages,Alcohol use disorders,Percent,2015,0.0229435174171,0.0245942245747,0.0212290854169
+Prevalence,Massachusetts,Both,All Ages,Alcohol use disorders,Rate,2015,2111.37317931,2258.7267237,1954.4355694399999
+Prevalence,Wisconsin,Both,All Ages,Alcohol use disorders,Number,2016,122562.939806,134773.915555,111739.090922
+Prevalence,Wisconsin,Both,All Ages,Alcohol use disorders,Percent,2016,0.0233169226982,0.0255826252981,0.0212616663312
+Prevalence,Wisconsin,Both,All Ages,Alcohol use disorders,Rate,2016,2123.67308791,2335.25515844,1936.1260478399997
+Prevalence,Nebraska,Both,All Ages,Alcohol use disorders,Number,2015,33795.2797349,36937.3267433,30718.69747
+Prevalence,Nebraska,Both,All Ages,Alcohol use disorders,Percent,2015,0.0198725634189,0.0217695360628,0.0180533335368
+Prevalence,Nebraska,Both,All Ages,Alcohol use disorders,Rate,2015,1787.27791276,1953.446421,1624.57153566
+Prevalence,Michigan,Both,All Ages,Alcohol use disorders,Number,2016,199958.86319,215689.845462,186020.405205
+Prevalence,Michigan,Both,All Ages,Alcohol use disorders,Percent,2016,0.0218271570755,0.0235351983479,0.0202942989104
+Prevalence,Michigan,Both,All Ages,Alcohol use disorders,Rate,2016,2017.20632504,2175.90215094,1876.59367522
+Prevalence,Missouri,Both,All Ages,Alcohol use disorders,Number,2013,111847.12659,123554.105149,100793.47517
+Prevalence,Missouri,Both,All Ages,Alcohol use disorders,Percent,2013,0.0202980091595,0.022378741619,0.0182638666979
+Prevalence,Missouri,Both,All Ages,Alcohol use disorders,Rate,2013,1853.4592171200002,2047.4597961099998,1670.28515864
+Prevalence,Texas,Both,All Ages,Alcohol use disorders,Number,2014,457613.090777,493811.712979,426157.295637
+Prevalence,Texas,Both,All Ages,Alcohol use disorders,Percent,2014,0.0185673828871,0.0199711432837,0.0172449830571
+Prevalence,Texas,Both,All Ages,Alcohol use disorders,Rate,2014,1703.6207271300002,1838.3824381099998,1586.51580669
+Prevalence,Montana,Both,All Ages,Alcohol use disorders,Number,2014,28142.7515021,30299.310134,26248.619912
+Prevalence,Montana,Both,All Ages,Alcohol use disorders,Percent,2014,0.0302488567746,0.0325227257055,0.028192965443
+Prevalence,Montana,Both,All Ages,Alcohol use disorders,Rate,2014,2762.23328946,2973.90122261,2576.32277775
+Prevalence,Maine,Both,All Ages,Alcohol use disorders,Number,2013,26797.0715588,28725.1116175,24726.6792814
+Prevalence,Maine,Both,All Ages,Alcohol use disorders,Percent,2013,0.0220211992362,0.0236146285577,0.0202778316168
+Prevalence,Maine,Both,All Ages,Alcohol use disorders,Rate,2013,2022.1481777600002,2167.64104189,1865.91319657
+Prevalence,South Dakota,Both,All Ages,Alcohol use disorders,Number,2015,18801.6847831,20224.5923875,17441.6684369
+Prevalence,South Dakota,Both,All Ages,Alcohol use disorders,Percent,2015,0.0242094517233,0.0259167052292,0.0224523942447
+Prevalence,South Dakota,Both,All Ages,Alcohol use disorders,Rate,2015,2193.75336504,2359.77616466,2035.06862639
+Prevalence,District of Columbia,Both,All Ages,Alcohol use disorders,Number,2015,22844.6442678,24942.7605164,21453.2888283
+Prevalence,District of Columbia,Both,All Ages,Alcohol use disorders,Percent,2015,0.0367580024114,0.0400682878016,0.0344605887708
+Prevalence,District of Columbia,Both,All Ages,Alcohol use disorders,Rate,2015,3381.0039693100002,3691.5248634600002,3175.0835702599998
+Prevalence,Tennessee,Both,All Ages,Alcohol use disorders,Number,2016,123326.429173,136449.452283,112030.590716
+Prevalence,Tennessee,Both,All Ages,Alcohol use disorders,Percent,2016,0.0201819383473,0.022270615788,0.0183477687783
+Prevalence,Tennessee,Both,All Ages,Alcohol use disorders,Rate,2016,1859.9564614700002,2057.8722836499996,1689.59745678
+Prevalence,New Jersey,Both,All Ages,Alcohol use disorders,Number,2016,151452.214288,169322.430568,136509.197747
+Prevalence,New Jersey,Both,All Ages,Alcohol use disorders,Percent,2016,0.0183345875369,0.0204788109644,0.0165311216829
+Prevalence,New Jersey,Both,All Ages,Alcohol use disorders,Rate,2016,1690.08573324,1889.50307241,1523.33360494
+Prevalence,New Jersey,Both,All Ages,Alcohol use disorders,Number,2015,150557.464767,165860.291336,137890.00058
+Prevalence,New Jersey,Both,All Ages,Alcohol use disorders,Percent,2015,0.0183016596383,0.020151669788,0.0167410434468
+Prevalence,New Jersey,Both,All Ages,Alcohol use disorders,Rate,2015,1686.16064174,1857.5438668099998,1544.29202317
+Prevalence,Washington,Both,All Ages,Alcohol use disorders,Number,2016,149338.791396,165389.813786,135360.579076
+Prevalence,Washington,Both,All Ages,Alcohol use disorders,Percent,2016,0.0226576359607,0.0251516422066,0.020519900154
+Prevalence,Washington,Both,All Ages,Alcohol use disorders,Rate,2016,2069.73712413,2292.19370497,1876.00832334
+Prevalence,Vermont,Both,All Ages,Alcohol use disorders,Number,2014,13313.6388516,14470.990734,12419.8868573
+Prevalence,Vermont,Both,All Ages,Alcohol use disorders,Percent,2014,0.0233213663841,0.0252855865262,0.0217250397577
+Prevalence,Vermont,Both,All Ages,Alcohol use disorders,Rate,2014,2130.9110226,2316.15067877,1987.8617783399998
+Prevalence,Nebraska,Both,All Ages,Alcohol use disorders,Number,2014,33446.9757331,36550.3151326,30397.2536373
+Prevalence,Nebraska,Both,All Ages,Alcohol use disorders,Percent,2014,0.0198263268846,0.0217024417429,0.0179983615731
+Prevalence,Nebraska,Both,All Ages,Alcohol use disorders,Rate,2014,1782.40927556,1947.78808215,1619.88776704
+Prevalence,New Hampshire,Both,All Ages,Alcohol use disorders,Number,2016,29398.1441438,32458.8758531,26635.7002491
+Prevalence,New Hampshire,Both,All Ages,Alcohol use disorders,Percent,2016,0.0240613687,0.0265493301667,0.0217767396137
+Prevalence,New Hampshire,Both,All Ages,Alcohol use disorders,Rate,2016,2204.63501052,2434.16637995,1997.4729361
+Prevalence,New Hampshire,Both,All Ages,Alcohol use disorders,Number,2015,29181.1181491,31898.5747691,26556.4121401
+Prevalence,New Hampshire,Both,All Ages,Alcohol use disorders,Percent,2015,0.0240400690004,0.0262784570966,0.0218716872367
+Prevalence,New Hampshire,Both,All Ages,Alcohol use disorders,Rate,2015,2197.81338358,2402.48211828,2000.1302802399998
+Prevalence,Utah,Both,All Ages,Alcohol use disorders,Number,2015,54311.3550398,61910.7815446,48970.8019644
+Prevalence,Utah,Both,All Ages,Alcohol use disorders,Percent,2015,0.0204371404611,0.0231456042419,0.0184180429905
+Prevalence,Utah,Both,All Ages,Alcohol use disorders,Rate,2015,1821.25626791,2076.09253823,1642.1681977299997
+Prevalence,Idaho,Both,All Ages,Alcohol use disorders,Number,2016,32999.4033863,36390.4387858,30112.9399497
+Prevalence,Idaho,Both,All Ages,Alcohol use disorders,Percent,2016,0.0217458346406,0.024031572668,0.0198329779491
+Prevalence,Idaho,Both,All Ages,Alcohol use disorders,Rate,2016,1968.73855673,2171.04712759,1796.53265974
+Prevalence,Mississippi,Both,All Ages,Alcohol use disorders,Number,2015,54943.2425554,60079.6100603,49979.002138
+Prevalence,Mississippi,Both,All Ages,Alcohol use disorders,Percent,2015,0.0199280162315,0.0217852586247,0.0181843221594
+Prevalence,Mississippi,Both,All Ages,Alcohol use disorders,Rate,2015,1840.12793741,2012.15224655,1673.86841112
+Prevalence,Washington,Both,All Ages,Alcohol use disorders,Number,2014,145187.31211,159858.731996,132972.445089
+Prevalence,Washington,Both,All Ages,Alcohol use disorders,Percent,2014,0.0226364023608,0.0249202447797,0.0207666410595
+Prevalence,Washington,Both,All Ages,Alcohol use disorders,Rate,2014,2065.28129544,2273.98141274,1891.5255035700002
+Prevalence,Missouri,Both,All Ages,Alcohol use disorders,Number,2016,113266.602025,126747.37803,101733.142713
+Prevalence,Missouri,Both,All Ages,Alcohol use disorders,Percent,2016,0.0203543242898,0.0227880996455,0.0182654519516
+Prevalence,Missouri,Both,All Ages,Alcohol use disorders,Rate,2016,1861.549146,2083.1071923299996,1671.99546513
+Prevalence,Wyoming,Both,All Ages,Alcohol use disorders,Number,2016,15538.6328788,17166.94792,14101.5139409
+Prevalence,Wyoming,Both,All Ages,Alcohol use disorders,Percent,2016,0.0292968387165,0.03235132805,0.0265491210824
+Prevalence,Wyoming,Both,All Ages,Alcohol use disorders,Rate,2016,2660.23161147,2939.00099742,2414.19521575
+Prevalence,Vermont,Both,All Ages,Alcohol use disorders,Number,2016,13332.744313,14549.2624069,12217.9487562
+Prevalence,Vermont,Both,All Ages,Alcohol use disorders,Percent,2016,0.0233315266559,0.0254955851675,0.0213792213098
+Prevalence,Vermont,Both,All Ages,Alcohol use disorders,Rate,2016,2135.73620403,2330.60694293,1957.16012285
+Prevalence,Minnesota,Both,All Ages,Alcohol use disorders,Number,2013,117969.119223,128192.261336,108526.436167
+Prevalence,Minnesota,Both,All Ages,Alcohol use disorders,Percent,2013,0.0241805299078,0.026192334719,0.0222964002869
+Prevalence,Minnesota,Both,All Ages,Alcohol use disorders,Rate,2013,2181.12188186,2370.13676229,2006.53684832
+Prevalence,Nevada,Both,All Ages,Alcohol use disorders,Number,2016,73258.4604925,79414.4148481,67191.2214644
+Prevalence,Nevada,Both,All Ages,Alcohol use disorders,Percent,2016,0.0274054995406,0.0297796130622,0.025182678236
+Prevalence,Nevada,Both,All Ages,Alcohol use disorders,Rate,2016,2499.08184316,2709.08125694,2292.10879471
+Prevalence,West Virginia,Both,All Ages,Alcohol use disorders,Number,2016,36801.3341798,40448.8392396,33456.2382353
+Prevalence,West Virginia,Both,All Ages,Alcohol use disorders,Percent,2016,0.0215955567165,0.0237514622177,0.0195861924231
+Prevalence,West Virginia,Both,All Ages,Alcohol use disorders,Rate,2016,2009.5078382499998,2208.6769762999998,1826.85151152
+Prevalence,New York,Both,All Ages,Alcohol use disorders,Number,2016,384415.64303,416330.804424,356617.455819
+Prevalence,New York,Both,All Ages,Alcohol use disorders,Percent,2016,0.0208678741555,0.0226009550552,0.019342184079
+Prevalence,New York,Both,All Ages,Alcohol use disorders,Rate,2016,1940.26772017,2101.35366597,1799.96144934
