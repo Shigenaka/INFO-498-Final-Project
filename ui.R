@@ -53,11 +53,11 @@ ui <- shinyUI(fluidPage(
                         
                         sidebarPanel(
                           
-                          selectInput("ageFilter", label = "Choose the Age Range",
+                          selectInput("alcoholUseDisorderAgeFilter", label = "Choose the Age Range",
                                       choices = c("12 and Older", "18 and Older", "26 and Older"),
                                       selected = "12 and Older"),
                           
-                          radioButtons("typeFilter", "Count or Proportion",
+                          radioButtons("alcoholUseDisorderTypeFilter", "Count or Proportion",
                                        c("Count", "Proportion"),
                                        selected = "Count")
                           
@@ -66,7 +66,7 @@ ui <- shinyUI(fluidPage(
                         
                         mainPanel(
                           
-                          plotlyOutput("plot")
+                          plotlyOutput("alcoholUseDisorderPlot")
                         )
                       )
                       

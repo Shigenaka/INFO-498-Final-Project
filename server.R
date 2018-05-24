@@ -93,31 +93,31 @@ server <- shinyServer(function(input, output, session) {
       )
     })
     
-    output$plot <- renderPlotly({
+    output$alcoholUseDisorderPlot <- renderPlotly({
       
       # target_data <- over_11_count
       
-      if(input$ageFilter == "12 and Older" & input$typeFilter == "Count") {
+      if(input$alcoholUseDisorderAgeFilter == "12 and Older" & input$alcoholUseDisorderTypeFilter == "Count") {
         target_data <- over_11_count
         title.label <- "Number of Individuals Age 12 and Older with Alcohol Use Disorder"
         y.label <- "Number of Individuals"
-      } else if (input$ageFilter == "12 and Older" & input$typeFilter == "Proportion") {
+      } else if (input$alcoholUseDisorderAgeFilter == "12 and Older" & input$alcoholUseDisorderTypeFilter == "Proportion") {
         target_data <- over_11_prop
         title.label <- "Proportion of Individuals Age 12 and Older with Alcohol Use Disorder"
         y.label <- "Proportion of Individuals"
-      } else if (input$ageFilter == "18 and Older" & input$typeFilter == "Count") {
+      } else if (input$alcoholUseDisorderAgeFilter == "18 and Older" & input$alcoholUseDisorderTypeFilter == "Count") {
         target_data <- over_17_count
         title.label <- "Number of Individuals Age 18 and Older with Alcohol Use Disorder"
         y.label <- "Number of Individuals"
-      } else if (input$ageFilter == "18 and Older" & input$typeFilter == "Proportion") {
+      } else if (input$alcoholUseDisorderAgeFilter == "18 and Older" & input$alcoholUseDisorderTypeFilter == "Proportion") {
         target_data <- over_17_prop
         title.label <- "Proportion of Individuals Age 18 and Older with Alcohol Use Disorder"
         y.label <- "Proportion of Individuals"
-      } else if (input$ageFilter == "26 and Older" & input$typeFilter == "Count") {
+      } else if (input$alcoholUseDisorderAgeFilter == "26 and Older" & input$alcoholUseDisorderTypeFilter == "Count") {
         target_data <- over_25_count
         title.label <- "Number of Individuals Age 26 and Older with Alcohol Use Disorder"
         y.label <- "Number of Individuals"
-      } else if (input$ageFilter == "26 and Older" & input$typeFilter == "Proportion") {
+      } else if (input$alcoholUseDisorderAgeFilter == "26 and Older" & input$alcoholUseDisorderTypeFilter == "Proportion") {
         target_data <- over_25_prop
         title.label <- "Proportion of Individuals Age 26 and Older with Alcohol Use Disorder"
         y.label <- "Proportion of Individuals"
