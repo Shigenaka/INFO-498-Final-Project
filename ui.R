@@ -16,7 +16,7 @@ ui <- shinyUI(fluidPage(
   ),
   
   # Application title
-  titlePanel("Drinking vs Tax Rates"),
+  titlePanel("The Relationship Between Alcohol, Tax Rates, and other Substances"),
   
   navbarPage("",
              
@@ -99,10 +99,15 @@ ui <- shinyUI(fluidPage(
                         # Show a plot of the generated distribution
                         mainPanel(
                           plotlyOutput("alchPlot"),
+                          tags$br(),
                           tags$div(class = "alchText",
                                    tags$p("This plot displays the alcohol taxation in the US by state, year, and by
                                           three types: liquor, wine, and beer. The states without a tax associated
                                           with the selected alcohol type will be displayed in the sidebar table."),
+                                   tags$p("An issue with the tax data is that the taxes are applied in gallons of
+                                          alcohol. To put that in perspective, a fifth of Smirnoff contains 59.2
+                                          fluid ounces of liquid, which converts roughly to 0.46 gallons, so the
+                                          consumer impact in this context may appear to be very little."),
                                    tags$p("Throughout the last four years, not much has changed. Besides a few changes
                                           in Washington, Rhode Island, and Tennessee, taxation has stayed stagnant.
                                           Another interesting note is that Beer is taxed in every state but the 
@@ -110,8 +115,48 @@ ui <- shinyUI(fluidPage(
                           )
                         )
                       )
+             ),
+             tabPanel("Regression Analysis",
+                      sidebarLayout(
+                        sidebarPanel(
+                          selectInput("regType",
+                                      h3("Regression Type"), 
+                                      choices = c("Difference", "Single Year"), 
+                                      selected = "Difference")
+                        ),
+                        mainPanel(
+                          plotlyOutput("regressionScatter"),
+                          tags$br(),
+                          verbatimTextOutput(outputId = "alchTaxRegOutput"),
+                          tags$br(),
+                          tags$div(class = "regResultsText",
+                                   tags$h3("Results"),
+                                   tags$p("To analyze the relationship between we performed simple linear regressions.
+                                          We performed two regressions, one analyzing the impact a change in taxation
+                                          has on the prevalence of alcohol abuse and the other an analysis of tax rates
+                                          and their impact on alcohol abuse prevalence. We planned to first do a naive
+                                          regression analysis, looking at the relationship between tax rates and 
+                                          alcohol abuse prevalence, and then include other features to add noise and
+                                          see if the relationship holds."),
+                                   tags$p("As seen above, both naive regressions displayed that there is no statistically
+                                          significant relationship between the two. Both models had negative adjusted
+                                          r-squared, meaning that the models explained very little variability. The p-values
+                                          for the tax variable in both models are also above the threshold (0.05) for statistical
+                                          significance, meaning that we cannot reject the null hypothesis that there is no difference.")
+                          ),
+                          tags$div(class="regConclusionText",
+                                   tags$h3("Conclusion"),
+                                   tags$p("In conclusion, if states are looking to combat alcohol abuse prevalence, attempts through taxation
+                                          policy is not recommended. One of the main issues is that the data we obtained from government websites 
+                                          taxation is on gallons of alcohol, which is an odd unit for taxation. This means that when broken down 
+                                          to an individual drink, the additional money needed is somewhat unnoticeable, and that the price is still 
+                                          elastic for people suffering from addiction. Instead, reports state that public education, social
+                                          marketing, media advocacy, and media literacy are strategies to address the health issue and that community
+                                          policing and incentives is a great way to enforce these strategies."))
+                        )
+                      )
              )
-            )
+    )
   )
 )
 

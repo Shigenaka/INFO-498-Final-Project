@@ -18,6 +18,13 @@ tax_data <- read.csv("data/prepped/prepped-tax-data.csv") %>%
   mutate(state = as.character(state)) %>%
   filter(state != "U.S. Median")
 
+diff_tax_alch_data <- read.csv("data/prepped/diff-alch-tax.csv")
+reg_single_year_data <-read.csv("data/prepped/15-16-reg-data.csv")
+
+diff.fit <- lm(change_alch~change_tax, data=diff_tax_alch_data)
+singleYear.fit <- lm(Number~total_tax, data=reg_single_year_data)
+#load 
+
 # Read in US alcohol abuse counts and proportions
 
 over_11_count <- read.csv("data/prepped/prepped-us-alcohol-abuse-11-count.csv")
@@ -146,7 +153,7 @@ server <- shinyServer(function(input, output, session) {
       )
       
       x <- list(
-        title = "Tax Rate (%)"
+        title = "Tax Rate ($/Gallon)"
       )
       plot_ly(plot_data, x=~tax_rate, y=~state, type = "bar") %>%
         layout(yaxis = y, xaxis = x)
@@ -158,6 +165,35 @@ server <- shinyServer(function(input, output, session) {
         select(state),
       options = list(searching = FALSE, paging = FALSE)
     ))
+    
+    output$regressionScatter <- renderPlotly({
+      if(input$regType == "Difference") {
+        x <- list(title = "Change in Tax Rate ($/Gallon)")
+        y <- list(title = "Change in Alcohol Abuse Prevalence (%)")
+        plot_ly(diff_tax_alch_data, x=~change_tax, y=~(change_alch * 100), type="scatter", mode = 'markers',
+                hoverinfo = 'text',
+                text=~paste('State: ', state, '</br>',
+                            '</br> Year 0: ', year0,
+                            '</br> Year 1: ', year1)) %>%
+          layout(yaxis = y, xaxis = x)
+      } else {
+        x <- list(title = "Total Tax Rate ($/Gallon)")
+        y <- list(title = "Alcohol Abuse Prevalence (%)")
+        plot_ly(reg_single_year_data, x=~total_tax, y=~(Number * 100), type="scatter", mode = 'markers',
+                hoverinfo = 'text',
+                text=~paste('State: ', State)) %>%
+          layout(yaxis = y, xaxis = x)
+      }
+    })
+    
+    output$alchTaxRegOutput <- renderPrint(
+      if(input$regType == "Difference") {
+        summary(diff.fit)
+      } else {
+        summary(singleYear.fit)
+      }
+    )
+    
     
 })
 
