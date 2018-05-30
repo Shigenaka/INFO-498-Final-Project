@@ -152,7 +152,14 @@ ui <- shinyUI(fluidPage(
                                           to an individual drink, the additional money needed is somewhat unnoticeable, and that the price is still 
                                           elastic for people suffering from addiction. Instead, reports state that public education, social
                                           marketing, media advocacy, and media literacy are strategies to address the health issue and that community
-                                          policing and incentives is a great way to enforce these strategies."))
+                                          policing and incentives is a great way to enforce these strategies."),
+                                   tags$p("The Seattle sugary beverage tax is a great example of taxation policies attempting to address public health.
+                                          Due to the fact it is very new, there are no results on its effectiveness, but the city has reported that it
+                                          already has brought in $4 million in tax revenue from it in the first quarter of 2018 alone (Seattle Times).
+                                          The article also mentions the negative implications the taxation could have on certain marginalized populations,
+                                          which would be another issue for an alcohol taxation policy (you are taking it out on already existing addicts).
+                                          Overall, after conducting research on existing information and our data sources, we believe that taxation policies
+                                          aimed to reduce alcohol abuse will not be effective."))
                         )
                       )
              )
