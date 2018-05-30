@@ -22,7 +22,6 @@ ui <- shinyUI(fluidPage(
   
   navbarPage(
     "",
-    
     tabPanel("Kevin",
              sidebarLayout(
                sidebarPanel(
@@ -108,6 +107,7 @@ ui <- shinyUI(fluidPage(
         )
       )
     ),
+    
     tabPanel(
       "Opioid and Alcohol Use Disorders in Washington State",
       fluidPage(
@@ -127,6 +127,7 @@ ui <- shinyUI(fluidPage(
         )
       )
     ),
+    
     tabPanel("Alcohol Taxation in the US",
              sidebarLayout(
                sidebarPanel(
@@ -141,7 +142,6 @@ ui <- shinyUI(fluidPage(
                  h3("States with No Tax"),
                  DT::dataTableOutput("statesNoTax")
               ),
-              # Show a plot of the generated distribution
               mainPanel(
                 plotlyOutput("alchPlot"),
                 tags$br(),
@@ -161,6 +161,7 @@ ui <- shinyUI(fluidPage(
               )
              )
     ),
+    
     tabPanel("Regression Analysis",
              sidebarLayout(
                sidebarPanel(
@@ -168,7 +169,7 @@ ui <- shinyUI(fluidPage(
                              h3("Regression Type"), 
                              choices = c("Difference", "State Level"), 
                              selected = "Difference")
-                 ),
+               ),
                mainPanel(
                  plotlyOutput("regressionScatter"),
                  tags$br(),
