@@ -184,10 +184,10 @@ ui <- shinyUI(fluidPage(
                                   alcohol abuse prevalence, and then include other features to add noise and
                                   see if the relationship holds."),
                           tags$p("As seen above, both naive regressions displayed that there is no statistically
-                                          significant relationship between the two. Both models had negative adjusted
-                                          r-squared, meaning that the models explained very little variability. The p-values
-                                          for the tax variable in both models are also above the threshold (0.05) for statistical
-                                          significance, meaning that we cannot reject the null hypothesis that there is no difference.")
+                                  significant relationship between the two. Both models had negative adjusted
+                                  r-squared, meaning that the models explained very little variability. The p-values
+                                  for the tax variable in both models are also above the threshold (0.05) for statistical
+                                  significance, meaning that we cannot reject the null hypothesis that there is no difference.")
                           ),
                           tags$div(class="regConclusionText",
                                    tags$h3("Conclusion"),
