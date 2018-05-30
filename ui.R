@@ -86,11 +86,16 @@ ui <- shinyUI(fluidPage(
                         sidebarPanel(
                           selectInput("causeOpioidFilter", h2("Type of Substance"), 
                                       choices = c("Opioid", 'Amphetamine', "Alcohol"), 
-                                      selected = "Opioid"), 
-                          sliderInput("opioid_year", h2("Year"), 
-                                      min = 1990, max = 2016, c(1990, 2016))),
+                                      selected = "Opioid")),
                         mainPanel(
-                          plotlyOutput("drugPlot")
+                          plotlyOutput("drugPlot"),
+                          tags$br(),
+                          tags$h2("Relationships Between Substances"),
+                          tags$br(),
+                          plotlyOutput("amphetamine_alc"),
+                          tags$br(),
+                          plotlyOutput("opioid_alc")
+                          
                         )
                       )),
              tabPanel("Alcohol Taxation in the US",

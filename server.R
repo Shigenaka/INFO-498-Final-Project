@@ -2,6 +2,7 @@ library(shiny)
 library(plotly)
 library(rsconnect)
 library(DT)
+library(tidyr)
 
 # Read in GBD data
 gbd_data <- read.csv("data/raw/GBD.csv")
@@ -10,191 +11,241 @@ gbd_data <- read.csv("data/raw/GBD.csv")
 state_drug_use <- read.csv("data/prepped/state_drug_use_data.csv")
 
 #load alc vs taxrate data
-state_alc_taxrate <- read.csv("data/prepped/alcohol_and_tax_rate_state_data.csv")
+state_alc_taxrate <-
+  read.csv("data/prepped/alcohol_and_tax_rate_state_data.csv")
 colnames(state_alc_taxrate)[9:10] <- c("strata", "by")
 state_alc_taxrate <- na.omit(state_alc_taxrate)
-state_alc_taxrate <- filter(state_alc_taxrate, DataValueType != "Age-adjusted Prevalence", 
-                            DataValueType != "Age-adjusted Mean", 
-                            DataValueType != "Age-adjusted Rate")
+state_alc_taxrate <-
+  filter(
+    state_alc_taxrate,
+    DataValueType != "Age-adjusted Prevalence",
+    DataValueType != "Age-adjusted Mean",
+    DataValueType != "Age-adjusted Rate"
+  )
 
 tax_data <- read.csv("data/prepped/prepped-tax-data.csv") %>%
   mutate(state = as.character(state)) %>%
   filter(state != "U.S. Median")
 
 diff_tax_alch_data <- read.csv("data/prepped/diff-alch-tax.csv")
-reg_single_year_data <-read.csv("data/prepped/15-16-reg-data.csv")
+reg_single_year_data <- read.csv("data/prepped/15-16-reg-data.csv")
 
-diff.fit <- lm(change_alch~change_tax, data=diff_tax_alch_data)
-singleYear.fit <- lm(Number~total_tax, data=reg_single_year_data)
-#load 
+diff.fit <- lm(change_alch ~ change_tax, data = diff_tax_alch_data)
+singleYear.fit <- lm(Number ~ total_tax, data = reg_single_year_data)
+#load
 
 # Read in US alcohol abuse counts and proportions
 
-over_11_count <- read.csv("data/prepped/prepped-us-alcohol-abuse-11-count.csv")
-over_11_prop <- read.csv("data/prepped/prepped-us-alcohol-abuse-11-prop.csv")
-over_17_count <- read.csv("data/prepped/prepped-us-alcohol-abuse-17-count.csv")
-over_17_prop <- read.csv("data/prepped/prepped-us-alcohol-abuse-17-prop.csv")
-over_25_count <- read.csv("data/prepped/prepped-us-alcohol-abuse-25-count.csv")
-over_25_prop <- read.csv("data/prepped/prepped-us-alcohol-abuse-25-prop.csv")
+over_11_count <-
+  read.csv("data/prepped/prepped-us-alcohol-abuse-11-count.csv")
+over_11_prop <-
+  read.csv("data/prepped/prepped-us-alcohol-abuse-11-prop.csv")
+over_17_count <-
+  read.csv("data/prepped/prepped-us-alcohol-abuse-17-count.csv")
+over_17_prop <-
+  read.csv("data/prepped/prepped-us-alcohol-abuse-17-prop.csv")
+over_25_count <-
+  read.csv("data/prepped/prepped-us-alcohol-abuse-25-count.csv")
+over_25_prop <-
+  read.csv("data/prepped/prepped-us-alcohol-abuse-25-prop.csv")
 
 
 # Define server logic required to draw a histogram
 server <- shinyServer(function(input, output, session) {
-
-    observeEvent(
-      input$Question,
-      updateSliderInput(session, "year", "year",
-                        min = min(state_alc_taxrate$year[state_alc_taxrate$Question==input$Question]),
-                        max = max(state_alc_taxrate$year[state_alc_taxrate$Question==input$Question]),
-                        value = c(min(state_alc_taxrate$year[state_alc_taxrate$Question==input$Question]),
-                                  max(state_alc_taxrate$year[state_alc_taxrate$Question==input$Question]))
+  observeEvent(
+    input$Question,
+    updateSliderInput(
+      session,
+      "year",
+      "year",
+      min = min(state_alc_taxrate$year[state_alc_taxrate$Question ==
+                                         input$Question]),
+      max = max(state_alc_taxrate$year[state_alc_taxrate$Question ==
+                                         input$Question]),
+      value = c(
+        min(state_alc_taxrate$year[state_alc_taxrate$Question == input$Question]),
+        max(state_alc_taxrate$year[state_alc_taxrate$Question ==
+                                     input$Question])
       )
     )
-    
-    observeEvent(
-      input$year,
-      updateSelectInput(session, "strata", "strata",
-                        choices = state_alc_taxrate$strata[#state_alc_taxrate$year%in%input$year &
-                          state_alc_taxrate$Question==input$Question])
+  )
+  
+  observeEvent(
+    input$year,
+    updateSelectInput(session, "strata", "strata",
+                      choices = state_alc_taxrate$strata[#state_alc_taxrate$year%in%input$year &
+                        state_alc_taxrate$Question == input$Question])
+  )
+  
+  observeEvent(
+    input$strata,
+    updateSelectInput(session, "by", "by",
+                      choices = state_alc_taxrate$by[state_alc_taxrate$strata ==
+                                                       input$strata &
+                                                       state_alc_taxrate$year %in%
+                                                       input$year &
+                                                       state_alc_taxrate$Question ==
+                                                       input$Question])
+  )
+  
+  observeEvent(
+    input$by,
+    updateSelectInput(session, "type", "type",
+                      choices = state_alc_taxrate$type[state_alc_taxrate$by ==
+                                                         input$by &
+                                                         state_alc_taxrate$strata ==
+                                                         input$strata &
+                                                         state_alc_taxrate$year %in%
+                                                         input$year &
+                                                         state_alc_taxrate$Question ==
+                                                         input$Question])
+  )
+  
+  output$state_alc_taxrate_plot <- renderPlotly({
+    filtered_state_alc_taxrate <- filter(
+      state_alc_taxrate,
+      Question == input$Question,
+      year %in% input$year,
+      type == input$type,
+      strata == input$strata,
+      by == input$by
     )
     
-    observeEvent(
-      input$strata,
-      updateSelectInput(session, "by", "by",
-                        choices = state_alc_taxrate$by[state_alc_taxrate$strata==input$strata &
-                                                         state_alc_taxrate$year%in%input$year &
-                                                         state_alc_taxrate$Question==input$Question])
-    )
-    
-    observeEvent(
-      input$by,
-      updateSelectInput(session, "type", "type",
-                        choices = state_alc_taxrate$type[state_alc_taxrate$by==input$by &
-                                                           state_alc_taxrate$strata==input$strata &
-                                                           state_alc_taxrate$year%in%input$year &
-                                                           state_alc_taxrate$Question==input$Question])
-    )
-    
-    output$state_alc_taxrate_plot <- renderPlotly({
-      filtered_state_alc_taxrate <- filter(state_alc_taxrate, 
-                                           Question == input$Question,
-                                           year %in% input$year,
-                                           type == input$type,
-                                           strata == input$strata,
-                                           by == input$by)
-      
-      graph <- plot_ly(
-        data = filtered_state_alc_taxrate, x = ~DataValueAlt, y = ~tax_rate, type = "scatter", color = ~year,
-        mode='markers',
-        hoverinfo = 'text',
-        text = ~paste('State: ', state,
-                      '</br> Year: ', year,
-                      '</br> ID: ', by,
-                      '</br> Tax Rate', tax_rate,
-                      '</br> X value', DataValueAlt
-        )
-      )%>%
-        layout(
-          title = "Alcohol vs Tax Rates",
-          xaxis = list (title = input$Question),
-          yaxis = list(
-            title = "Tax Rate"
-          ) 
-        )
-      graph <- add_trace(graph,
-                         x = ~DataValueAlt,
-                         y = fitted(lm(tax_rate ~ DataValueAlt, filtered_state_alc_taxrate)),
-                         mode = "lines"
+    graph <- plot_ly(
+      data = filtered_state_alc_taxrate,
+      x = ~ DataValueAlt,
+      y = ~ tax_rate,
+      type = "scatter",
+      color = ~ year,
+      mode = 'markers',
+      hoverinfo = 'text',
+      text = ~ paste(
+        'State: ',
+        state,
+        '</br> Year: ',
+        year,
+        '</br> ID: ',
+        by,
+        '</br> Tax Rate',
+        tax_rate,
+        '</br> X value',
+        DataValueAlt
       )
-    })
-    
-    output$alcoholUseDisorderPlot <- renderPlotly({
-      
-      # target_data <- over_11_count
-      
-      if(input$alcoholUseDisorderAgeFilter == "12 and Older" & input$alcoholUseDisorderTypeFilter == "Count") {
-        target_data <- over_11_count
-        title.label <- "Number of Individuals Age 12 and Older with Alcohol Use Disorder"
-        y.label <- "Number of Individuals"
-      } else if (input$alcoholUseDisorderAgeFilter == "12 and Older" & input$alcoholUseDisorderTypeFilter == "Proportion") {
-        target_data <- over_11_prop
-        title.label <- "Proportion of Individuals Age 12 and Older with Alcohol Use Disorder"
-        y.label <- "Proportion of Individuals"
-      } else if (input$alcoholUseDisorderAgeFilter == "18 and Older" & input$alcoholUseDisorderTypeFilter == "Count") {
-        target_data <- over_17_count
-        title.label <- "Number of Individuals Age 18 and Older with Alcohol Use Disorder"
-        y.label <- "Number of Individuals"
-      } else if (input$alcoholUseDisorderAgeFilter == "18 and Older" & input$alcoholUseDisorderTypeFilter == "Proportion") {
-        target_data <- over_17_prop
-        title.label <- "Proportion of Individuals Age 18 and Older with Alcohol Use Disorder"
-        y.label <- "Proportion of Individuals"
-      } else if (input$alcoholUseDisorderAgeFilter == "26 and Older" & input$alcoholUseDisorderTypeFilter == "Count") {
-        target_data <- over_25_count
-        title.label <- "Number of Individuals Age 26 and Older with Alcohol Use Disorder"
-        y.label <- "Number of Individuals"
-      } else if (input$alcoholUseDisorderAgeFilter == "26 and Older" & input$alcoholUseDisorderTypeFilter == "Proportion") {
-        target_data <- over_25_prop
-        title.label <- "Proportion of Individuals Age 26 and Older with Alcohol Use Disorder"
-        y.label <- "Proportion of Individuals"
-      }
-      
-      graph <- plot_ly(data = target_data, x = ~State, y = ~Number, type = "bar") %>%
-        layout(
-          title = title.label,
-          yaxis = list(title = y.label)
-        )
-      
-    })
-    
-    output$alchPlot <- renderPlotly({
-      plot_data <- tax_data %>%
-        filter(type == input$alchType & year == input$yearAlch & tax_rate > 0)
-      
-      y <- list(
-        title = "State"
-        ,tickfont = list(size = 7)
+    ) %>%
+      layout(
+        title = "Alcohol vs Tax Rates",
+        xaxis = list (title = input$Question),
+        yaxis = list(title = "Tax Rate")
       )
-      
-      x <- list(
-        title = "Tax Rate ($/Gallon)"
-      )
-      plot_ly(plot_data, x=~tax_rate, y=~state, type = "bar") %>%
-        layout(yaxis = y, xaxis = x)
-    })
+    graph <- add_trace(graph,
+                       x = ~ DataValueAlt,
+                       y = fitted(lm(
+                         tax_rate ~ DataValueAlt, filtered_state_alc_taxrate
+                       )),
+                       mode = "lines")
+  })
+  
+  output$alcoholUseDisorderPlot <- renderPlotly({
+    # target_data <- over_11_count
     
-state_opioid_amphetamine_use <- reactive({
+    if (input$alcoholUseDisorderAgeFilter == "12 and Older" &
+        input$alcoholUseDisorderTypeFilter == "Count") {
+      target_data <- over_11_count
+      title.label <-
+        "Number of Individuals Age 12 and Older with Alcohol Use Disorder"
+      y.label <- "Number of Individuals"
+    } else if (input$alcoholUseDisorderAgeFilter == "12 and Older" &
+               input$alcoholUseDisorderTypeFilter == "Proportion") {
+      target_data <- over_11_prop
+      title.label <-
+        "Proportion of Individuals Age 12 and Older with Alcohol Use Disorder"
+      y.label <- "Proportion of Individuals"
+    } else if (input$alcoholUseDisorderAgeFilter == "18 and Older" &
+               input$alcoholUseDisorderTypeFilter == "Count") {
+      target_data <- over_17_count
+      title.label <-
+        "Number of Individuals Age 18 and Older with Alcohol Use Disorder"
+      y.label <- "Number of Individuals"
+    } else if (input$alcoholUseDisorderAgeFilter == "18 and Older" &
+               input$alcoholUseDisorderTypeFilter == "Proportion") {
+      target_data <- over_17_prop
+      title.label <-
+        "Proportion of Individuals Age 18 and Older with Alcohol Use Disorder"
+      y.label <- "Proportion of Individuals"
+    } else if (input$alcoholUseDisorderAgeFilter == "26 and Older" &
+               input$alcoholUseDisorderTypeFilter == "Count") {
+      target_data <- over_25_count
+      title.label <-
+        "Number of Individuals Age 26 and Older with Alcohol Use Disorder"
+      y.label <- "Number of Individuals"
+    } else if (input$alcoholUseDisorderAgeFilter == "26 and Older" &
+               input$alcoholUseDisorderTypeFilter == "Proportion") {
+      target_data <- over_25_prop
+      title.label <-
+        "Proportion of Individuals Age 26 and Older with Alcohol Use Disorder"
+      y.label <- "Proportion of Individuals"
+    }
+    
+    graph <-
+      plot_ly(
+        data = target_data,
+        x = ~ State,
+        y = ~ Number,
+        type = "bar"
+      ) %>%
+      layout(title = title.label,
+             yaxis = list(title = y.label))
+    
+  })
+  
+  output$alchPlot <- renderPlotly({
+    plot_data <- tax_data %>%
+      filter(type == input$alchType &
+               year == input$yearAlch & tax_rate > 0)
+    
+    y <- list(title = "State"
+              , tickfont = list(size = 7))
+    
+    x <- list(title = "Tax Rate ($/Gallon)")
+    plot_ly(plot_data,
+            x =  ~ tax_rate,
+            y =  ~ state,
+            type = "bar") %>%
+      layout(yaxis = y, xaxis = x)
+  })
+  
+  state_opioid_amphetamine_use <- reactive({
     if (input$causeOpioidFilter == 'Opioid') {
       selectedDrugs <- c("Opioid use disorders")
     } else if (input$causeOpioidFilter == 'Amphetamine') {
       selectedDrugs <- c("Amphetamine use disorders")
     } else {
       opioid <- state_drug_use %>%
-        select(location, cause, val = Number, code, year) %>%
+        select(location, cause, val = Number, code) %>%
         filter(cause %in% 'Opioid use disorders') %>%
-        group_by(year, code) %>%
-        filter(year >= input$opioid_year[1] &&
-                 year <= input$opioid_year[2]) %>%
+        group_by(code) %>%
         summarise(val = mean(val)) %>%
-        mutate(hover = paste(code,
-                             "<br>",
-                             paste("Percentage of", input$causeOpioidFilter, 'Use', val)
-                             ))
+        mutate(hover = paste(
+          code,
+          "<br>",
+          paste("Percentage of", input$causeOpioidFilter, 'Use', val)
+        ))
       return(opioid)
     }
     
     
     
     opioid <- state_drug_use %>%
-      select(location, cause, val, code, year) %>%
+      select(location, cause, val, code) %>%
       filter(cause %in% selectedDrugs) %>%
-      group_by(year, cause, code) %>%
-      filter(year >= input$opioid_year[1] &&
-               year <= input$opioid_year[2]) %>%
+      group_by(cause, code) %>%
       summarise(val = mean(val) * 10) %>%
-      mutate(hover = paste(code,
-                           "<br>",
-                           paste("Percentage of", input$causeOpioidFilter, 'Use'),
-                           val))
+      mutate(hover = paste(
+        code,
+        "<br>",
+        paste("Percentage of", input$causeOpioidFilter, 'Use'),
+        val
+      ))
     return(opioid)
   })
   
@@ -213,9 +264,54 @@ state_opioid_amphetamine_use <- reactive({
     )
   })
   
+  output$amphetamine_alc <- renderPlotly({
+    x <- list(title = "Amphetamine Use Disorder Prevalence")
+    
+    y <- list(title = "Alcohol Use Disorder Prevalence")
+    
+    p <-
+      plot_ly(x = ~ rnorm(10),
+              y = ~ rnorm(10),
+              mode = "markers") %>%
+      layout(xaxis = x, yaxis = y)
+    opioid_alc <- state_drug_use %>%
+      select(location, cause, val, code, Number) %>%
+      filter(cause == "Amphetamine use disorders") %>%
+      group_by(location, cause, code) %>%
+      summarise(val = mean(val), Number = mean(Number))
+    
+    plot_ly(data = opioid_alc,
+            x = ~ val,
+            y = ~ Number) %>%
+      layout(xaxis = x,
+             yaxis = y,
+             title = 'Amphetamine vs Alcohol Use Disorders in USA by State')
+    })
+  
+  output$opioid_alc <- renderPlotly({
+    x <- list(title = "Opioid Use Disorder Prevalence")
+    y <- list(title = "Alcohol Use Disorder Prevalence")
+    
+    p <-
+      plot_ly(x = ~ rnorm(10),
+              y = ~ rnorm(10),
+              mode = "markers") %>%
+      layout(xaxis = x, yaxis = y)
+    opioid_alc <- state_drug_use %>%
+      select(location, cause, val, code, Number) %>%
+      filter(cause == "Opioid use disorders") %>%
+      group_by(location, cause, code) %>%
+      summarise(val = mean(val), Number = mean(Number))
+    
+    plot_ly(data = opioid_alc,
+            x = ~ val,
+            y = ~ Number) %>%
+      layout(xaxis = x,
+             yaxis = y,
+             title = 'Opioid vs Alcohol Use Disorders in USA by State')
+  })
   
   output$drugPlot <- renderPlotly({
-    
     d <- state_opioid_amphetamine_use()
     plot_geo(data = d, locationmode = 'USA-states') %>%
       add_trace(
@@ -227,52 +323,74 @@ state_opioid_amphetamine_use <- reactive({
         colors = 'Purples'
       ) %>%
       colorbar(
-        title = "Percentage of Opioid Use",
+        title = "Percentage of Substance Use",
         y = 3,
         ypad = 25,
         x = .90
       ) %>%
-      layout(title = 'US Average Opiod Use by State and Year',
-             geo = g())
-  })    
+      layout(
+        title = paste(
+          'US Average',
+          input$causeOpioidFilter,
+          'Use by State and Year'
+        ),
+        geo = g()
+      )
+  })
   
   output$statesNoTax <- DT::renderDataTable(DT::datatable(
-      tax_data %>%
-        filter(type == input$alchType & year == input$yearAlch & tax_rate == 0) %>%
-        select(state),
-      options = list(searching = FALSE, paging = FALSE)
-    ))
-    
-    output$regressionScatter <- renderPlotly({
-      if(input$regType == "Difference") {
-        x <- list(title = "Change in Tax Rate ($/Gallon)")
-        y <- list(title = "Change in Alcohol Abuse Prevalence (%)")
-        plot_ly(diff_tax_alch_data, x=~change_tax, y=~(change_alch * 100), type="scatter", mode = 'markers',
-                hoverinfo = 'text',
-                text=~paste('State: ', state, '</br>',
-                            '</br> Year 0: ', year0,
-                            '</br> Year 1: ', year1)) %>%
-          layout(yaxis = y, xaxis = x)
-      } else {
-        x <- list(title = "Total Tax Rate ($/Gallon)")
-        y <- list(title = "Alcohol Abuse Prevalence (%)")
-        plot_ly(reg_single_year_data, x=~total_tax, y=~(Number * 100), type="scatter", mode = 'markers',
-                hoverinfo = 'text',
-                text=~paste('State: ', State)) %>%
-          layout(yaxis = y, xaxis = x)
-      }
-    })
-    
-    output$alchTaxRegOutput <- renderPrint(
-      if(input$regType == "Difference") {
-        summary(diff.fit)
-      } else {
-        summary(singleYear.fit)
-      }
-    )
-    
-    
+    tax_data %>%
+      filter(type == input$alchType &
+               year == input$yearAlch & tax_rate == 0) %>%
+      select(state),
+    options = list(searching = FALSE, paging = FALSE)
+  ))
+  
+  output$regressionScatter <- renderPlotly({
+    if (input$regType == "Difference") {
+      x <- list(title = "Change in Tax Rate ($/Gallon)")
+      y <- list(title = "Change in Alcohol Abuse Prevalence (%)")
+      plot_ly(
+        diff_tax_alch_data,
+        x =  ~ change_tax,
+        y =  ~ (change_alch * 100),
+        type = "scatter",
+        mode = 'markers',
+        hoverinfo = 'text',
+        text =  ~ paste(
+          'State: ',
+          state,
+          '</br>',
+          '</br> Year 0: ',
+          year0,
+          '</br> Year 1: ',
+          year1
+        )
+      ) %>%
+        layout(yaxis = y, xaxis = x)
+    } else {
+      x <- list(title = "Total Tax Rate ($/Gallon)")
+      y <- list(title = "Alcohol Abuse Prevalence (%)")
+      plot_ly(
+        reg_single_year_data,
+        x =  ~ total_tax,
+        y =  ~ (Number * 100),
+        type = "scatter",
+        mode = 'markers',
+        hoverinfo = 'text',
+        text =  ~ paste('State: ', State)
+      ) %>%
+        layout(yaxis = y, xaxis = x)
+    }
+  })
+  
+  output$alchTaxRegOutput <- renderPrint(if (input$regType == "Difference") {
+    summary(diff.fit)
+  } else {
+    summary(singleYear.fit)
+  })
+  
+  
 })
 
 shinyServer(server)
-
