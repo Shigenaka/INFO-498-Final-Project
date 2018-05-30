@@ -360,8 +360,7 @@ server <- shinyServer(function(input, output, session) {
     ) %>%
       layout(
         xaxis = x,
-        yaxis = list(title = "Alcohol Use Disorder Prevalence", tickprefix =
-                       "  "),
+        yaxis = list(title = "Alcohol Use Disorder Prevalence", tickprefix ="  "),
         title = 'Opioid vs Alcohol Use Disorder Prevalence in Washington State (2010-2015)',
         margin = '40px'
       )
@@ -381,7 +380,7 @@ server <- shinyServer(function(input, output, session) {
                 mode = 'lines') %>%
       layout(
         xaxis = list(range = c(2010, 2015), title = 'Year'),
-        yaxis = list(range = c(-0.01, 0.02), title = 'Percentage Change in Prevalence'),
+        yaxis = list(range = c(-0.01, 0.02), title = 'Percentage Change in Prevalence', tickprefix ="  "),
         title = "Alcohol & Opioid Use Disorder Prevalence Year-Over-Year Change in Washington State"
       )
     
