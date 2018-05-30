@@ -20,9 +20,8 @@ ui <- shinyUI(fluidPage(
     "The Relationship Between Alcohol, Tax Rates, and other Substances"
   ),
   
-  navbarPage(
-    "",
-    tabPanel("Kevin",
+  navbarPage("",
+    tabPanel("Tax Rates and Alcohol Survey",
              sidebarLayout(
                sidebarPanel(
                  selectInput("Question", "Question",
