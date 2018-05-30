@@ -269,11 +269,7 @@ server <- shinyServer(function(input, output, session) {
     
     y <- list(title = "Alcohol Use Disorder Prevalence")
     
-    p <-
-      plot_ly(x = ~ rnorm(10),
-              y = ~ rnorm(10),
-              mode = "markers") %>%
-      layout(xaxis = x, yaxis = y)
+    
     opioid_alc <- state_drug_use %>%
       select(location, cause, val, code, Number) %>%
       filter(cause == "Amphetamine use disorders") %>%
@@ -292,11 +288,7 @@ server <- shinyServer(function(input, output, session) {
     x <- list(title = "Opioid Use Disorder Prevalence")
     y <- list(title = "Alcohol Use Disorder Prevalence")
     
-    p <-
-      plot_ly(x = ~ rnorm(10),
-              y = ~ rnorm(10),
-              mode = "markers") %>%
-      layout(xaxis = x, yaxis = y)
+    
     opioid_alc <- state_drug_use %>%
       select(location, cause, val, code, Number) %>%
       filter(cause == "Opioid use disorders") %>%
@@ -309,6 +301,35 @@ server <- shinyServer(function(input, output, session) {
       layout(xaxis = x,
              yaxis = y,
              title = 'Opioid vs Alcohol Use Disorders in USA by State')
+  })
+  
+  output$opioid_amphetamine <- renderPlotly({
+    x <- list(title = "Opioid Use Disorder Prevalence")
+    y <- list(title = "Amphetamine Use Disorder Prevalence")
+    
+    
+    amp <- state_drug_use %>%
+      select(code, cause, val) %>%
+      filter(cause == 'Amphetamine use disorders') %>%
+      group_by(code, cause) %>%
+      summarise(val = mean(val))
+    
+    amphetamine_opioid <- state_drug_use %>%
+      select(code, cause, val) %>%
+      filter(cause == 'Opioid use disorders')%>%
+      group_by(code, cause) %>%
+      summarise(val = mean(val))
+    
+    amphetamine_opioid <- left_join(amphetamine_opioid, amp, by='code')
+    
+    ggplot(amphetamine_opioid, aes(x = val.x, y = val.y)) + geom_point() + geom_smooth()
+    plot_ly(data = amphetamine_opioid,
+            x = ~ val.x,
+            y = ~ val.y) %>%
+      layout(xaxis = x,
+             yaxis = y,
+             title = 'Opioid vs Amphetamine Use Disorders in USA by State')
+    
   })
   
   output$drugPlot <- renderPlotly({
