@@ -76,8 +76,7 @@ ui <- shinyUI(fluidPage(
                 )    
               ),
 
-    tabPanel(
-      "Relationship Between Drug and Alcohol Abuse",
+    tabPanel("Drug and Alcohol Abuse",
       sidebarLayout(
         sidebarPanel(
           selectInput(
@@ -192,23 +191,23 @@ ui <- shinyUI(fluidPage(
                                   for the tax variable in both models are also above the threshold (0.05) for statistical
                                   significance, meaning that we cannot reject the null hypothesis that there is no difference.")
                           ),
-                          tags$div(class="regConclusionText",
-                                   tags$h3("Conclusion"),
-                                   tags$p("In conclusion, if states are looking to combat alcohol abuse prevalence, attempts through taxation
-                                          policy is not recommended. One of the main issues is that the data we obtained from government websites 
-                                          taxation is on gallons of alcohol, which is an odd unit for taxation. This means that when broken down 
-                                          to an individual drink, the additional money needed is somewhat unnoticeable, and that the price is still 
-                                          elastic for people suffering from addiction. Instead, reports state that public education, social
-                                          marketing, media advocacy, and media literacy are strategies to address the health issue and that community
-                                          policing and incentives is a great way to enforce these strategies."),
-                                   tags$p("The Seattle sugary beverage tax is a great example of taxation policies attempting to address public health.
-                                          Due to the fact it is very new, there are no results on its effectiveness, but the city has reported that it
-                                          already has brought in $4 million in tax revenue from it in the first quarter of 2018 alone (Seattle Times).
-                                          The article also mentions the negative implications the taxation could have on certain marginalized populations,
-                                          which would be another issue for an alcohol taxation policy (you are taking it out on already existing addicts).
-                                          Overall, after conducting research on existing information and our data sources, we believe that taxation policies
-                                          aimed to reduce alcohol abuse will not be effective.")
-                          )
+                 tags$div(class="regConclusionText",
+                          tags$h3("Conclusion"),
+                          tags$p("In conclusion, if states are looking to combat alcohol abuse prevalence, attempts through taxation
+                                  policy is not recommended. One of the main issues is that the data we obtained from government websites 
+                                  taxation is on gallons of alcohol, which is an odd unit for taxation. This means that when broken down 
+                                  to an individual drink, the additional money needed is somewhat unnoticeable, and that the price is still 
+                                  elastic for people suffering from addiction. Instead, reports state that public education, social
+                                  marketing, media advocacy, and media literacy are strategies to address the health issue and that community
+                                  policing and incentives is a great way to enforce these strategies."),
+                          tags$p("The Seattle sugary beverage tax is a great example of taxation policies attempting to address public health.
+                                  Due to the fact it is very new, there are no results on its effectiveness, but the city has reported that it
+                                  already has brought in $4 million in tax revenue from it in the first quarter of 2018 alone (Seattle Times).
+                                  The article also mentions the negative implications the taxation could have on certain marginalized populations,
+                                  which would be another issue for an alcohol taxation policy (you are taking it out on already existing addicts).
+                                  Overall, after conducting research on existing information and our data sources, we believe that taxation policies
+                                  aimed to reduce alcohol abuse will not be effective.")
+                 )
                )
              )
     )
