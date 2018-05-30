@@ -1,5 +1,3 @@
-
-
 library(shiny)
 library(plotly)
 library(DT)
@@ -73,7 +71,7 @@ ui <- shinyUI(fluidPage(
                       )    
               ),
     tabPanel(
-      "The Relationship Between Drug and Alcohol Abuse in the USA",
+      "Relationship Between Drug and Alcohol Abuse",
       sidebarLayout(
         sidebarPanel(
           selectInput(
@@ -144,7 +142,7 @@ ui <- shinyUI(fluidPage(
                sidebarPanel(
                  selectInput("regType",
                              h3("Regression Type"), 
-                             choices = c("Difference", "Single Year"), 
+                             choices = c("Difference", "State Level"), 
                              selected = "Difference")
                  ),
                mainPanel(
@@ -157,7 +155,7 @@ ui <- shinyUI(fluidPage(
                           tags$p("To analyze the relationship between we performed simple linear regressions.
                                   We performed two regressions, one analyzing the impact a change in taxation
                                   has on the prevalence of alcohol abuse and the other an analysis of tax rates
-                                  and their impact on alcohol abuse prevalence. We planned to first do a naive
+                                  and their impact on alcohol abuse prevalence by state. We planned to first do a naive
                                   regression analysis, looking at the relationship between tax rates and 
                                   alcohol abuse prevalence, and then include other features to add noise and
                                   see if the relationship holds."),
