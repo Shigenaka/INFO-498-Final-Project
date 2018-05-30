@@ -49,27 +49,9 @@ ui <- shinyUI(fluidPage(
                mainPanel(plotlyOutput('state_alc_taxrate_plot', height = "900px"))
              )
     ),
-    tabPanel("Alex: Alcohol Use Disorder in the United States 2015-2016",
+    tabPanel("Comparing Alcohol Outcomes",
                 sidebarLayout(
 
-                        # sidebarPanel(
-                        #   
-                        #   selectInput("alcoholUseDisorderAgeFilter", label = "Choose the Age Range",
-                        #               choices = c("12 and Older", "18 and Older", "26 and Older"),
-                        #               selected = "12 and Older"),
-                        #   
-                        #   radioButtons("alcoholUseDisorderTypeFilter", "Count or Proportion",
-                        #                c("Count", "Proportion"),
-                        #                selected = "Count")
-                        #   
-                        # ),
-                        # 
-                        # 
-                        # mainPanel(
-                        #   
-                        #   plotlyOutput("alcoholUseDisorderPlot")
-                        # )
-                  
                   sidebarPanel(
                     
                     selectInput("alcoholOutcomeFilter", label = "Choose the Outcome",
