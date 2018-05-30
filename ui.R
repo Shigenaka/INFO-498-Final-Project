@@ -24,7 +24,7 @@ ui <- shinyUI(fluidPage(
     "",
     
     tabPanel("Kevin",
-      sidebarLayout(
+             sidebarLayout(
                sidebarPanel(
                  selectInput("Question", "Question",
                              choices = unique(state_alc_taxrate$Question)),
@@ -98,6 +98,25 @@ ui <- shinyUI(fluidPage(
           tags$p(
             "These findings go against our initial hypotheses, with the thinking that the different substances would have a strong relationship, as people who have use disorders for one may be more susceptible to use disorders for the others.  "
           )
+        )
+      )
+    ),
+    tabPanel(
+      "Opioid and Alcohol Use Disorders in Washington State",
+      fluidPage(
+        title = "A Look at Washington State",
+        tags$h3("Opioid and Alcohol Abuse in Washington State"),
+        tags$br(),
+        plotlyOutput("washington_opioid_alc"),
+        tags$br(),
+        plotlyOutput("washington_opioid_alc_diff"),
+        tags$br(),
+        tags$h3("Analysis"),
+        tags$p(
+          "We decided to take a closer look at opioid and alcohol use disorders in Washington state between 2010 and 2015 because Washington underwent changes in alcohol tax rates during this same time. We believed that there may be a negative correlation between the two substances after this time, with alcohol potentially lowering in prevalence and leaving people to turn to opioids. However, upon looking at the relationships between the two use disorders, as well as the year-over-year differences in the disorders, we see that the substances closely follow each other. As one rises and falls, the other follows a similar pattern. Unlike our general analysis by state, this suggests that there is an overlap in those afflicted with use disorders."
+        ),
+        tags$p(
+          "Based on these plots, we can conclude that there is not a significant departure from those using alcohol to opioids when faced with an increase in alcohol tax. Thus, there should be no fear of this as a negative consequence when considering implementing tax policies in relation to substance abuse. "
         )
       )
     ),
