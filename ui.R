@@ -72,7 +72,11 @@ ui <- shinyUI(fluidPage(
                   mainPanel(
                     plotlyOutput("alcoholDependenceAbusePlot"),
                     h3("Analysis"),
-                    p("")
+                    p("Washington state's trends in prevalence for several alcohol outcomes have extremely differed from the those of the United States. Prevalence for alcohol dependence in the past year for Washington state increased from 0.099 in 2010 to 0.128 in 2013 before decreasing to 0.112 in 2014. On the other hand, prevalence for alcohol dependence in the past year for the United States stayed relatively constant at around 0.300 over the same five-year span. Prevalence for alcohol dependence or abuse in the past year for Washington state followed a similar pattern as the first one, hitting a higher peak prevalence of 0.128 in 2013 while also dropping down to 0.112 in 2014. Prevalence for alcohol dependence or abuse in the past year for the United States experienced a slight decrease from 0.068 in 2010 to 0.061 in 2014."),
+                    br(),
+                    p("In both aforementioned alcohol outcomes, Washington state had a higher prevalence for each one than that of the nation. In addition, the prevalence for both outcomes increased for Washington state from 2010 to 2013 before decreasing in 2014. This is in stark contrast to that of the U.S., which either stayed the same or slightly decreased over the timespan."),
+                    br(),
+                    p("Interestingly, the prevalence for alcohol use in the past month from 2010 to 2014 was higher for United States than that of Washington state. The prevalence for both the U.S. and Washington state were mostly stagnant. However, the prevalence for the U.S. was around 0.520 whereas the prevalence for Washington state was around 0.110. Interpreting these results leads to a conclusion that while Washington state has a prevalence for alcohol use in the past month that is five times lower that of the nation, those that do drink in the state have problems with alcohol dependence or alcohol abuse.")
                   )
                 )    
               ),
