@@ -171,8 +171,8 @@ server <- shinyServer(function(input, output, session) {
                      type = "scatter", mode = "lines+markers", name = "Washington") %>%
       add_trace(data = US_target_data, x = ~Year, y = ~Prevalence,
                 mode = "lines+markers", name = "United States") %>%
-      layout(title = paste0(input$alcoholOutcomeFilter, " in the 2010s")
-      )
+      layout(title = paste0(input$alcoholOutcomeFilter, " in the 2010s"), 
+             xaxis = list(dtick = 1))
   })
   
   output$alchPlot <- renderPlotly({
