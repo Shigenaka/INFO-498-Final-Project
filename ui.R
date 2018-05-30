@@ -47,29 +47,23 @@ ui <- shinyUI(fluidPage(
                
                # Show a plot of the generated distribution
                mainPanel(plotlyOutput('state_alc_taxrate_plot', height = "900px"))
-             )),
-      tabPanel("Alex: Alcohol Use Disorder in the United States 2015-2016",
+             )
+    ),
+    tabPanel("Alex: Alcohol Use Disorder in the United States 2015-2016",
                 sidebarLayout(
-                        
-                        sidebarPanel(
-                          
-                          selectInput("alcoholUseDisorderAgeFilter", label = "Choose the Age Range",
-                                      choices = c("12 and Older", "18 and Older", "26 and Older"),
-                                      selected = "12 and Older"),
-                          
-                          radioButtons("alcoholUseDisorderTypeFilter", "Count or Proportion",
-                                       c("Count", "Proportion"),
-                                       selected = "Count")
-                          
-                        ),
-                        
-                        
-                        mainPanel(
-                          
-                          plotlyOutput("alcoholUseDisorderPlot")
-                        )
-                      )    
-              ),
+                  sidebarPanel(
+                    selectInput("alcoholUseDisorderAgeFilter", label = "Choose the Age Range",
+                                choices = c("12 and Older", "18 and Older", "26 and Older"),
+                                selected = "12 and Older"),
+                    radioButtons("alcoholUseDisorderTypeFilter", "Count or Proportion",
+                                 c("Count", "Proportion"),
+                                 selected = "Count")
+                    ),
+                  mainPanel(
+                    plotlyOutput("alcoholUseDisorderPlot")
+                    )
+                  )
+    ),
     tabPanel(
       "Relationship Between Drug and Alcohol Abuse",
       sidebarLayout(
@@ -133,9 +127,9 @@ ui <- shinyUI(fluidPage(
                                   in Washington, Rhode Island, and Tennessee, taxation has stayed stagnant.
                                   Another interesting note is that Beer is taxed in every state but the 
                                   same cannot be said for wine and liquor.")
-                        )
                 )
               )
+             )
     ),
     tabPanel("Regression Analysis",
              sidebarLayout(
@@ -180,12 +174,12 @@ ui <- shinyUI(fluidPage(
                                           The article also mentions the negative implications the taxation could have on certain marginalized populations,
                                           which would be another issue for an alcohol taxation policy (you are taking it out on already existing addicts).
                                           Overall, after conducting research on existing information and our data sources, we believe that taxation policies
-                                          aimed to reduce alcohol abuse will not be effective."))
-                  )
-                      )
+                                          aimed to reduce alcohol abuse will not be effective.")
+                          )
+               )
              )
     )
   )
-)
+))
 
 shinyUI(ui)
