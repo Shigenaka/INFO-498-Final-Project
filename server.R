@@ -6,6 +6,9 @@ library(DT)
 # Read in GBD data
 gbd_data <- read.csv("data/raw/GBD.csv")
 
+# Read in drug abuse data
+state_drug_use <- read.csv("data/prepped/state_drug_use_data.csv")
+
 #load alc vs taxrate data
 state_alc_taxrate <- read.csv("data/prepped/alcohol_and_tax_rate_state_data.csv")
 colnames(state_alc_taxrate)[9:10] <- c("strata", "by")
@@ -166,16 +169,16 @@ state_opioid_amphetamine_use <- reactive({
       selectedDrugs <- c("Amphetamine use disorders")
     } else {
       opioid <- state_drug_use %>%
-        select(location, cause, number, code, year) %>%
+        select(location, cause, val = Number, code, year) %>%
         filter(cause %in% 'Opioid use disorders') %>%
         group_by(year, code) %>%
         filter(year >= input$opioid_year[1] &&
                  year <= input$opioid_year[2]) %>%
-        summarise(number = mean(number)) %>%
+        summarise(val = mean(val)) %>%
         mutate(hover = paste(code,
                              "<br>",
-                             paste("Percentage of", input$causeOpioidFilter, 'Use'),
-                             val))
+                             paste("Percentage of", input$causeOpioidFilter, 'Use', val)
+                             ))
       return(opioid)
     }
     
@@ -210,7 +213,9 @@ state_opioid_amphetamine_use <- reactive({
     )
   })
   
+  
   output$drugPlot <- renderPlotly({
+    
     d <- state_opioid_amphetamine_use()
     plot_geo(data = d, locationmode = 'USA-states') %>%
       add_trace(
