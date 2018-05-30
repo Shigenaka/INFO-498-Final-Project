@@ -1,59 +1,57 @@
 
+
 library(shiny)
 library(plotly)
 library(DT)
 
-state_alc_taxrate <- read.csv("data/prepped/alcohol_and_tax_rate_state_data.csv")
+state_alc_taxrate <-
+  read.csv("data/prepped/alcohol_and_tax_rate_state_data.csv")
 tax_data <- read.csv("data/prepped/prepped-tax-data.csv") %>%
   mutate(state = as.character(state)) %>%
   filter(state != "U.S. Median")
 
 ui <- shinyUI(fluidPage(
-  
-  tags$style(type="text/css",
-             ".shiny-output-error { visibility: hidden; }",
-             ".shiny-output-error:before { visibility: hidden; }"
+  tags$style(
+    type = "text/css",
+    ".shiny-output-error { visibility: hidden; }",
+    ".shiny-output-error:before { visibility: hidden; }"
   ),
   
   # Application title
-  titlePanel("The Relationship Between Alcohol, Tax Rates, and other Substances"),
+  titlePanel(
+    "The Relationship Between Alcohol, Tax Rates, and other Substances"
+  ),
   
-  navbarPage("",
-             
-             tabPanel("Kevin",
-                
-                      sidebarLayout(
-                        
-                        sidebarPanel(
-                          
-                          selectInput("Question", "Question",
-                                      choices = unique(state_alc_taxrate$Question) 
-                                      ),
-                          
-                          sliderInput("year", label = h3("year"), min = NA,
-                                      max = NA, value = c(NA,NA)
-                                      ),
-                          
-                          selectInput("strata", "strata", choices = "", 
-                                      selected = ""
-                                      ),
-                          
-                          selectInput("by", "by", choices = "", selected = ""
-                                      ),
-                          
-                          selectInput("type", "type", choices = "", selected = ""
-                                      )
-                        ),
-                        
-                        # Show a plot of the generated distribution
-                        mainPanel(
-                          plotlyOutput('state_alc_taxrate_plot', height = "900px")
-                        )
-                      )
-                    ),
-             
-             tabPanel("Alex: Alcohol Use Disorder in the United States 2015-2016",
-                      sidebarLayout(
+  navbarPage(
+    "",
+    
+    tabPanel("Kevin",
+      sidebarLayout(
+               sidebarPanel(
+                 selectInput("Question", "Question",
+                             choices = unique(state_alc_taxrate$Question)),
+                 
+                 sliderInput(
+                   "year",
+                   label = h3("year"),
+                   min = NA,
+                   max = NA,
+                   value = c(NA, NA)
+                 ),
+                 
+                 selectInput("strata", "strata", choices = "",
+                             selected = ""),
+                 
+                 selectInput("by", "by", choices = "", selected = ""),
+                 
+                 selectInput("type", "type", choices = "", selected = "")
+               ),
+               
+               # Show a plot of the generated distribution
+               mainPanel(plotlyOutput('state_alc_taxrate_plot', height = "900px"))
+             )),
+      tabPanel("Alex: Alcohol Use Disorder in the United States 2015-2016",
+                sidebarLayout(
                         
                         sidebarPanel(
                           
@@ -72,16 +70,42 @@ ui <- shinyUI(fluidPage(
                           
                           plotlyOutput("alcoholUseDisorderPlot")
                         )
-                      )
-                      
-                      
-                      
-                      
-                      
-                      
-                      
+                      )    
               ),
-             tabPanel("Alcohol Taxation in the US",
+    tabPanel(
+      "The Relationship Between Drug and Alcohol Abuse in the USA",
+      sidebarLayout(
+        sidebarPanel(
+          selectInput(
+            "causeOpioidFilter",
+            h2("Type of Substance"),
+            choices = c("Opioid", 'Amphetamine', "Alcohol"),
+            selected = "Opioid"
+          )
+        ),
+        mainPanel(
+          plotlyOutput("drugPlot"),
+          tags$br(),
+          tags$h2("Relationships Between Substances"),
+          tags$br(),
+          plotlyOutput("amphetamine_alc"),
+          tags$br(),
+          plotlyOutput("opioid_alc"),
+          tags$br(),
+          plotlyOutput("opioid_amphetamine"),
+          tags$br(),
+          tags$h3("Analysis"),
+          tags$p(
+            "Looking at the data above we can see that there is little to no correlation between the different substance use disorders. Additionally, we originally used a year range as a control for the substance use disorder by state, however, the change in prevalence year-over-year was extremely small for most states, with some states like Alabama only seeing a 6% decrease over 16 years. Therefore, we determined to aggregate the data to show the average prevalence over the entire period for each state."
+          ),
+          tags$br(),
+          tags$p(
+            "These findings go against our initial hypotheses, with the thinking that the different substances would have a strong relationship, as people who have use disorders for one may be more susceptible to use disorders for the others.  "
+          )
+        )
+      )
+    ),
+    tabPanel("Alcohol Taxation in the US",
                       sidebarLayout(
                         sidebarPanel(
                           selectInput("alchType", 
