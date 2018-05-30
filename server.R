@@ -191,56 +191,7 @@ server <- shinyServer(function(input, output, session) {
       layout(yaxis = y, xaxis = x)
   })
   
-  state_opioid_amphetamine_use <- reactive({
-    if (input$causeOpioidFilter == 'Opioid') {
-      selectedDrugs <- c("Opioid use disorders")
-    } else if (input$causeOpioidFilter == 'Amphetamine') {
-      selectedDrugs <- c("Amphetamine use disorders")
-    } else {
-      opioid <- state_drug_use %>%
-        select(location, cause, val = Number, code) %>%
-        filter(cause %in% 'Opioid use disorders') %>%
-        group_by(code) %>%
-        summarise(val = mean(val)) %>%
-        mutate(hover = paste(
-          code,
-          "<br>",
-          paste("Percentage of", input$causeOpioidFilter, 'Use', val)
-        ))
-      return(opioid)
-    }
-    
-    
-    
-    opioid <- state_drug_use %>%
-      select(location, cause, val, code) %>%
-      filter(cause %in% selectedDrugs) %>%
-      group_by(cause, code) %>%
-      summarise(val = mean(val) * 10) %>%
-      mutate(hover = paste(
-        code,
-        "<br>",
-        paste("Percentage of", input$causeOpioidFilter, 'Use'),
-        val
-      ))
-    return(opioid)
-  })
-  
-  # give state boundaries a white border
-  l <- reactive({
-    list(color = toRGB("white"), width = 2)
-  })
-  
-  # specify some map projection/options
-  g <- reactive({
-    list(
-      scope = 'usa',
-      projection = list(type = 'albers usa'),
-      showlakes = TRUE,
-      lakecolor = toRGB('white')
-    )
-  })
-  
+  # Creating the plot comparing amphetamine and alcohol use
   output$amphetamine_alc <- renderPlotly({
     x <- list(title = "Amphetamine Use Disorder Prevalence")
     
@@ -261,6 +212,7 @@ server <- shinyServer(function(input, output, session) {
              title = 'Amphetamine vs Alcohol Use Disorders in USA by State')
     })
   
+  # Creating the plot comparing opioid use to alcohol use
   output$opioid_alc <- renderPlotly({
     x <- list(title = "Opioid Use Disorder Prevalence")
     y <- list(title = "Alcohol Use Disorder Prevalence")
@@ -280,6 +232,7 @@ server <- shinyServer(function(input, output, session) {
              title = 'Opioid vs Alcohol Use Disorders in USA by State')
   })
   
+  # Creating the plot comparing prevalence of alcohol and opioid disorders in washington (2010-2015)
   output$washington_opioid_alc <- renderPlotly({
     x <- list(title = "Opioid Use Disorder Prevalence")
     plot_ly(
@@ -296,6 +249,7 @@ server <- shinyServer(function(input, output, session) {
       )
   })
   
+  # Creating the plot for the difference in opioid and alcohol prevalence in Washington year-over-year
   output$washington_opioid_alc_diff <- renderPlotly({
     plot_ly(
       washington_alc_opioid,
@@ -318,10 +272,10 @@ server <- shinyServer(function(input, output, session) {
     
   })
   
+  # Creating plot to examing relationship between opioid and amphetamine use disorders in US
   output$opioid_amphetamine <- renderPlotly({
     x <- list(title = "Opioid Use Disorder Prevalence")
     y <- list(title = "Amphetamine Use Disorder Prevalence")
-    
     
     amp <- state_drug_use %>%
       select(code, cause, val) %>%
@@ -346,9 +300,60 @@ server <- shinyServer(function(input, output, session) {
              title = 'Opioid vs Amphetamine Use Disorders in USA by State')
   })
   
+  # Setting data for USA amphetamine, opioid and alcohol use
+  state_opioid_amphetamine_use <- reactive({
+    # Checking which substance is being looked at
+    if (input$causeOpioidFilter == 'Opioid') {
+      selectedDrugs <- c("Opioid use disorders")
+    } else if (input$causeOpioidFilter == 'Amphetamine') {
+      selectedDrugs <- c("Amphetamine use disorders")
+    } else {
+      opioid <- state_drug_use %>%
+        select(location, cause, val = Number, code) %>%
+        filter(cause %in% 'Opioid use disorders') %>%
+        group_by(code) %>%
+        summarise(val = mean(val)) %>%
+        mutate(hover = paste(
+          code,
+          "<br>",
+          paste("Percentage of", input$causeOpioidFilter, 'Use', val)
+        ))
+      return(opioid)
+    }
+    
+    
+    # Removing unnecessary data and 
+    opioid <- state_drug_use %>%
+      select(location, cause, val, code) %>%
+      filter(cause %in% selectedDrugs) %>%
+      group_by(cause, code) %>%
+      summarise(val = mean(val) * 10) %>%
+      mutate(hover = paste(
+        code,
+        "<br>",
+        paste("Percentage of", input$causeOpioidFilter, 'Use'),
+        val
+      ))
+    return(opioid)
+  })
   
-  
+  # Creating USA plot to examing amphetamine, opioid and alcohol use
   output$drugPlot <- renderPlotly({
+    # Creating state-borders for USA plot
+    l <- reactive({
+      list(color = toRGB("white"), width = 2)
+    })
+    
+    # Setting options for USA plot
+    g <- reactive({
+      list(
+        scope = 'usa',
+        projection = list(type = 'albers usa'),
+        showlakes = TRUE,
+        lakecolor = toRGB('white')
+      )
+    })
+    
     d <- state_opioid_amphetamine_use()
     plot_geo(data = d, locationmode = 'USA-states') %>%
       add_trace(
