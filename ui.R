@@ -51,23 +51,43 @@ ui <- shinyUI(fluidPage(
       tabPanel("Alex: Alcohol Use Disorder in the United States 2015-2016",
                 sidebarLayout(
                         
-                        sidebarPanel(
-                          
-                          selectInput("alcoholUseDisorderAgeFilter", label = "Choose the Age Range",
-                                      choices = c("12 and Older", "18 and Older", "26 and Older"),
-                                      selected = "12 and Older"),
-                          
-                          radioButtons("alcoholUseDisorderTypeFilter", "Count or Proportion",
-                                       c("Count", "Proportion"),
-                                       selected = "Count")
-                          
-                        ),
-                        
-                        
-                        mainPanel(
-                          
-                          plotlyOutput("alcoholUseDisorderPlot")
-                        )
+                        # sidebarPanel(
+                        #   
+                        #   selectInput("alcoholUseDisorderAgeFilter", label = "Choose the Age Range",
+                        #               choices = c("12 and Older", "18 and Older", "26 and Older"),
+                        #               selected = "12 and Older"),
+                        #   
+                        #   radioButtons("alcoholUseDisorderTypeFilter", "Count or Proportion",
+                        #                c("Count", "Proportion"),
+                        #                selected = "Count")
+                        #   
+                        # ),
+                        # 
+                        # 
+                        # mainPanel(
+                        #   
+                        #   plotlyOutput("alcoholUseDisorderPlot")
+                        # )
+                  
+                  sidebarPanel(
+                    
+                    selectInput("alcoholOutcomeFilter", label = "Choose the Outcome",
+                                choices = c("Alcohol Dependence in the Past Year",
+                                            "Alcohol Dependence or Abuse in the Past Year",
+                                            "Alcohol Use in the Past Month"),
+                                selected = "Alcohol Dependence in the Past Year"),
+                    
+                    sliderInput("yearFilter", "Select the Year(s):", min = 10, max = 14,
+                                value = 10, step = 1, pre = "'",
+                                animate = animationOptions(interval = 1500, loop = TRUE)),
+                    helpText("Press the play button below the year '14 for animation.")
+                    
+                  ),
+                  
+                  # Show a plot of the generated distribution
+                  mainPanel(
+                    plotlyOutput("alcoholDependenceAbusePlot")
+                  )
                       )    
               ),
     tabPanel(
