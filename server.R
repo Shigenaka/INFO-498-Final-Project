@@ -10,6 +10,7 @@ gbd_data <- read.csv("data/raw/GBD.csv")
 
 # Read in drug abuse data
 state_drug_use <- read.csv("data/prepped/state_drug_use_data.csv")
+washington_alc_opioid <- read.csv("data/prepped/washington_opioid_alc_analysis.csv")
 
 #load alc vs taxrate data
 state_alc_taxrate <-
@@ -304,6 +305,15 @@ server <- shinyServer(function(input, output, session) {
              title = 'Opioid vs Alcohol Use Disorders in USA by State')
   })
   
+  output$washington_opioid <- renderPlotly({
+    washington_alc_opioid
+    
+    plot_ly(washington_alc_opioid, x = ~val, y = ~alc_prev, type = 'scatter', mode = 'lines')
+    
+    
+    
+  })
+  
   output$opioid_amphetamine <- renderPlotly({
     x <- list(title = "Opioid Use Disorder Prevalence")
     y <- list(title = "Amphetamine Use Disorder Prevalence")
@@ -330,8 +340,9 @@ server <- shinyServer(function(input, output, session) {
       layout(xaxis = x,
              yaxis = y,
              title = 'Opioid vs Amphetamine Use Disorders in USA by State')
-    
   })
+  
+  
   
   output$drugPlot <- renderPlotly({
     d <- state_opioid_amphetamine_use()
