@@ -70,9 +70,11 @@ ui <- shinyUI(fluidPage(
                   
                   # Show a plot of the generated distribution
                   mainPanel(
-                    plotlyOutput("alcoholDependenceAbusePlot")
+                    plotlyOutput("alcoholDependenceAbusePlot"),
+                    h3("Analysis"),
+                    p("")
                   )
-                      )    
+                )    
               ),
 
     tabPanel(
