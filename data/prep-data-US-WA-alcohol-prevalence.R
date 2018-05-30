@@ -13,39 +13,17 @@ colnames(wa_alcohol_use_prevalence_prev)[1] <- "outcome"
 
 joined_data <- rbind(us_alcohol_prev, wa_alcohol_dependence_abuse_prev,
                      wa_alcohol_dependence_prev, wa_alcohol_use_prevalence_prev) %>%
-  filter(year_pair == "2012-13" | year_pair == "2013-14" | year_pair == "2014-15")
+  filter(year_pair == "2010-11" | year_pair == "2011-12" | year_pair == "2012-13" |
+           year_pair == "2013-14" | year_pair == "2014-15")
+joined_data$year_pair <- as.character(joined_data$year_pair)
+joined_data$year_pair[joined_data$year_pair == "2010-11"] <- "2010"
+joined_data$year_pair[joined_data$year_pair == "2011-12"] <- "2011"
+joined_data$year_pair[joined_data$year_pair == "2012-13"] <- "2012"
+joined_data$year_pair[joined_data$year_pair == "2013-14"] <- "2013"
+joined_data$year_pair[joined_data$year_pair == "2014-15"] <- "2014"
+colnames(joined_data)[3] <- "Year"
+colnames(joined_data)[5] <- "Prevalence"
 
-
-alcohol_dependence_abuse_data <- joined_data %>%
-  filter(outcome == "Alcohol Dependence or Abuse in the Past Year")
-
-
-
-ggplot(joined_data, aes(year_pair, estimate, fill = geography)) +
-  geom_bar(stat = "identity", position = "dodge", color = "black")
-
-ggplot(joined_data, aes(year_pair, estimate, color = geography)) +
-  geom_point()
-
-ggplotly(ggplot(alcohol_dependence_abuse_data,
-                aes(year_pair, estimate, color = geography, group = geography)) +
-           geom_point() +
-           geom_line())
-
-
-plot_ly(data = alcohol_dependence_abuse_data, x = ~year_pair, y = ~estimate, fill = ~geography, 
-        type = "scatter", mode = "lines")
-
-WA_alcohol_dependence_abuse_data <- alcohol_dependence_abuse_data %>%
-  filter(geography == "Washington")
-
-US_alcohol_dependence_abuse_data <- alcohol_dependence_abuse_data %>%
-  filter(geography == "United States")
-
-data <- data.frame(US_alcohol_dependence_abuse_data, WA_alcohol_dependence_abuse_data)
-
-plot_ly(data = WA_alcohol_dependence_abuse_data, x = ~year_pair, y = ~estimate, 
-        type = "scatter", mode = "lines") %>%
-  add_trace(data = US_alcohol_dependence_abuse_data, x = ~year_pair, y = ~estimate,
-            type = "scatter", mode = "lines")
+write.csv(joined_data, "data/prepped/prepped-us-wa-alcohol-prevalence.csv",
+          row.names = FALSE)
 

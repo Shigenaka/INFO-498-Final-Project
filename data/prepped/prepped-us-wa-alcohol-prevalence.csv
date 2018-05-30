@@ -1,0 +1,31 @@
+"outcome","age_group","Year","geography","Prevalence","ci_lower","ci_upper"
+"Alcohol Dependence in the Past Year","12 or Older","2010","United States",0.031486,0.029977,0.033069
+"Alcohol Dependence in the Past Year","12 or Older","2011","United States",0.031649,0.030234,0.033128
+"Alcohol Dependence in the Past Year","12 or Older","2012","United States",0.031821,0.030303,0.033413
+"Alcohol Dependence in the Past Year","12 or Older","2013","United States",0.030447,0.029074,0.031882
+"Alcohol Dependence in the Past Year","12 or Older","2014","United States",0.029715,0.028411,0.031077
+"Alcohol Dependence or Abuse in the Past Year","12 or Older","2010","United States",0.067757,0.065597,0.069983
+"Alcohol Dependence or Abuse in the Past Year","12 or Older","2011","United States",0.066426,0.064304,0.068612
+"Alcohol Dependence or Abuse in the Past Year","12 or Older","2012","United States",0.067016,0.064806,0.069297
+"Alcohol Dependence or Abuse in the Past Year","12 or Older","2013","United States",0.065008,0.06299,0.067087
+"Alcohol Dependence or Abuse in the Past Year","12 or Older","2014","United States",0.061428,0.059584,0.063326
+"Alcohol Use in the Past Month","12 or Older","2010","United States",0.517899,0.512299,0.523495
+"Alcohol Use in the Past Month","12 or Older","2011","United States",0.519432,0.513947,0.524912
+"Alcohol Use in the Past Month","12 or Older","2012","United States",0.521333,0.515571,0.527089
+"Alcohol Use in the Past Month","12 or Older","2013","United States",0.524241,0.519093,0.529383
+"Alcohol Use in the Past Month","12 or Older","2014","United States",0.521751,0.51711,0.526388
+"Alcohol Dependence or Abuse in the Past Year","12 or Older","2010","Washington",0.098846,0.084371,0.115491
+"Alcohol Dependence or Abuse in the Past Year","12 or Older","2011","Washington",0.102099,0.086991,0.119488
+"Alcohol Dependence or Abuse in the Past Year","12 or Older","2012","Washington",0.122785,0.105838,0.142014
+"Alcohol Dependence or Abuse in the Past Year","12 or Older","2013","Washington",0.127916,0.110311,0.147863
+"Alcohol Dependence or Abuse in the Past Year","12 or Older","2014","Washington",0.112167,0.096152,0.130464
+"Alcohol Dependence in the Past Year","12 or Older","2010","Washington",0.098846,0.084371,0.115491
+"Alcohol Dependence in the Past Year","12 or Older","2011","Washington",0.102099,0.086991,0.119488
+"Alcohol Dependence in the Past Year","12 or Older","2012","Washington",0.122785,0.105838,0.142014
+"Alcohol Dependence in the Past Year","12 or Older","2013","Washington",0.127916,0.110311,0.147863
+"Alcohol Dependence in the Past Year","12 or Older","2014","Washington",0.112167,0.096152,0.130464
+"Alcohol Use in the Past Month","12 or Older","2010","Washington",0.098846,0.084371,0.115491
+"Alcohol Use in the Past Month","12 or Older","2011","Washington",0.102099,0.086991,0.119488
+"Alcohol Use in the Past Month","12 or Older","2012","Washington",0.122785,0.105838,0.142014
+"Alcohol Use in the Past Month","12 or Older","2013","Washington",0.127916,0.110311,0.147863
+"Alcohol Use in the Past Month","12 or Older","2014","Washington",0.112167,0.096152,0.130464
