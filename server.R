@@ -12,6 +12,9 @@ gbd_data <- read.csv("data/raw/GBD.csv")
 state_drug_use <- read.csv("data/prepped/state_drug_use_data.csv")
 washington_alc_opioid <- read.csv("data/prepped/washington_opioid_alc_analysis.csv")
 
+# Read in WA/US alcohol prevalence data
+us_wa_alcohol_prevalence_data <- read.csv("data/prepped/prepped-us-wa-alcohol-prevalence.csv")
+
 #load alc vs taxrate data
 state_alc_taxrate <-
   read.csv("data/prepped/alcohol_and_tax_rate_state_data.csv")
@@ -198,6 +201,48 @@ server <- shinyServer(function(input, output, session) {
       layout(title = title.label,
              yaxis = list(title = y.label))
     
+  })
+  
+  output$alcoholDependenceAbusePlot <- renderPlotly({
+    
+    if (input$yearFilter == 10) {
+      us_wa_alcohol_prevalence_data <- filter(us_wa_alcohol_prevalence_data, Year == "2010")
+    } else if (input$yearFilter == 11) {
+      us_wa_alcohol_prevalence_data <- filter(us_wa_alcohol_prevalence_data, Year == "2010" | Year == "2011")
+    } else if (input$yearFilter == 12) {
+      us_wa_alcohol_prevalence_data <- filter(us_wa_alcohol_prevalence_data, Year == "2010" | Year == "2011" |
+                                                Year == "2012")
+    } else if (input$yearFilter == 13) {
+      us_wa_alcohol_prevalence_data <- filter(us_wa_alcohol_prevalence_data, Year == "2010" | Year == "2011" |
+                                                Year == "2012" | Year == "2013")
+    } else if (input$yearFilter == 14) {
+      us_wa_alcohol_prevalence_data <- filter(us_wa_alcohol_prevalence_data, Year == "2010" | Year == "2011" |
+                                                Year == "2012" | Year == "2013" | Year == "2014")
+    }
+    
+    if (input$alcoholOutcomeFilter == "Alcohol Dependence in the Past Year") {
+      WA_target_data <- filter(us_wa_alcohol_prevalence_data, outcome == "Alcohol Dependence in the Past Year",
+                               geography == "Washington")
+      US_target_data <- filter(us_wa_alcohol_prevalence_data, outcome == "Alcohol Dependence in the Past Year",
+                               geography == "United States")
+    } else if (input$alcoholOutcomeFilter == "Alcohol Dependence or Abuse in the Past Year") {
+      WA_target_data <- filter(us_wa_alcohol_prevalence_data, outcome == "Alcohol Dependence or Abuse in the Past Year",
+                               geography == "Washington")
+      US_target_data <- filter(us_wa_alcohol_prevalence_data, outcome == "Alcohol Dependence or Abuse in the Past Year",
+                               geography == "United States")
+    } else if (input$alcoholOutcomeFilter == "Alcohol Use in the Past Month") {
+      WA_target_data <- filter(us_wa_alcohol_prevalence_data, outcome == "Alcohol Use in the Past Month",
+                               geography == "Washington")
+      US_target_data <- filter(us_wa_alcohol_prevalence_data, outcome == "Alcohol Use in the Past Month",
+                               geography == "United States")
+    }
+    
+    graph <- plot_ly(data = WA_target_data, x = ~Year, y = ~Prevalence, 
+                     type = "scatter", mode = "lines+markers", name = "Washington") %>%
+      add_trace(data = US_target_data, x = ~Year, y = ~Prevalence,
+                mode = "lines+markers", name = "United States") %>%
+      layout(title = paste0(input$alcoholOutcomeFilter, " in the 2010s")
+      )
   })
   
   output$alchPlot <- renderPlotly({
