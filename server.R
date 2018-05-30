@@ -37,23 +37,6 @@ reg_single_year_data <- read.csv("data/prepped/15-16-reg-data.csv")
 
 diff.fit <- lm(change_alch ~ change_tax, data = diff_tax_alch_data)
 singleYear.fit <- lm(Number ~ total_tax, data = reg_single_year_data)
-#load
-
-# Read in US alcohol abuse counts and proportions
-
-over_11_count <-
-  read.csv("data/prepped/prepped-us-alcohol-abuse-11-count.csv")
-over_11_prop <-
-  read.csv("data/prepped/prepped-us-alcohol-abuse-11-prop.csv")
-over_17_count <-
-  read.csv("data/prepped/prepped-us-alcohol-abuse-17-count.csv")
-over_17_prop <-
-  read.csv("data/prepped/prepped-us-alcohol-abuse-17-prop.csv")
-over_25_count <-
-  read.csv("data/prepped/prepped-us-alcohol-abuse-25-count.csv")
-over_25_prop <-
-  read.csv("data/prepped/prepped-us-alcohol-abuse-25-prop.csv")
-
 
 # Define server logic required to draw a histogram
 server <- shinyServer(function(input, output, session) {
@@ -148,59 +131,6 @@ server <- shinyServer(function(input, output, session) {
                          tax_rate ~ DataValueAlt, filtered_state_alc_taxrate
                        )),
                        mode = "lines")
-  })
-  
-  output$alcoholUseDisorderPlot <- renderPlotly({
-    # target_data <- over_11_count
-    
-    if (input$alcoholUseDisorderAgeFilter == "12 and Older" &
-        input$alcoholUseDisorderTypeFilter == "Count") {
-      target_data <- over_11_count
-      title.label <-
-        "Number of Individuals Age 12 and Older with Alcohol Use Disorder"
-      y.label <- "Number of Individuals"
-    } else if (input$alcoholUseDisorderAgeFilter == "12 and Older" &
-               input$alcoholUseDisorderTypeFilter == "Proportion") {
-      target_data <- over_11_prop
-      title.label <-
-        "Proportion of Individuals Age 12 and Older with Alcohol Use Disorder"
-      y.label <- "Proportion of Individuals"
-    } else if (input$alcoholUseDisorderAgeFilter == "18 and Older" &
-               input$alcoholUseDisorderTypeFilter == "Count") {
-      target_data <- over_17_count
-      title.label <-
-        "Number of Individuals Age 18 and Older with Alcohol Use Disorder"
-      y.label <- "Number of Individuals"
-    } else if (input$alcoholUseDisorderAgeFilter == "18 and Older" &
-               input$alcoholUseDisorderTypeFilter == "Proportion") {
-      target_data <- over_17_prop
-      title.label <-
-        "Proportion of Individuals Age 18 and Older with Alcohol Use Disorder"
-      y.label <- "Proportion of Individuals"
-    } else if (input$alcoholUseDisorderAgeFilter == "26 and Older" &
-               input$alcoholUseDisorderTypeFilter == "Count") {
-      target_data <- over_25_count
-      title.label <-
-        "Number of Individuals Age 26 and Older with Alcohol Use Disorder"
-      y.label <- "Number of Individuals"
-    } else if (input$alcoholUseDisorderAgeFilter == "26 and Older" &
-               input$alcoholUseDisorderTypeFilter == "Proportion") {
-      target_data <- over_25_prop
-      title.label <-
-        "Proportion of Individuals Age 26 and Older with Alcohol Use Disorder"
-      y.label <- "Proportion of Individuals"
-    }
-    
-    graph <-
-      plot_ly(
-        data = target_data,
-        x = ~ State,
-        y = ~ Number,
-        type = "bar"
-      ) %>%
-      layout(title = title.label,
-             yaxis = list(title = y.label))
-    
   })
   
   output$alcoholDependenceAbusePlot <- renderPlotly({

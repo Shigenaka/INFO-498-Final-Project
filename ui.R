@@ -49,25 +49,32 @@ ui <- shinyUI(fluidPage(
                mainPanel(plotlyOutput('state_alc_taxrate_plot', height = "900px"))
              )
     ),
-    tabPanel("Alex: Alcohol Use Disorder in the United States 2015-2016",
-             sidebarLayout(
-               sidebarPanel(
-                 selectInput("alcoholOutcomeFilter", label = "Choose the Outcome",
-                             choices = c("Alcohol Dependence in the Past Year",
-                                         "Alcohol Dependence or Abuse in the Past Year",
-                                         "Alcohol Use in the Past Month"),
-                             selected = "Alcohol Dependence in the Past Year"),
-                 sliderInput("yearFilter", "Select the Year(s):", min = 10, max = 14,
-                             value = 10, step = 1, pre = "'",
-                             animate = animationOptions(interval = 1500, loop = TRUE)),
-                 helpText("Press the play button below the year '14 for animation.")
-               ),
-            # Show a plot of the generated distribution
-               mainPanel(
-                 plotlyOutput("alcoholDependenceAbusePlot")
-               )
-             )
-    ),
+
+    tabPanel("Alcohol Outcomes in WA and US",
+                sidebarLayout(
+
+                  sidebarPanel(
+                    
+                    selectInput("alcoholOutcomeFilter", label = "Choose the Outcome",
+                                choices = c("Alcohol Dependence in the Past Year",
+                                            "Alcohol Dependence or Abuse in the Past Year",
+                                            "Alcohol Use in the Past Month"),
+                                selected = "Alcohol Dependence in the Past Year"),
+                    
+                    sliderInput("yearFilter", "Select the Year(s):", min = 10, max = 14,
+                                value = 10, step = 1, pre = "'",
+                                animate = animationOptions(interval = 1500, loop = TRUE)),
+                    helpText("Press the play button below the year '14 for animation.")
+                    
+                  ),
+                  
+                  # Show a plot of the generated distribution
+                  mainPanel(
+                    plotlyOutput("alcoholDependenceAbusePlot")
+                  )
+                      )    
+              ),
+
     tabPanel(
       "Relationship Between Drug and Alcohol Abuse",
       sidebarLayout(
@@ -177,10 +184,10 @@ ui <- shinyUI(fluidPage(
                                   alcohol abuse prevalence, and then include other features to add noise and
                                   see if the relationship holds."),
                           tags$p("As seen above, both naive regressions displayed that there is no statistically
-                                          significant relationship between the two. Both models had negative adjusted
-                                          r-squared, meaning that the models explained very little variability. The p-values
-                                          for the tax variable in both models are also above the threshold (0.05) for statistical
-                                          significance, meaning that we cannot reject the null hypothesis that there is no difference.")
+                                  significant relationship between the two. Both models had negative adjusted
+                                  r-squared, meaning that the models explained very little variability. The p-values
+                                  for the tax variable in both models are also above the threshold (0.05) for statistical
+                                  significance, meaning that we cannot reject the null hypothesis that there is no difference.")
                           ),
                           tags$div(class="regConclusionText",
                                    tags$h3("Conclusion"),
