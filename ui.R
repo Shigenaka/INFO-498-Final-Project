@@ -81,6 +81,18 @@ ui <- shinyUI(fluidPage(
                       
                       
               ),
+             tabPanel("The Relationship Between Drug and Alcohol Abuse in the USA",
+                      sidebarLayout(
+                        sidebarPanel(
+                          selectInput("causeOpioidFilter", h2("Type of Substance"), 
+                                      choices = c("Opioid", 'Amphetamine', "Alcohol"), 
+                                      selected = "Opioid"), 
+                          sliderInput("opioid_year", h2("Year"), 
+                                      min = 1990, max = 2016, c(1990, 2016))),
+                        mainPanel(
+                          plotlyOutput("drugPlot")
+                        )
+                      )),
              tabPanel("Alcohol Taxation in the US",
                       sidebarLayout(
                         sidebarPanel(

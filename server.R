@@ -159,7 +159,79 @@ server <- shinyServer(function(input, output, session) {
         layout(yaxis = y, xaxis = x)
     })
     
-    output$statesNoTax <- DT::renderDataTable(DT::datatable(
+state_opioid_amphetamine_use <- reactive({
+    if (input$causeOpioidFilter == 'Opioid') {
+      selectedDrugs <- c("Opioid use disorders")
+    } else if (input$causeOpioidFilter == 'Amphetamine') {
+      selectedDrugs <- c("Amphetamine use disorders")
+    } else {
+      opioid <- state_drug_use %>%
+        select(location, cause, number, code, year) %>%
+        filter(cause %in% 'Opioid use disorders') %>%
+        group_by(year, code) %>%
+        filter(year >= input$opioid_year[1] &&
+                 year <= input$opioid_year[2]) %>%
+        summarise(number = mean(number)) %>%
+        mutate(hover = paste(code,
+                             "<br>",
+                             paste("Percentage of", input$causeOpioidFilter, 'Use'),
+                             val))
+      return(opioid)
+    }
+    
+    
+    
+    opioid <- state_drug_use %>%
+      select(location, cause, val, code, year) %>%
+      filter(cause %in% selectedDrugs) %>%
+      group_by(year, cause, code) %>%
+      filter(year >= input$opioid_year[1] &&
+               year <= input$opioid_year[2]) %>%
+      summarise(val = mean(val) * 10) %>%
+      mutate(hover = paste(code,
+                           "<br>",
+                           paste("Percentage of", input$causeOpioidFilter, 'Use'),
+                           val))
+    return(opioid)
+  })
+  
+  # give state boundaries a white border
+  l <- reactive({
+    list(color = toRGB("white"), width = 2)
+  })
+  
+  # specify some map projection/options
+  g <- reactive({
+    list(
+      scope = 'usa',
+      projection = list(type = 'albers usa'),
+      showlakes = TRUE,
+      lakecolor = toRGB('white')
+    )
+  })
+  
+  output$drugPlot <- renderPlotly({
+    d <- state_opioid_amphetamine_use()
+    plot_geo(data = d, locationmode = 'USA-states') %>%
+      add_trace(
+        data = d,
+        z = ~ val,
+        text = ~ hover,
+        locations = ~ code,
+        color = ~ val,
+        colors = 'Purples'
+      ) %>%
+      colorbar(
+        title = "Percentage of Opioid Use",
+        y = 3,
+        ypad = 25,
+        x = .90
+      ) %>%
+      layout(title = 'US Average Opiod Use by State and Year',
+             geo = g())
+  })    
+  
+  output$statesNoTax <- DT::renderDataTable(DT::datatable(
       tax_data %>%
         filter(type == input$alchType & year == input$yearAlch & tax_rate == 0) %>%
         select(state),
