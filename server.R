@@ -3,6 +3,7 @@ library(plotly)
 library(rsconnect)
 library(DT)
 library(tidyr)
+library(dplyr)
 
 # Read in GBD data
 gbd_data <- read.csv("data/raw/GBD.csv")

@@ -106,63 +106,62 @@ ui <- shinyUI(fluidPage(
       )
     ),
     tabPanel("Alcohol Taxation in the US",
-                      sidebarLayout(
-                        sidebarPanel(
-                          selectInput("alchType", 
-                                      h3("Alcohol Type"), 
-                                      choices = unique(tax_data$type), 
-                                      selected = unique(tax_data$type)[[1]]),
-                          sliderInput("yearAlch", h3("Year"),
-                                      min = min(tax_data$year), max = max(tax_data$year),
-                                      value = min(tax_data$year), step = 1,
-                                      sep="", ticks = F),
-                          h3("States with No Tax"),
-                          DT::dataTableOutput("statesNoTax")
-                        ),
-                        
-                        # Show a plot of the generated distribution
-                        mainPanel(
-                          plotlyOutput("alchPlot"),
-                          tags$br(),
-                          tags$div(class = "alchText",
-                                   tags$p("This plot displays the alcohol taxation in the US by state, year, and by
-                                          three types: liquor, wine, and beer. The states without a tax associated
-                                          with the selected alcohol type will be displayed in the sidebar table."),
-                                   tags$p("An issue with the tax data is that the taxes are applied in gallons of
-                                          alcohol. To put that in perspective, a fifth of Smirnoff contains 59.2
-                                          fluid ounces of liquid, which converts roughly to 0.46 gallons, so the
-                                          consumer impact in this context may appear to be very little."),
-                                   tags$p("Throughout the last four years, not much has changed. Besides a few changes
-                                          in Washington, Rhode Island, and Tennessee, taxation has stayed stagnant.
-                                          Another interesting note is that Beer is taxed in every state but the 
-                                          same cannot be said for wine and liquor.")
-                          )
+             sidebarLayout(
+               sidebarPanel(
+                 selectInput("alchType",
+                             h3("Alcohol Type"), 
+                             choices = unique(tax_data$type), 
+                             selected = unique(tax_data$type)[[1]]),
+                 sliderInput("yearAlch", h3("Year"),
+                             min = min(tax_data$year), max = max(tax_data$year),
+                             value = min(tax_data$year), step = 1,
+                             sep="", ticks = F),
+                 h3("States with No Tax"),
+                 DT::dataTableOutput("statesNoTax")
+              ),
+              # Show a plot of the generated distribution
+              mainPanel(
+                plotlyOutput("alchPlot"),
+                tags$br(),
+                tags$div(class = "alchText",
+                          tags$p("This plot displays the alcohol taxation in the US by state, year, and by
+                                  three types: liquor, wine, and beer. The states without a tax associated
+                                  with the selected alcohol type will be displayed in the sidebar table."),
+                          tags$p("An issue with the tax data is that the taxes are applied in gallons of
+                                  alcohol. To put that in perspective, a fifth of Smirnoff contains 59.2
+                                  fluid ounces of liquid, which converts roughly to 0.46 gallons, so the
+                                  consumer impact in this context may appear to be very little."),
+                          tags$p("Throughout the last four years, not much has changed. Besides a few changes
+                                  in Washington, Rhode Island, and Tennessee, taxation has stayed stagnant.
+                                  Another interesting note is that Beer is taxed in every state but the 
+                                  same cannot be said for wine and liquor.")
                         )
-                      )
-             ),
-             tabPanel("Regression Analysis",
-                      sidebarLayout(
-                        sidebarPanel(
-                          selectInput("regType",
-                                      h3("Regression Type"), 
-                                      choices = c("Difference", "Single Year"), 
-                                      selected = "Difference")
-                        ),
-                        mainPanel(
-                          plotlyOutput("regressionScatter"),
-                          tags$br(),
-                          verbatimTextOutput(outputId = "alchTaxRegOutput"),
-                          tags$br(),
-                          tags$div(class = "regResultsText",
-                                   tags$h3("Results"),
-                                   tags$p("To analyze the relationship between we performed simple linear regressions.
-                                          We performed two regressions, one analyzing the impact a change in taxation
-                                          has on the prevalence of alcohol abuse and the other an analysis of tax rates
-                                          and their impact on alcohol abuse prevalence. We planned to first do a naive
-                                          regression analysis, looking at the relationship between tax rates and 
-                                          alcohol abuse prevalence, and then include other features to add noise and
-                                          see if the relationship holds."),
-                                   tags$p("As seen above, both naive regressions displayed that there is no statistically
+                )
+              )
+    ),
+    tabPanel("Regression Analysis",
+             sidebarLayout(
+               sidebarPanel(
+                 selectInput("regType",
+                             h3("Regression Type"), 
+                             choices = c("Difference", "Single Year"), 
+                             selected = "Difference")
+                 ),
+               mainPanel(
+                 plotlyOutput("regressionScatter"),
+                 tags$br(),
+                 verbatimTextOutput(outputId = "alchTaxRegOutput"),
+                 tags$br(),
+                 tags$div(class = "regResultsText",
+                          tags$h3("Results"),
+                          tags$p("To analyze the relationship between we performed simple linear regressions.
+                                  We performed two regressions, one analyzing the impact a change in taxation
+                                  has on the prevalence of alcohol abuse and the other an analysis of tax rates
+                                  and their impact on alcohol abuse prevalence. We planned to first do a naive
+                                  regression analysis, looking at the relationship between tax rates and 
+                                  alcohol abuse prevalence, and then include other features to add noise and
+                                  see if the relationship holds."),
+                          tags$p("As seen above, both naive regressions displayed that there is no statistically
                                           significant relationship between the two. Both models had negative adjusted
                                           r-squared, meaning that the models explained very little variability. The p-values
                                           for the tax variable in both models are also above the threshold (0.05) for statistical
@@ -184,7 +183,7 @@ ui <- shinyUI(fluidPage(
                                           which would be another issue for an alcohol taxation policy (you are taking it out on already existing addicts).
                                           Overall, after conducting research on existing information and our data sources, we believe that taxation policies
                                           aimed to reduce alcohol abuse will not be effective."))
-                        )
+                  )
                       )
              )
     )
