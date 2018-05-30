@@ -280,10 +280,39 @@ server <- shinyServer(function(input, output, session) {
              title = 'Opioid vs Alcohol Use Disorders in USA by State')
   })
   
-  output$washington_opioid <- renderPlotly({
-    washington_alc_opioid
-    
-    plot_ly(washington_alc_opioid, x = ~val, y = ~alc_prev, type = 'scatter', mode = 'lines')
+  output$washington_opioid_alc <- renderPlotly({
+    x <- list(title = "Opioid Use Disorder Prevalence")
+    plot_ly(
+      washington_alc_opioid,
+      x = ~ val,
+      y = ~ alc_prev,
+      type = 'scatter'
+    ) %>%
+      layout(
+        xaxis = x,
+        yaxis = list(title = "Alcohol Use Disorder Prevalence", tickprefix ="  "),
+        title = 'Opioid vs Alcohol Use Disorder Prevalence in Washington State (2010-2015)',
+        margin = '40px'
+      )
+  })
+  
+  output$washington_opioid_alc_diff <- renderPlotly({
+    plot_ly(
+      washington_alc_opioid,
+      x = ~ year,
+      y = ~ diff_opioid * 100,
+      name = 'Opioid Use Disorder Prevalence',
+      type = 'scatter',
+      mode = 'lines'
+    ) %>%
+      add_trace(y = ~ diff_alc * 100,
+                name = 'Alcohol Use Disorder Prevalence',
+                mode = 'lines') %>%
+      layout(
+        xaxis = list(range = c(2010, 2015), title = 'Year'),
+        yaxis = list(range = c(-0.01, 0.02), title = 'Percentage Change in Prevalence', tickprefix ="  "),
+        title = "Alcohol & Opioid Use Disorder Prevalence Year-Over-Year Change in Washington State"
+      )
     
     
     
