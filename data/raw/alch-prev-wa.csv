@@ -1,0 +1,21 @@
+measure,location,sex,age,cause,metric,year,val,upper,lower
+Prevalence,United States,Both,All Ages,Alcohol use disorders,Percent,2008,0.0215960482556,0.0231018504353,0.0202223699194
+Prevalence,United States,Both,All Ages,Alcohol use disorders,Percent,2007,0.0216854908952,0.0232058562358,0.0203290121255
+Prevalence,United States,Both,All Ages,Alcohol use disorders,Percent,2009,0.0215202222027,0.0230119249811,0.0201302179943
+Prevalence,Washington,Both,All Ages,Alcohol use disorders,Percent,2008,0.0223362021664,0.0245221230425,0.0205290955009
+Prevalence,Washington,Both,All Ages,Alcohol use disorders,Percent,2009,0.0224601359729,0.0246537878919,0.0206428725039
+Prevalence,Washington,Both,All Ages,Alcohol use disorders,Percent,2007,0.0221734954609,0.0243285225422,0.0203839692999
+Prevalence,Washington,Both,All Ages,Alcohol use disorders,Percent,2010,0.0225611397733,0.0248333240311,0.0205374327765
+Prevalence,Washington,Both,All Ages,Alcohol use disorders,Percent,2011,0.0226120140555,0.0248427694746,0.0207799407138
+Prevalence,United States,Both,All Ages,Alcohol use disorders,Percent,2011,0.0215028943769,0.0229855796084,0.020078442673
+Prevalence,United States,Both,All Ages,Alcohol use disorders,Percent,2010,0.0214743207246,0.0231581123175,0.0200003977722
+Prevalence,Washington,Both,All Ages,Alcohol use disorders,Percent,2012,0.0226046351248,0.0248384397688,0.0207617916501
+Prevalence,United States,Both,All Ages,Alcohol use disorders,Percent,2013,0.0215471212736,0.0230312658672,0.0200965999419
+Prevalence,United States,Both,All Ages,Alcohol use disorders,Percent,2012,0.0215321841814,0.0230141529292,0.0200939060158
+Prevalence,Washington,Both,All Ages,Alcohol use disorders,Percent,2013,0.0226129577752,0.0248685480721,0.0207666746964
+Prevalence,United States,Both,All Ages,Alcohol use disorders,Percent,2015,0.0215735679131,0.0230586890205,0.0200970879558
+Prevalence,United States,Both,All Ages,Alcohol use disorders,Percent,2014,0.0215647801799,0.0230490701715,0.0201001647938
+Prevalence,Washington,Both,All Ages,Alcohol use disorders,Percent,2014,0.0226364023608,0.0249202447797,0.0207666410595
+Prevalence,Washington,Both,All Ages,Alcohol use disorders,Percent,2015,0.0226497331515,0.0249389547743,0.0207784468002
+Prevalence,United States,Both,All Ages,Alcohol use disorders,Percent,2016,0.0215776653267,0.0234122119738,0.0200073367002
+Prevalence,Washington,Both,All Ages,Alcohol use disorders,Percent,2016,0.0226576359607,0.0251516422066,0.020519900154
