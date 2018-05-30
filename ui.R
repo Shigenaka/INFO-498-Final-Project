@@ -22,7 +22,6 @@ ui <- shinyUI(fluidPage(
   
   navbarPage(
     "",
-    
     tabPanel("Kevin",
              sidebarLayout(
                sidebarPanel(
@@ -46,7 +45,14 @@ ui <- shinyUI(fluidPage(
                ),
                
                # Show a plot of the generated distribution
-               mainPanel(plotlyOutput('state_alc_taxrate_plot', height = "900px"))
+               mainPanel(plotlyOutput('state_alc_taxrate_plot', height = "900px"), 
+                         p("This plot displays the correlation between the tax rate and question the user chooses. 
+                           The user can also choose the years to compare the two variables and the strata, by, and 
+                           type. Based on the pearson linear correlation you can deduct whether a correlation exists.
+                           For example Alcohol use amoung youth has a negative correlation meaning as tax rate increases,
+                           Alcohol use among youth decreases. This correlation is not the same, however, for different questions
+                           of interest and the different options avaliable in the side panel. The data illustrated ignores NA values
+                           and any data which has no year information."))
              )
     ),
 
@@ -81,8 +87,7 @@ ui <- shinyUI(fluidPage(
                 )    
               ),
 
-    tabPanel(
-      "Relationship Between Drug and Alcohol Abuse",
+    tabPanel("Drug and Alcohol Abuse",
       sidebarLayout(
         sidebarPanel(
           selectInput(
@@ -114,6 +119,7 @@ ui <- shinyUI(fluidPage(
         )
       )
     ),
+    
     tabPanel(
       "Opioid and Alcohol Use Disorders in Washington State",
       fluidPage(
@@ -133,6 +139,7 @@ ui <- shinyUI(fluidPage(
         )
       )
     ),
+    
     tabPanel("Alcohol Taxation in the US",
              sidebarLayout(
                sidebarPanel(
@@ -147,7 +154,6 @@ ui <- shinyUI(fluidPage(
                  h3("States with No Tax"),
                  DT::dataTableOutput("statesNoTax")
               ),
-              # Show a plot of the generated distribution
               mainPanel(
                 plotlyOutput("alchPlot"),
                 tags$br(),
@@ -167,6 +173,7 @@ ui <- shinyUI(fluidPage(
               )
              )
     ),
+    
     tabPanel("Regression Analysis",
              sidebarLayout(
                sidebarPanel(
@@ -174,7 +181,7 @@ ui <- shinyUI(fluidPage(
                              h3("Regression Type"), 
                              choices = c("Difference", "State Level"), 
                              selected = "Difference")
-                 ),
+               ),
                mainPanel(
                  plotlyOutput("regressionScatter"),
                  tags$br(),
@@ -195,23 +202,23 @@ ui <- shinyUI(fluidPage(
                                   for the tax variable in both models are also above the threshold (0.05) for statistical
                                   significance, meaning that we cannot reject the null hypothesis that there is no difference.")
                           ),
-                          tags$div(class="regConclusionText",
-                                   tags$h3("Conclusion"),
-                                   tags$p("In conclusion, if states are looking to combat alcohol abuse prevalence, attempts through taxation
-                                          policy is not recommended. One of the main issues is that the data we obtained from government websites 
-                                          taxation is on gallons of alcohol, which is an odd unit for taxation. This means that when broken down 
-                                          to an individual drink, the additional money needed is somewhat unnoticeable, and that the price is still 
-                                          elastic for people suffering from addiction. Instead, reports state that public education, social
-                                          marketing, media advocacy, and media literacy are strategies to address the health issue and that community
-                                          policing and incentives is a great way to enforce these strategies."),
-                                   tags$p("The Seattle sugary beverage tax is a great example of taxation policies attempting to address public health.
-                                          Due to the fact it is very new, there are no results on its effectiveness, but the city has reported that it
-                                          already has brought in $4 million in tax revenue from it in the first quarter of 2018 alone (Seattle Times).
-                                          The article also mentions the negative implications the taxation could have on certain marginalized populations,
-                                          which would be another issue for an alcohol taxation policy (you are taking it out on already existing addicts).
-                                          Overall, after conducting research on existing information and our data sources, we believe that taxation policies
-                                          aimed to reduce alcohol abuse will not be effective.")
-                          )
+                 tags$div(class="regConclusionText",
+                          tags$h3("Conclusion"),
+                          tags$p("In conclusion, if states are looking to combat alcohol abuse prevalence, attempts through taxation
+                                  policy is not recommended. One of the main issues is that the data we obtained from government websites 
+                                  taxation is on gallons of alcohol, which is an odd unit for taxation. This means that when broken down 
+                                  to an individual drink, the additional money needed is somewhat unnoticeable, and that the price is still 
+                                  elastic for people suffering from addiction. Instead, reports state that public education, social
+                                  marketing, media advocacy, and media literacy are strategies to address the health issue and that community
+                                  policing and incentives is a great way to enforce these strategies."),
+                          tags$p("The Seattle sugary beverage tax is a great example of taxation policies attempting to address public health.
+                                  Due to the fact it is very new, there are no results on its effectiveness, but the city has reported that it
+                                  already has brought in $4 million in tax revenue from it in the first quarter of 2018 alone (Seattle Times).
+                                  The article also mentions the negative implications the taxation could have on certain marginalized populations,
+                                  which would be another issue for an alcohol taxation policy (you are taking it out on already existing addicts).
+                                  Overall, after conducting research on existing information and our data sources, we believe that taxation policies
+                                  aimed to reduce alcohol abuse will not be effective.")
+                 )
                )
              )
     )
