@@ -45,7 +45,14 @@ ui <- shinyUI(fluidPage(
                ),
                
                # Show a plot of the generated distribution
-               mainPanel(plotlyOutput('state_alc_taxrate_plot', height = "900px"))
+               mainPanel(plotlyOutput('state_alc_taxrate_plot', height = "900px"), 
+                         p("This plot displays the correlation between the tax rate and question the user chooses. 
+                           The user can also choose the years to compare the two variables and the strata, by, and 
+                           type. Based on the pearson linear correlation you can deduct whether a correlation exists.
+                           For example Alcohol use amoung youth has a negative correlation meaning as tax rate increases,
+                           Alcohol use among youth decreases. This correlation is not the same, however, for different questions
+                           of interest and the different options avaliable in the side panel. The data illustrated ignores NA values
+                           and any data which has no year information."))
              )
     ),
 
