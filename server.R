@@ -89,7 +89,7 @@ server <- shinyServer(function(input, output, session) {
                                                          input$Question])
   )
   
-  output$state_alc_taxrate_plot <- renderPlotly({
+  alc_tax_filtered_data <- reactive({
     filtered_state_alc_taxrate <- filter(
       state_alc_taxrate,
       Question == input$Question,
@@ -98,7 +98,19 @@ server <- shinyServer(function(input, output, session) {
       strata == input$strata,
       by == input$by
     )
-    
+  })
+  
+  alc_tax_filtered_lin_reg <- reactive({
+    linRegTaxAlc <- lm(tax_rate ~ DataValueAlt, alc_tax_filtered_data())
+  })
+  
+  output$stateAlcTaxRegSum <- renderPrint(
+    summary(alc_tax_filtered_lin_reg())
+  )
+  
+  output$state_alc_taxrate_plot <- renderPlotly({
+    filtered_state_alc_taxrate <- alc_tax_filtered_data()
+
     graph <- plot_ly(
       data = filtered_state_alc_taxrate,
       x = ~ DataValueAlt,
@@ -127,9 +139,9 @@ server <- shinyServer(function(input, output, session) {
       )
     graph <- add_trace(graph,
                        x = ~ DataValueAlt,
-                       y = fitted(lm(
-                         tax_rate ~ DataValueAlt, filtered_state_alc_taxrate
-                       )),
+                       y = fitted(
+                         alc_tax_filtered_lin_reg()
+                       ),
                        mode = "lines")
   })
   

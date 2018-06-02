@@ -162,7 +162,8 @@ ui <- shinyUI(fluidPage(
                ),
                
                # Show a plot of the generated distribution
-               mainPanel(plotlyOutput('state_alc_taxrate_plot', height = "900px"), 
+               mainPanel(plotlyOutput('state_alc_taxrate_plot', height = "900px"),
+                         verbatimTextOutput(outputId = "stateAlcTaxRegSum"),
                          p("This plot displays the correlation between the tax rate and question the user chooses. 
                            The user can also choose the years to compare the two variables and the strata, by, and 
                            type. Based on the pearson linear correlation you can deduct whether a correlation exists.

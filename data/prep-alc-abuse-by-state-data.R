@@ -36,6 +36,17 @@ binge_youth_data$year <- as.numeric(binge_youth_data$year)
 names(binge_youth_data)[1] <- "state"
 youth_binge_and_tax_data <- left_join(tax_average_data, binge_youth_data, by = c("state","year"))
 
+alcohol_data <- filter(alcohol_data, Question %in% c("Alcohol use among youth",
+                                             "Binge drinking prevalence among youth",                               
+                                             "Binge drinking prevalence among adults aged >= 18 years" ,              
+                                             "Binge drinking prevalence among women aged 18-44 years",          
+                                             "Binge drinking frequency among adults aged >= 18 years who binge drink",
+                                             "Binge drinking intensity among adults aged >= 18 years who binge drink",
+                                             "Chronic liver disease mortality",
+                                             "Heavy drinking among adults aged >= 18 years",                    
+                                             "Heavy drinking among women aged 18-44 years"
+                                             ))
+
 write.csv(youth_binge_and_tax_data, "./data/prepped/youth_binge_and_tax_data.csv", row.names = F)
 write.csv(alcohol_data, "./data/prepped/alcohol_and_tax_rate_state_data.csv", row.names = F)
 
