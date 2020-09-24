@@ -2,6 +2,8 @@
 
 Contributors: Alex Huang, Kevin Lim, Mason Shigenaka, Ryan Hanchett
 
+Our resource can be found [here](https://shigenaka.shinyapps.io/INFO-498-Final-Project/).
+
 ## Project Description
 
 What is the purpose of your research project?
